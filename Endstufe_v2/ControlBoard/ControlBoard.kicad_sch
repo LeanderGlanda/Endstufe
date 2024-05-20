@@ -1,5 +1,127 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4f887f51-77c1-41d4-a3eb-45d362caffe1")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 30.48 82.55)
+		(size 31.75 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f61df4a-6dcc-4468-b102-34f7c082e72d")
+		(property "Sheetname" "RP2040"
+			(at 30.48 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2040.kicad_sch"
+			(at 30.48 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 27.94)
+		(size 30.48 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59ccf622-7ab8-4470-8173-c390bde56426")
+		(property "Sheetname" "Power"
+			(at 30.48 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 30.48 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 27.94)
+		(size 29.21 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70b67e3d-1dd9-4820-9634-6ce668eb2a07")
+		(property "Sheetname" "ADAU1463"
+			(at 93.98 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADAU1463.kicad_sch"
+			(at 93.98 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
