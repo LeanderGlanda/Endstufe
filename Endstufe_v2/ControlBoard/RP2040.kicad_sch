@@ -3562,6 +3562,12 @@
 		(uuid "311baa7f-cb09-4d7a-a469-75943d8ecca7")
 	)
 	(junction
+		(at 114.3 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "363bdd73-488e-454f-b3e2-f049e2d77744")
+	)
+	(junction
 		(at 152.4 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3577,7 +3583,7 @@
 		(at 101.6 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4253f8bd-261f-477c-b20b-d7b97c3d6f1b")
+		(uuid "47219a93-37d1-4a14-9b3c-773f93239113")
 	)
 	(junction
 		(at 55.88 153.67)
@@ -3620,12 +3626,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59b21b03-a5f2-4ef5-9dff-2ee7215043e9")
-	)
-	(junction
-		(at 114.3 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f2bad23-84ba-432d-adf2-cd2bcd35dbbb")
 	)
 	(junction
 		(at 228.6 41.91)
@@ -3909,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 26.67) (xy 114.3 26.67)
+			(xy 96.52 26.67) (xy 101.6 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4306,6 +4306,16 @@
 			(type default)
 		)
 		(uuid "3cb999ec-be5a-4e1d-a19c-790c088ee694")
+	)
+	(wire
+		(pts
+			(xy 101.6 26.67) (xy 114.3 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fda79c6-56f3-4856-b39d-7a016751c265")
 	)
 	(wire
 		(pts
@@ -4869,6 +4879,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 34.29) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba27566f-551c-4359-b237-7d65e0c4392f")
+	)
+	(wire
+		(pts
 			(xy 91.44 78.74) (xy 175.26 78.74)
 		)
 		(stroke
@@ -5139,16 +5159,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 34.29) (xy 114.3 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3caa7b9-4f03-4c2d-a2dd-37b28766296d")
-	)
-	(wire
-		(pts
 			(xy 78.74 68.58) (xy 78.74 71.12)
 		)
 		(stroke
@@ -5206,16 +5216,6 @@
 			(type default)
 		)
 		(uuid "f7563bfe-ce0e-436c-bda6-89e4f17087b6")
-	)
-	(wire
-		(pts
-			(xy 97.79 26.67) (xy 101.6 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4a744c-1ea1-425f-a383-c909a4d1e7b9")
 	)
 	(wire
 		(pts
@@ -5833,6 +5833,85 @@
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/2f61df4a-6dcc-4468-b102-34f7c082e72d"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:C")
+		(at 101.6 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "234f40b7-5cc3-47ee-966b-3b5ebba917ee")
+		(property "Reference" "C8"
+			(at 105.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Endstufe:C_0402_1005Metric"
+			(at 102.5652 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec429798-2ff7-4d8a-bc38-b8733c6f29b6")
+		)
+		(pin "2"
+			(uuid "6d1c8de3-4a88-4d85-80d4-b97ac5ec8fdc")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/2f61df4a-6dcc-4468-b102-34f7c082e72d"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7901,7 +7980,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:GND")
-		(at 97.79 26.67 270)
+		(at 96.52 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7910,7 +7989,7 @@
 		(fields_autoplaced yes)
 		(uuid "9433e753-6438-4a8f-a39b-2912c42fc4cc")
 		(property "Reference" "#PWR025"
-			(at 91.44 26.67 0)
+			(at 90.17 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +7998,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 26.67 90)
+			(at 92.71 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +8007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 26.67 0)
+			(at 96.52 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +8016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 26.67 0)
+			(at 96.52 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,7 +8025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 26.67 0)
+			(at 96.52 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,85 +8107,6 @@
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/2f61df4a-6dcc-4468-b102-34f7c082e72d"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Endstufe:C")
-		(at 101.6 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b402c8fa-d114-463a-b031-19d16e461cb3")
-		(property "Reference" "C8"
-			(at 105.41 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 105.41 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Endstufe:C_0402_1005Metric"
-			(at 102.5652 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C15525"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3e33c1f-8620-40e5-9c8a-a5c4cbf07ad0")
-		)
-		(pin "2"
-			(uuid "b68023ce-e74e-4cb2-8436-a51794cba45b")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/2f61df4a-6dcc-4468-b102-34f7c082e72d"
-					(reference "C8")
 					(unit 1)
 				)
 			)

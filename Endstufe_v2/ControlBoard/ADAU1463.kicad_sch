@@ -3978,6 +3978,12 @@
 		(uuid "57d5dc15-1412-4f89-bbee-5e99147dc38b")
 	)
 	(junction
+		(at 196.85 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f1616b-4015-40aa-a876-c053b8073ed5")
+	)
+	(junction
 		(at 231.14 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4000,6 +4006,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84d19f2d-b777-4871-a2a7-734dca420fb5")
+	)
+	(junction
+		(at 196.85 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "868dc6a6-503d-4c5a-9e8d-89807b37354d")
 	)
 	(junction
 		(at 93.98 110.49)
@@ -4569,6 +4581,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 38.1) (xy 196.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f16476f-6949-4aaf-bd35-e1e662015ac1")
+	)
+	(wire
+		(pts
 			(xy 39.37 93.98) (xy 39.37 95.25)
 		)
 		(stroke
@@ -4616,6 +4638,16 @@
 			(type default)
 		)
 		(uuid "ae3c0748-313b-47aa-a0bb-7ab9f80a6b52")
+	)
+	(wire
+		(pts
+			(xy 185.42 30.48) (xy 196.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae66618f-21c7-4e84-963b-47355d531ab3")
 	)
 	(wire
 		(pts
@@ -7769,6 +7801,84 @@
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/70b67e3d-1dd9-4820-9634-6ce668eb2a07"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:C")
+		(at 185.42 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "739e3c2d-3d11-4b04-bc8c-53599118fcfb")
+		(property "Reference" "C99"
+			(at 177.8 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 177.8 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Endstufe:C_0402_1005Metric"
+			(at 186.3852 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 185.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e787343-0dba-402d-a723-1ae819518838")
+		)
+		(pin "2"
+			(uuid "76f506f3-34ae-49fa-b7cc-7b633d03e8b6")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/70b67e3d-1dd9-4820-9634-6ce668eb2a07"
+					(reference "C99")
 					(unit 1)
 				)
 			)
