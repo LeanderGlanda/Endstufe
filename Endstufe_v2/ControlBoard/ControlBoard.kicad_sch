@@ -1378,7 +1378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6612f20-c01b-4a64-92fb-113b7cf08f9d")
-		(property "Reference" "J10"
+		(property "Reference" "J5"
 			(at 218.44 71.1201 0)
 			(effects
 				(font
@@ -1453,7 +1453,7 @@
 		(instances
 			(project ""
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1"
-					(reference "J10")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1536,7 +1536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d32bd754-6f2a-4bd8-ae30-350c9ed8d703")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 142.24 19.05 90)
 			(effects
 				(font
@@ -1552,7 +1552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 143.51 24.13 0)
 			(effects
 				(font
@@ -1600,7 +1600,7 @@
 		(instances
 			(project ""
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)

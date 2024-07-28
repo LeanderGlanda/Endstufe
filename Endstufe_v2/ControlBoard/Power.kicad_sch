@@ -2745,7 +2745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23a706fa-3ad9-4245-a877-db60061ee30a")
-		(property "Reference" "J3"
+		(property "Reference" "J7"
 			(at 179.07 129.54 0)
 			(effects
 				(font
@@ -2824,7 +2824,7 @@
 		(instances
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
-					(reference "J3")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2985,7 +2985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7364f10f-744f-4b00-a926-1a5359d93d8b")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 84.455 147.32 0)
 			(effects
 				(font
@@ -3046,7 +3046,7 @@
 		(instances
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3948,7 +3948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 135.89 66.04 0)
 			(effects
 				(font
@@ -4208,7 +4208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd0f4d02-8691-426c-9948-ed63f4ddf2e6")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 115.57 147.32 0)
 			(effects
 				(font
@@ -4289,7 +4289,7 @@
 		(instances
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4606,7 +4606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec871bc9-9807-4922-b773-28ff37a80143")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 135.89 158.7499 90)
 			(effects
 				(font
@@ -4671,7 +4671,7 @@
 		(instances
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4965,7 +4965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc6420ef-7e95-4d13-b55d-ef8bfc13a7c8")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 143.51 60.96 0)
 			(effects
 				(font
@@ -5044,7 +5044,7 @@
 		(instances
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)

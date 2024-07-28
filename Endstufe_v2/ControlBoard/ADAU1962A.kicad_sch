@@ -6943,7 +6943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 105.41 129.54 0)
 			(effects
 				(font
@@ -8008,7 +8008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 39.37 177.8 0)
 			(effects
 				(font
@@ -8073,7 +8073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 105.41 132.08 0)
 			(effects
 				(font
@@ -8572,7 +8572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 105.41 99.06 0)
 			(effects
 				(font
@@ -9721,7 +9721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Endstufe:R_0603_1608Metric"
 			(at 43.942 71.12 90)
 			(effects
 				(font
@@ -10100,7 +10100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 63.5 107.95 0)
 			(effects
 				(font
@@ -10584,7 +10584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee856a6-0589-41b0-875e-5975f3373ee4")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 125.73 50.8 0)
 			(effects
 				(font
@@ -10881,7 +10881,7 @@
 		(instances
 			(project ""
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/5cb7c68c-1844-445a-b3a5-8ff13a4c7875"
-					(reference "U13")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -11283,7 +11283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Endstufe:C_0603_1608Metric"
 			(at 32.7152 78.74 0)
 			(effects
 				(font
@@ -11344,7 +11344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f21cba7b-5bfe-4268-803e-f24fa2ae1985")
-		(property "Reference" "J9"
+		(property "Reference" "J13"
 			(at 187.96 148.5899 0)
 			(effects
 				(font
@@ -11362,7 +11362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 186.69 151.13 0)
 			(effects
 				(font
@@ -11398,7 +11398,7 @@
 		(instances
 			(project ""
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/5cb7c68c-1844-445a-b3a5-8ff13a4c7875"
-					(reference "J9")
+					(reference "J13")
 					(unit 1)
 				)
 			)
