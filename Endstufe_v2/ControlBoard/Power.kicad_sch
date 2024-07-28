@@ -3001,7 +3001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Endstufe:Molex_Sabre_43160-1102_1x02_P7.49mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 83.82 152.4 0)
 			(effects
 				(font
@@ -3028,7 +3028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
+		(property "LCSC Part #" "C158012"
 			(at 83.82 152.4 0)
 			(effects
 				(font
