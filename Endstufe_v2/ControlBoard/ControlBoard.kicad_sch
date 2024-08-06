@@ -1975,7 +1975,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "70b67e3d-1dd9-4820-9634-6ce668eb2a07")
-		(property "Sheetname" "ADAU1463"
+		(property "Sheetname" "ADAU1467"
 			(at 82.55 27.2284 0)
 			(effects
 				(font
@@ -1984,7 +1984,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADAU1463.kicad_sch"
+		(property "Sheetfile" "ADAU1467.kicad_sch"
 			(at 82.042 23.368 0)
 			(effects
 				(font

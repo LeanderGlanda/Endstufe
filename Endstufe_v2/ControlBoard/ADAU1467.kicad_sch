@@ -7481,7 +7481,7 @@
 			(uuid "689cc1e4-ec97-4686-970a-7f169c5dde5e")
 		)
 		(instances
-			(project ""
+			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/70b67e3d-1dd9-4820-9634-6ce668eb2a07"
 					(reference "J12")
 					(unit 1)
@@ -11524,7 +11524,7 @@
 			(uuid "63476d71-80eb-4f0d-887e-52660a8ab74c")
 		)
 		(instances
-			(project ""
+			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/70b67e3d-1dd9-4820-9634-6ce668eb2a07"
 					(reference "J10")
 					(unit 1)
