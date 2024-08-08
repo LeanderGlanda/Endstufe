@@ -2736,10 +2736,22 @@
 		(uuid "0444d712-3d58-43c9-9722-08c4bc369041")
 	)
 	(junction
+		(at 97.79 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05c9b96f-b43c-4c73-9376-933bf9c2f9d4")
+	)
+	(junction
 		(at 120.65 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "068b0293-973b-429c-b4cc-ae15916a92bd")
+	)
+	(junction
+		(at 97.79 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06a6df2f-035d-4b06-a31d-ff3030561fb3")
 	)
 	(junction
 		(at 132.08 99.06)
@@ -2922,6 +2934,12 @@
 		(uuid "5155c2c0-74bc-48b0-919a-ff2cd96bb6af")
 	)
 	(junction
+		(at 97.79 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "522619c2-f720-4732-abc7-94fec8403f89")
+	)
+	(junction
 		(at 160.02 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2938,6 +2956,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54edcb92-a967-4f0d-b6e9-a5d7c771d4e4")
+	)
+	(junction
+		(at 86.36 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5853e09a-1230-40f2-9568-53bb0a80426b")
 	)
 	(junction
 		(at 208.28 152.4)
@@ -3012,6 +3036,12 @@
 		(uuid "776b5b27-f9fe-4b06-85c5-c630c01ae56b")
 	)
 	(junction
+		(at 86.36 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77db13f2-0464-461f-af51-9baf8c030072")
+	)
+	(junction
 		(at 82.55 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3046,6 +3076,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88900f94-d00e-41a7-8fcd-9a3248365abf")
+	)
+	(junction
+		(at 97.79 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88abe456-6d7b-42da-8f30-248afacc2320")
 	)
 	(junction
 		(at 208.28 121.92)
@@ -3156,6 +3192,12 @@
 		(uuid "b2fafef8-36fc-4512-955a-d3f412f829d1")
 	)
 	(junction
+		(at 86.36 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b775e110-4ef4-4c09-bbe2-f42dcc3823ce")
+	)
+	(junction
 		(at 223.52 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3190,6 +3232,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d152721c-47f6-4025-bb2a-cebb6b790a41")
+	)
+	(junction
+		(at 86.36 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1b37ebe-e5a6-4a88-b1ff-f7de40bddc8a")
 	)
 	(junction
 		(at 223.52 86.36)
@@ -3351,6 +3399,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 173.99) (xy 86.36 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c43d3b-3e6d-4aee-ae41-144107820b05")
+	)
+	(wire
+		(pts
 			(xy 82.55 107.95) (xy 91.44 107.95)
 		)
 		(stroke
@@ -3358,6 +3416,16 @@
 			(type default)
 		)
 		(uuid "046aaa0f-c599-42e2-a7e4-522fdab6b612")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 97.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04dd5bd5-6503-44be-9860-bfbc5d38192e")
 	)
 	(wire
 		(pts
@@ -3388,6 +3456,16 @@
 			(type default)
 		)
 		(uuid "07ae7dde-4ed8-46f7-aef1-22417d26da5b")
+	)
+	(wire
+		(pts
+			(xy 86.36 181.61) (xy 97.79 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ba564c-4806-4d84-b3ba-db95dc423668")
 	)
 	(wire
 		(pts
@@ -3478,6 +3556,16 @@
 			(type default)
 		)
 		(uuid "167f8e02-1ea4-43fe-9b31-338b8a76ce17")
+	)
+	(wire
+		(pts
+			(xy 74.93 181.61) (xy 86.36 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19245717-c804-4ab8-8fd8-5635f167c207")
 	)
 	(wire
 		(pts
@@ -3941,6 +4029,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 99.06) (xy 97.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b1edbe-d5ac-47be-8b3e-a078bed0184c")
+	)
+	(wire
+		(pts
 			(xy 223.52 55.88) (xy 234.95 55.88)
 		)
 		(stroke
@@ -4228,6 +4326,16 @@
 			(type default)
 		)
 		(uuid "6ce86fc0-c27a-480e-b5c4-76afa7a302be")
+	)
+	(wire
+		(pts
+			(xy 86.36 173.99) (xy 97.79 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0710e6-9fa0-4715-be6e-a3c6e85f3f19")
 	)
 	(wire
 		(pts
@@ -4851,6 +4959,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 91.44) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65484c8-d63f-476d-a5c5-95b6a4de7072")
+	)
+	(wire
+		(pts
 			(xy 234.95 101.6) (xy 254 101.6)
 		)
 		(stroke
@@ -5358,6 +5476,16 @@
 			(type default)
 		)
 		(uuid "f648b806-a526-4396-bed4-b5325a6bfd73")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7bcf46b-fb13-46e6-9c8a-0a843b2f6b17")
 	)
 	(wire
 		(pts
@@ -7083,6 +7211,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Endstufe:C")
+		(at 86.36 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a378b5-5815-4174-a1de-9d309d5e5be8")
+		(property "Reference" "C20"
+			(at 82.55 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Endstufe:C_1206_3216Metric"
+			(at 85.3948 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C89632"
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faaa8e34-a05b-4bdc-b314-108e81ce967b")
+		)
+		(pin "2"
+			(uuid "eec65361-e3ec-43a3-afcf-344f339e45f4")
+		)
+		(instances
+			(project "AmplifierBoard"
+				(path "/387646ac-5de2-4051-b6e0-806711799ed4/5ef98e72-1aeb-40b5-9dfb-dda69242bb79"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Endstufe:R")
 		(at 234.95 52.07 0)
 		(unit 1)
@@ -8291,6 +8499,86 @@
 			(project "AmplifierBoard"
 				(path "/387646ac-5de2-4051-b6e0-806711799ed4/5ef98e72-1aeb-40b5-9dfb-dda69242bb79"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:C")
+		(at 74.93 177.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "468d91bb-33ab-4fec-b7f4-b5a00bd2d2b6")
+		(property "Reference" "C19"
+			(at 71.12 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Endstufe:C_1206_3216Metric"
+			(at 73.9648 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C89632"
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a03df4c-c6d7-44f0-a859-32aad4d621bf")
+		)
+		(pin "2"
+			(uuid "e37b18e6-b930-4b32-a342-6a61fe62e850")
+		)
+		(instances
+			(project "AmplifierBoard"
+				(path "/387646ac-5de2-4051-b6e0-806711799ed4/5ef98e72-1aeb-40b5-9dfb-dda69242bb79"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -11679,6 +11967,166 @@
 			(project "AmplifierBoard"
 				(path "/387646ac-5de2-4051-b6e0-806711799ed4/5ef98e72-1aeb-40b5-9dfb-dda69242bb79"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:C")
+		(at 86.36 177.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7601093-352b-4e7c-837a-c71dc92b5523")
+		(property "Reference" "C18"
+			(at 82.55 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 82.55 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Endstufe:C_1206_3216Metric"
+			(at 85.3948 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C89632"
+			(at 86.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b2079a-e3e8-4e34-9c1e-158324fbd550")
+		)
+		(pin "2"
+			(uuid "2b0a31cb-f7a4-4169-92f1-fd40f3423ef6")
+		)
+		(instances
+			(project "AmplifierBoard"
+				(path "/387646ac-5de2-4051-b6e0-806711799ed4/5ef98e72-1aeb-40b5-9dfb-dda69242bb79"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:C")
+		(at 74.93 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84adb4e-0225-4e66-9444-eeff0ba2e39e")
+		(property "Reference" "C21"
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 71.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Endstufe:C_1206_3216Metric"
+			(at 73.9648 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C89632"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a433519-d387-403c-9b62-d4e679ef7c3c")
+		)
+		(pin "2"
+			(uuid "2563a946-45ac-4d14-a1a3-e38ccd53ff37")
+		)
+		(instances
+			(project "AmplifierBoard"
+				(path "/387646ac-5de2-4051-b6e0-806711799ed4/5ef98e72-1aeb-40b5-9dfb-dda69242bb79"
+					(reference "C21")
 					(unit 1)
 				)
 			)
