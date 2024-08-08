@@ -3810,10 +3810,6 @@
 		(uuid "172ca099-3fb4-4011-914b-e61b92c9e3bb")
 	)
 	(no_connect
-		(at 226.06 78.74)
-		(uuid "19a31742-e887-4f0d-b93e-5a9d58d5baf7")
-	)
-	(no_connect
 		(at 226.06 91.44)
 		(uuid "1a8d41bc-3097-4394-b6fb-bd2f7ab46a3c")
 	)
@@ -4456,6 +4452,16 @@
 			(type default)
 		)
 		(uuid "59ae61e4-f700-4597-81bc-390329131d68")
+	)
+	(wire
+		(pts
+			(xy 226.06 78.74) (xy 251.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4365a9-bbf7-49e2-bf6b-ba3796f3bac1")
 	)
 	(wire
 		(pts
@@ -5418,6 +5424,18 @@
 			(justify left)
 		)
 		(uuid "70130aed-7940-40d1-8c9f-c5d4eedaa073")
+	)
+	(hierarchical_label "GPIO10"
+		(shape bidirectional)
+		(at 251.46 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bff1856-1380-4ebe-800b-5284091519cb")
 	)
 	(hierarchical_label "GPIO2"
 		(shape bidirectional)

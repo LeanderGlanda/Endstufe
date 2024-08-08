@@ -19935,9 +19935,10 @@
 		)
 	)
 	(footprint "Endstufe:CONN-TH_B6B-XH-2-LF-SN"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "529e8161-27e3-4b8f-8a51-93e6de14b92d")
-		(at 231.5 131)
+		(at 233 131)
 		(descr "CONN-TH_B6B-XH-2-LF-SN footprint")
 		(tags "CONN-TH_B6B-XH-2-LF-SN footprint C157986")
 		(property "Reference" "J12"
