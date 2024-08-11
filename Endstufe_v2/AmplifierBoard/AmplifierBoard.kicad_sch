@@ -2703,6 +2703,12 @@
 		(uuid "41d227f1-179c-404b-be23-f231948d9a1b")
 	)
 	(junction
+		(at 190.5 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54aaffc9-ef5f-45d6-bb70-71d7e57f566d")
+	)
+	(junction
 		(at 71.12 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3073,6 +3079,16 @@
 			(type default)
 		)
 		(uuid "564dd476-b2e6-4a06-a1f7-014adaf3da3b")
+	)
+	(wire
+		(pts
+			(xy 234.95 130.81) (xy 228.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580790f4-5de9-4ab5-8eaf-5499fbdd54c0")
 	)
 	(wire
 		(pts
@@ -3701,6 +3717,74 @@
 	)
 	(symbol
 		(lib_id "Endstufe:MountingHole_Pad")
+		(at 203.2 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05f2c8ff-069d-4f82-b024-192663c0171e")
+		(property "Reference" "H7"
+			(at 200.66 135.8901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 200.66 133.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b0f59f4-e293-48c1-9ab1-af5967ede851")
+		)
+		(instances
+			(project "AmplifierBoard"
+				(path "/387646ac-5de2-4051-b6e0-806711799ed4"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:MountingHole_Pad")
 		(at 190.5 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3981,6 +4065,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Endstufe:MountingHole_Pad")
+		(at 228.6 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0be41d00-3ecf-4281-9d61-a8e97f3a6113")
+		(property "Reference" "H5"
+			(at 226.06 135.8901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 226.06 133.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 228.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17de3f7c-73f9-4b6b-aa6d-7ca8f4169ff4")
+		)
+		(instances
+			(project "AmplifierBoard"
+				(path "/387646ac-5de2-4051-b6e0-806711799ed4"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Endstufe:C")
 		(at 49.53 99.06 0)
 		(mirror y)
@@ -4130,7 +4282,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:GND")
-		(at 228.6 130.81 0)
+		(at 234.95 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4139,7 +4291,7 @@
 		(fields_autoplaced yes)
 		(uuid "170907b9-f1cc-4e72-8a79-4fb3ef554cf8")
 		(property "Reference" "#PWR042"
-			(at 228.6 137.16 0)
+			(at 241.3 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,15 +4300,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 135.89 0)
+			(at 238.76 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 130.81 0)
+			(at 234.95 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 130.81 0)
+			(at 234.95 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 130.81 0)
+			(at 234.95 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,6 +5446,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Endstufe:MountingHole_Pad")
+		(at 215.9 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64a339a3-a1e6-4ac4-b397-d09235d37513")
+		(property "Reference" "H6"
+			(at 213.36 135.8901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 213.36 133.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25488004-8a39-4a9b-a2d5-9eb27d7446b5")
+		)
+		(instances
+			(project "AmplifierBoard"
+				(path "/387646ac-5de2-4051-b6e0-806711799ed4"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Endstufe:C")
 		(at 39.37 180.34 0)
 		(mirror x)
@@ -6332,6 +6553,74 @@
 			(project "AmplifierBoard"
 				(path "/387646ac-5de2-4051-b6e0-806711799ed4"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:MountingHole_Pad")
+		(at 190.5 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c782c246-c2c2-405c-b400-c93f9d82b608")
+		(property "Reference" "H8"
+			(at 187.96 135.8901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 187.96 133.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0167020f-aa3e-4a0a-b065-8a33f340e624")
+		)
+		(instances
+			(project "AmplifierBoard"
+				(path "/387646ac-5de2-4051-b6e0-806711799ed4"
+					(reference "H8")
 					(unit 1)
 				)
 			)

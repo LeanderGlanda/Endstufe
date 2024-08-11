@@ -1014,6 +1014,108 @@
 				)
 			)
 		)
+		(symbol "Endstufe:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Endstufe:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1137,19 +1239,19 @@
 		)
 	)
 	(junction
-		(at 90.17 43.18)
+		(at 105.41 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18b94b8e-827a-41ee-bd86-3b7e40ca83c0")
 	)
 	(junction
-		(at 38.1 43.18)
+		(at 53.34 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "276fcc1a-9a02-4e19-9426-241aacca78f1")
 	)
 	(junction
-		(at 38.1 50.8)
+		(at 53.34 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35a19ea8-f4f7-417f-bab9-fc76309d35f3")
@@ -1167,7 +1269,7 @@
 		(uuid "492c1cd1-c5e7-49cc-944b-e24e4d8159a2")
 	)
 	(junction
-		(at 63.5 43.18)
+		(at 78.74 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71c35cd7-17c3-4c8a-8b09-32b778e6fb52")
@@ -1185,19 +1287,31 @@
 		(uuid "7b1b6ab3-c3b1-4223-ac97-abff1b5aee2d")
 	)
 	(junction
-		(at 90.17 50.8)
+		(at 63.5 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b4f06e8-e6a7-4e42-989c-2114e4e1f862")
+	)
+	(junction
+		(at 105.41 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d209e60-b231-4aab-864f-60b920a2438c")
 	)
 	(junction
-		(at 25.4 43.18)
+		(at 40.64 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "804928f9-2e9f-4e54-8262-43810305167b")
 	)
 	(junction
-		(at 63.5 50.8)
+		(at 50.8 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ff6f7a-e3e3-46b6-9977-fa56f28b72ed")
+	)
+	(junction
+		(at 78.74 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88c139c3-ec43-47a2-b527-41556cae4a9f")
@@ -1221,31 +1335,31 @@
 		(uuid "9ab6e3ac-bbc6-40e1-94b3-1fb6121c4aca")
 	)
 	(junction
-		(at 50.8 50.8)
+		(at 66.04 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aab9614f-5eeb-43f9-b0d0-eba2d9ff2850")
 	)
 	(junction
-		(at 76.2 43.18)
+		(at 91.44 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8bc1031-e7ec-42cb-bf7a-a28ff05e7025")
 	)
 	(junction
-		(at 50.8 43.18)
+		(at 66.04 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7d5c72b-960c-438e-8191-1a68a8690073")
 	)
 	(junction
-		(at 76.2 50.8)
+		(at 91.44 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d173e2be-0ecf-45dd-92ac-c60913d40ba4")
 	)
 	(junction
-		(at 25.4 50.8)
+		(at 40.64 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eab2f33b-226d-4925-b794-2a58253d1ce5")
@@ -1274,7 +1388,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 43.18) (xy 50.8 43.18)
+			(xy 53.34 38.1) (xy 66.04 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1284,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 63.5 50.8)
+			(xy 66.04 45.72) (xy 78.74 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1468,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 90.17 45.72)
+			(xy 105.41 38.1) (xy 105.41 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1364,7 +1478,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 43.18) (xy 90.17 43.18)
+			(xy 91.44 38.1) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1394,6 +1508,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 156.21) (xy 63.5 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e37cac9-fec6-4cd1-9599-5a2efcb22c68")
+	)
+	(wire
+		(pts
 			(xy 158.75 139.7) (xy 158.75 147.32)
 		)
 		(stroke
@@ -1411,6 +1535,16 @@
 			(type default)
 		)
 		(uuid "46be3f2f-4ef9-44a9-9a05-f17c54490e08")
+	)
+	(wire
+		(pts
+			(xy 68.58 158.75) (xy 63.5 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d3d5ce-7e8c-42fe-8e47-85aa4a30c2b0")
 	)
 	(wire
 		(pts
@@ -1454,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 50.8) (xy 76.2 50.8)
+			(xy 78.74 45.72) (xy 91.44 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 12.7 43.18) (xy 25.4 43.18)
+			(xy 27.94 38.1) (xy 40.64 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1574,6 +1708,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 158.75) (xy 50.8 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2271ba1-c4e7-42e2-a4a6-961882fbde28")
+	)
+	(wire
+		(pts
+			(xy 50.8 156.21) (xy 50.8 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7115881-d7b9-4494-8ec5-88ddbb30fc83")
+	)
+	(wire
+		(pts
 			(xy 144.78 88.9) (xy 144.78 76.2)
 		)
 		(stroke
@@ -1584,7 +1738,7 @@
 	)
 	(wire
 		(pts
-			(xy 12.7 50.8) (xy 25.4 50.8)
+			(xy 27.94 45.72) (xy 40.64 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1624,13 +1778,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 48.26) (xy 90.17 50.8)
+			(xy 105.41 43.18) (xy 105.41 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b66281c4-d973-447a-a24a-b073e20ef06d")
+	)
+	(wire
+		(pts
+			(xy 63.5 158.75) (xy 63.5 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c272588d-a9e5-47b3-8afc-8723b6d276c7")
 	)
 	(wire
 		(pts
@@ -1654,7 +1818,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 43.18) (xy 76.2 43.18)
+			(xy 78.74 38.1) (xy 91.44 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1664,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 43.18) (xy 38.1 43.18)
+			(xy 40.64 38.1) (xy 53.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1674,7 +1838,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 90.17 50.8)
+			(xy 91.44 45.72) (xy 105.41 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1684,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 50.8) (xy 38.1 50.8)
+			(xy 40.64 45.72) (xy 53.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1704,7 +1868,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 50.8) (xy 50.8 50.8)
+			(xy 63.5 158.75) (xy 50.8 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83d13bb-c0e4-4ab9-9da8-ef79078f2ce4")
+	)
+	(wire
+		(pts
+			(xy 53.34 45.72) (xy 66.04 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +1928,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 43.18) (xy 63.5 43.18)
+			(xy 66.04 38.1) (xy 78.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1794,7 +1968,7 @@
 	)
 	(text "3V3 Power"
 		(exclude_from_sim no)
-		(at 82.042 33.528 0)
+		(at 97.282 28.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1814,7 +1988,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:C")
-		(at 25.4 46.99 0)
+		(at 40.64 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1823,7 +1997,7 @@
 		(fields_autoplaced yes)
 		(uuid "00b60ad2-ca43-4d50-a051-1cf35a973cc4")
 		(property "Reference" "C32"
-			(at 29.21 45.72 0)
+			(at 44.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +2006,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 29.21 48.26 0)
+			(at 44.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +2015,7 @@
 			)
 		)
 		(property "Footprint" "Endstufe:C_0603_1608Metric"
-			(at 26.3652 50.8 0)
+			(at 41.6052 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +2024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 46.99 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +2033,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 46.99 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +2042,7 @@
 			)
 		)
 		(property "LCSC Part #" "C59461"
-			(at 25.4 46.99 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2199,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:+3V3")
-		(at 90.17 43.18 0)
+		(at 105.41 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2034,7 +2208,7 @@
 		(fields_autoplaced yes)
 		(uuid "163082b7-27ea-416a-a3f6-0c8f5225fb1b")
 		(property "Reference" "#PWR035"
-			(at 90.17 46.99 0)
+			(at 105.41 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2217,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 90.17 38.1 0)
+			(at 105.41 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +2225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 43.18 0)
+			(at 105.41 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 43.18 0)
+			(at 105.41 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +2243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 90.17 43.18 0)
+			(at 105.41 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2265,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:C")
-		(at 63.5 46.99 0)
+		(at 78.74 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2100,7 +2274,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d727d49-524b-4088-bdc0-6620cd2a6d6d")
 		(property "Reference" "C28"
-			(at 67.31 45.72 0)
+			(at 82.55 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +2283,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 67.31 48.26 0)
+			(at 82.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2292,7 @@
 			)
 		)
 		(property "Footprint" "Endstufe:C_0603_1608Metric"
-			(at 64.4652 50.8 0)
+			(at 79.7052 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 46.99 0)
+			(at 78.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 46.99 0)
+			(at 78.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2319,7 @@
 			)
 		)
 		(property "LCSC Part #" "C59461"
-			(at 63.5 46.99 0)
+			(at 78.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,7 +2344,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:C")
-		(at 76.2 46.99 0)
+		(at 91.44 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2179,7 +2353,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f2b27c9-9087-4888-9525-a619cc318f9e")
 		(property "Reference" "C29"
-			(at 80.01 45.72 0)
+			(at 95.25 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2362,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 80.01 48.26 0)
+			(at 95.25 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +2371,7 @@
 			)
 		)
 		(property "Footprint" "Endstufe:C_0603_1608Metric"
-			(at 77.1652 50.8 0)
+			(at 92.4052 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 46.99 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2389,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 46.99 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2398,7 @@
 			)
 		)
 		(property "LCSC Part #" "C59461"
-			(at 76.2 46.99 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2583,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:C")
-		(at 50.8 46.99 0)
+		(at 66.04 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2418,7 +2592,7 @@
 		(fields_autoplaced yes)
 		(uuid "37f781f8-d971-41fe-b62f-2dbc6958b175")
 		(property "Reference" "C30"
-			(at 54.61 45.72 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2601,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 54.61 48.26 0)
+			(at 69.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2610,7 @@
 			)
 		)
 		(property "Footprint" "Endstufe:C_0603_1608Metric"
-			(at 51.7652 50.8 0)
+			(at 67.0052 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 46.99 0)
+			(at 66.04 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +2628,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 46.99 0)
+			(at 66.04 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2637,7 @@
 			)
 		)
 		(property "LCSC Part #" "C59461"
-			(at 50.8 46.99 0)
+			(at 66.04 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2814,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:C")
-		(at 38.1 46.99 0)
+		(at 53.34 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2649,7 +2823,7 @@
 		(fields_autoplaced yes)
 		(uuid "62054d41-5b0a-469e-90dc-320fbfca1482")
 		(property "Reference" "C31"
-			(at 41.91 45.72 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2832,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 41.91 48.26 0)
+			(at 57.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2841,7 @@
 			)
 		)
 		(property "Footprint" "Endstufe:C_0603_1608Metric"
-			(at 39.0652 50.8 0)
+			(at 54.3052 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 46.99 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2859,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 46.99 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2868,7 @@
 			)
 		)
 		(property "LCSC Part #" "C59461"
-			(at 38.1 46.99 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,6 +2886,74 @@
 			(project "InputBoard"
 				(path "/104811a5-1772-4c6b-b0cb-61a523863bc2"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:MountingHole_Pad")
+		(at 63.5 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62131aa1-e697-4f1a-b679-31346e4aab61")
+		(property "Reference" "H4"
+			(at 66.04 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 60.96 163.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b925bbf-107e-4552-a85d-8a4cfbc5b432")
+		)
+		(instances
+			(project "InputBoard"
+				(path "/104811a5-1772-4c6b-b0cb-61a523863bc2"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2916,6 +3158,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Endstufe:MountingHole_Pad")
+		(at 63.5 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "924cf1fd-9b03-4408-9930-fa1eff782edb")
+		(property "Reference" "H2"
+			(at 66.04 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 66.04 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77f1ad8c-6831-4e8c-a827-ef3936b7fa9f")
+		)
+		(instances
+			(project "InputBoard"
+				(path "/104811a5-1772-4c6b-b0cb-61a523863bc2"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:GND")
+		(at 68.58 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93d75c22-5938-4798-bdca-bb4501d4f6ba")
+		(property "Reference" "#PWR039"
+			(at 74.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e1df52-0b66-4c70-b60b-6741c8388d28")
+		)
+		(instances
+			(project ""
+				(path "/104811a5-1772-4c6b-b0cb-61a523863bc2"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 146.05 148.59 90)
 		(mirror x)
@@ -2999,7 +3376,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:C")
-		(at 12.7 46.99 0)
+		(at 27.94 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3008,7 +3385,7 @@
 		(fields_autoplaced yes)
 		(uuid "b76300af-717a-4489-88c4-c2fb6f7391e4")
 		(property "Reference" "C33"
-			(at 16.51 45.72 0)
+			(at 31.75 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3394,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 16.51 48.26 0)
+			(at 31.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3403,7 @@
 			)
 		)
 		(property "Footprint" "Endstufe:C_0603_1608Metric"
-			(at 13.6652 50.8 0)
+			(at 28.9052 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 12.7 46.99 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +3421,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 12.7 46.99 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3430,7 @@
 			)
 		)
 		(property "LCSC Part #" "C59461"
-			(at 12.7 46.99 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,32 +3708,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Endstufe:Conn_01x02_Pin")
-		(at 95.25 48.26 180)
+		(lib_id "Endstufe:MountingHole_Pad")
+		(at 50.8 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d2d702e1-e80d-48c5-b200-a0b99787a13c")
-		(property "Reference" "J8"
-			(at 104.902 45.212 0)
+		(fields_autoplaced yes)
+		(uuid "c8b01453-cc0e-4cb7-aa8b-db481d72e8db")
+		(property "Reference" "H1"
+			(at 53.34 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 105.41 48.006 0)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 95.25 48.26 0)
+		(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3746,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 48.26 0)
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28840fcc-9766-40eb-93d5-fc23ab27007d")
+		)
+		(instances
+			(project ""
+				(path "/104811a5-1772-4c6b-b0cb-61a523863bc2"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:Conn_01x02_Pin")
+		(at 110.49 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2d702e1-e80d-48c5-b200-a0b99787a13c")
+		(property "Reference" "J8"
+			(at 120.142 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 120.65 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 48.26 0)
+			(at 110.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3828,7 @@
 			)
 		)
 		(property "LCSC Part #" "C158012"
-			(at 95.25 48.26 0)
+			(at 110.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3919,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:GND")
-		(at 90.17 50.8 0)
+		(at 105.41 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3483,7 +3928,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea306035-205b-41e9-b985-d4d3c2db639a")
 		(property "Reference" "#PWR034"
-			(at 90.17 57.15 0)
+			(at 105.41 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3937,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 55.88 0)
+			(at 105.41 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 50.8 0)
+			(at 105.41 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 50.8 0)
+			(at 105.41 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 50.8 0)
+			(at 105.41 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,6 +3978,74 @@
 			(project ""
 				(path "/104811a5-1772-4c6b-b0cb-61a523863bc2"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:MountingHole_Pad")
+		(at 50.8 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f22f31e7-c27c-4c43-a8c0-1ba657e9f196")
+		(property "Reference" "H3"
+			(at 53.34 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 48.26 163.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44af58d8-6feb-47e7-9c87-cf5c8bed4ed5")
+		)
+		(instances
+			(project "InputBoard"
+				(path "/104811a5-1772-4c6b-b0cb-61a523863bc2"
+					(reference "H3")
 					(unit 1)
 				)
 			)
