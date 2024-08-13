@@ -2704,10 +2704,9 @@
 		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "28416537-ed74-4685-b2ee-78698442d70c")
-		(at 151 105 -90)
+		(at 151 102.5 -90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J8"
@@ -5508,7 +5507,7 @@
 	(footprint "Endstufe:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5d9d0cdf-8273-48c5-88b2-d2226323169c")
-		(at 143.75 106.5 90)
+		(at 144.25 104 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C29"
@@ -8730,7 +8729,7 @@
 	(footprint "Endstufe:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "89b73915-8d9e-4be8-99c9-e4321b6bd797")
-		(at 141.5 106.5 90)
+		(at 142 104 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C28"

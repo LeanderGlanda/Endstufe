@@ -1953,7 +1953,7 @@
 		(uuid "002df9f3-94fc-41bc-a482-83b225cedc1b")
 	)
 	(junction
-		(at 185.42 135.89)
+		(at 189.23 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ccc07b6-010d-4081-8b0d-86d542671199")
@@ -1989,7 +1989,7 @@
 		(uuid "60d10b35-8cda-4270-955e-759befc257b3")
 	)
 	(junction
-		(at 172.72 143.51)
+		(at 176.53 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cd20f69-5ad0-484c-9679-af7aa6b11b69")
@@ -2025,7 +2025,7 @@
 		(uuid "a20135ff-57b3-4d9f-b352-c2a8c95aa278")
 	)
 	(junction
-		(at 185.42 140.97)
+		(at 189.23 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9a82b40-aa13-476f-b595-50178e0a1234")
@@ -2055,13 +2055,13 @@
 		(uuid "ef34796d-cf27-4e48-bf6f-20c9c091cb2a")
 	)
 	(junction
-		(at 172.72 138.43)
+		(at 176.53 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0b3bfe8-093b-41f1-b13c-0dee04dab0c8")
 	)
 	(junction
-		(at 172.72 140.97)
+		(at 176.53 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f28c78e4-42ec-4c2f-8269-b6a3b3bfb356")
@@ -2110,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 138.43) (xy 172.72 140.97)
+			(xy 176.53 137.16) (xy 176.53 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2120,7 +2120,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 140.97) (xy 185.42 140.97)
+			(xy 193.04 139.7) (xy 189.23 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 140.97) (xy 185.42 143.51)
+			(xy 189.23 139.7) (xy 189.23 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2280,7 +2280,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 143.51) (xy 172.72 148.59)
+			(xy 176.53 142.24) (xy 176.53 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 140.97) (xy 172.72 143.51)
+			(xy 176.53 139.7) (xy 176.53 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2360,7 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 135.89) (xy 172.72 138.43)
+			(xy 176.53 134.62) (xy 176.53 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2370,7 +2370,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 135.89) (xy 185.42 138.43)
+			(xy 189.23 134.62) (xy 189.23 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 135.89) (xy 185.42 135.89)
+			(xy 193.04 134.62) (xy 189.23 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2590,6 +2590,16 @@
 		)
 		(uuid "b44547cf-2ef9-45b3-b992-9fe0bd9c83ad")
 	)
+	(text "Power output"
+		(exclude_from_sim no)
+		(at 201.422 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c05b3600-da9e-4b08-a00b-ed4528dc47ed")
+	)
 	(symbol
 		(lib_id "Endstufe:GND")
 		(at 81.28 92.71 0)
@@ -2737,7 +2747,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:Conn_02x04_Counter_Clockwise")
-		(at 177.8 138.43 0)
+		(at 181.61 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2746,7 +2756,7 @@
 		(fields_autoplaced yes)
 		(uuid "23a706fa-3ad9-4245-a877-db60061ee30a")
 		(property "Reference" "J7"
-			(at 179.07 129.54 0)
+			(at 182.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2764,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 179.07 132.08 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2772,7 @@
 			)
 		)
 		(property "Footprint" "Endstufe:PinHeader_2x04_P2.54mm_Vertical"
-			(at 177.8 138.43 0)
+			(at 181.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 138.43 0)
+			(at 181.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +2790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 138.43 0)
+			(at 181.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2799,7 @@
 			)
 		)
 		(property "LCSC Part #" "-"
-			(at 177.8 138.43 0)
+			(at 181.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,6 +2835,150 @@
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:Conn_01x02_Pin")
+		(at 214.63 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db9add6-5cc8-443a-bd8e-393c3fbee0a9")
+		(property "Reference" "J18"
+			(at 215.265 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 215.265 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 214.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C158012"
+			(at 214.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf781ad2-561a-49d7-8d61-f81767713d47")
+		)
+		(pin "2"
+			(uuid "9fa48006-a8d3-42f9-a869-2cc1efcaadec")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:GND")
+		(at 219.71 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ab2671d-d8ad-459f-a7d8-3b88303d49d8")
+		(property "Reference" "#PWR0142"
+			(at 226.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "318edb95-d55a-499a-943e-d541c83f9f27")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -2891,6 +3045,217 @@
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:GND")
+		(at 219.71 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a14b969-ce45-455c-a350-bf83ea80fd4a")
+		(property "Reference" "#PWR0141"
+			(at 226.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c28789ea-6559-4de0-ae29-9a5b464ebdba")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:+3V3")
+		(at 219.71 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "653d398a-c033-491b-b2d5-8c895b9c82a3")
+		(property "Reference" "#PWR0143"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 223.52 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da38d136-54bf-4834-8633-8cbf5c5c903d")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:Conn_01x02_Pin")
+		(at 214.63 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cc72449-bb60-4473-a16c-071f34d148bc")
+		(property "Reference" "J17"
+			(at 215.265 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 215.265 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C158012"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d8a80e9-a633-4e21-a1c2-00adcf3ee244")
+		)
+		(pin "2"
+			(uuid "1753c9a0-0e49-4408-95fc-ea65e56c5051")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -4055,7 +4420,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:+3V3")
-		(at 189.23 135.89 270)
+		(at 193.04 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4064,7 +4429,7 @@
 		(fields_autoplaced yes)
 		(uuid "cad85300-284d-4373-a467-517a1a6eed31")
 		(property "Reference" "#PWR014"
-			(at 185.42 135.89 0)
+			(at 189.23 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4438,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 193.04 135.89 90)
+			(at 196.85 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 135.89 0)
+			(at 193.04 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 135.89 0)
+			(at 193.04 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4465,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 135.89 0)
+			(at 193.04 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,6 +4559,73 @@
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:+3V3")
+		(at 219.71 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc9fde9f-5f4f-441e-98cf-156f077787cd")
+		(property "Reference" "#PWR0140"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 223.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3134a4c-4adc-455b-a78a-6dd69cd72b0e")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/59ccf622-7ab8-4470-8173-c390bde56426"
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -4679,7 +5111,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:GND")
-		(at 172.72 148.59 0)
+		(at 176.53 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4688,7 +5120,7 @@
 		(fields_autoplaced yes)
 		(uuid "eea0d5c9-c2c5-4272-999d-ed93223c6117")
 		(property "Reference" "#PWR013"
-			(at 172.72 154.94 0)
+			(at 176.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +5129,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 153.67 0)
+			(at 176.53 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +5137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 148.59 0)
+			(at 176.53 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +5146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 148.59 0)
+			(at 176.53 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +5155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 148.59 0)
+			(at 176.53 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +5322,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe:+24V")
-		(at 189.23 140.97 270)
+		(at 193.04 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4899,7 +5331,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb1e3285-04fd-47d7-98be-b0b3eb179f7f")
 		(property "Reference" "#PWR015"
-			(at 185.42 140.97 0)
+			(at 189.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +5340,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 193.04 140.97 90)
+			(at 196.85 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +5349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 140.97 0)
+			(at 193.04 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +5358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 140.97 0)
+			(at 193.04 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +5367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 140.97 0)
+			(at 193.04 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
