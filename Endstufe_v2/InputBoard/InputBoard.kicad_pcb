@@ -1363,7 +1363,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "11a509fd-67e0-44f8-b000-470e19c8554d")
-		(at 122.025 114.225 -90)
+		(at 124.525 114.225 -90)
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J11"
@@ -1603,7 +1603,7 @@
 			(uuid "d1db8091-55ff-4a43-b095-2a14e481db39")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 2.54 360)
+			(at 1.27 2.54 0)
 			(layer "F.Fab")
 			(uuid "d9180759-4f4b-4b3c-9f45-6f8c844145d8")
 			(effects
@@ -5731,7 +5731,7 @@
 	(footprint "Endstufe:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "60b05bc8-8885-4e45-8256-3744a6af3f84")
-		(at 119 108.5 90)
+		(at 121.5 108.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R3"
@@ -6259,7 +6259,7 @@
 			(start -5 -9.805029)
 			(end -5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -6269,7 +6269,7 @@
 			(start -5 -9.805029)
 			(end 5 -9.805029)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -6279,7 +6279,7 @@
 			(start -5 3.694996)
 			(end 5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -6289,7 +6289,7 @@
 			(start 5 -9.805029)
 			(end 5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -8371,7 +8371,7 @@
 	(footprint "Endstufe:CONN-TH_B4B-XH-2-LF-SN"
 		(layer "F.Cu")
 		(uuid "86be48b1-a99a-42b5-94b3-c2cd20c2f267")
-		(at 89.25 116)
+		(at 87.5 116)
 		(descr "CONN-TH_B4B-XH-2-LF-SN footprint")
 		(tags "CONN-TH_B4B-XH-2-LF-SN footprint C157999")
 		(property "Reference" "J5"
@@ -9952,9 +9952,10 @@
 		)
 	)
 	(footprint "Endstufe:CONN-TH_B4B-XH-2-LF-SN"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "97d0621b-59d3-4afa-83cc-92ff64691e87")
-		(at 74 102 -90)
+		(at 74 102.5 -90)
 		(descr "CONN-TH_B4B-XH-2-LF-SN footprint")
 		(tags "CONN-TH_B4B-XH-2-LF-SN footprint C157999")
 		(property "Reference" "J6"
@@ -10313,7 +10314,7 @@
 	(footprint "Endstufe:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "985652d2-c8a4-49e6-80f9-5dc94473169a")
-		(at 122 108.5 90)
+		(at 124.5 108.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R5"
@@ -10618,7 +10619,7 @@
 			(start -5 -9.805029)
 			(end -5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -10628,7 +10629,7 @@
 			(start -5 -9.805029)
 			(end 5 -9.805029)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -10638,7 +10639,7 @@
 			(start -5 3.694996)
 			(end 5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -10648,7 +10649,7 @@
 			(start 5 -9.805029)
 			(end 5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -11500,7 +11501,7 @@
 			(start -5 -9.805029)
 			(end -5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -11510,7 +11511,7 @@
 			(start -5 -9.805029)
 			(end 5 -9.805029)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -11520,7 +11521,7 @@
 			(start -5 3.694996)
 			(end 5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -11530,7 +11531,7 @@
 			(start 5 -9.805029)
 			(end 5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -13560,7 +13561,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "c9943808-5de9-4b0e-8baf-d3d637979609")
-		(at 104 116)
+		(at 109 116)
 		(descr "CONN-TH_B4B-XH-2-LF-SN footprint")
 		(tags "CONN-TH_B4B-XH-2-LF-SN footprint C157999")
 		(property "Reference" "J9"
@@ -14811,7 +14812,7 @@
 	(footprint "Endstufe:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e18b5efd-3068-4b1d-b678-43d90d60f182")
-		(at 116.965 108.5 90)
+		(at 119.465 108.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R2"
@@ -15677,7 +15678,7 @@
 			(start -5 -9.805029)
 			(end -5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -15687,7 +15688,7 @@
 			(start -5 -9.805029)
 			(end 5 -9.805029)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -15697,7 +15698,7 @@
 			(start -5 3.694996)
 			(end 5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -15707,7 +15708,7 @@
 			(start 5 -9.805029)
 			(end 5 3.694996)
 			(stroke
-				(width 0.254001)
+				(width 0.254)
 				(type solid)
 			)
 			(layer "F.SilkS")

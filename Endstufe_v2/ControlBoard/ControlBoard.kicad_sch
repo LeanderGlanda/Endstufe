@@ -789,12 +789,6 @@
 		(uuid "6e601820-2de4-4ef0-b910-a677cf9aa808")
 	)
 	(junction
-		(at 209.55 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "899caf94-5ebb-4c1c-8299-6c25cb3af8b2")
-	)
-	(junction
 		(at 233.68 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1113,16 +1107,6 @@
 			(type default)
 		)
 		(uuid "7fe19610-e6a1-45e3-ab5d-eddceddcfb8c")
-	)
-	(wire
-		(pts
-			(xy 209.55 142.24) (xy 209.55 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8677758c-96ca-4586-8660-89830f87703f")
 	)
 	(wire
 		(pts
@@ -1714,74 +1698,6 @@
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1"
 					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Endstufe:MountingHole_Pad")
-		(at 209.55 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f6c75af-b17d-4260-ac33-369dd09b3031")
-		(property "Reference" "H6"
-			(at 212.09 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 207.01 147.3201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 209.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 209.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d18c21a-033c-4e7d-b31b-1218b0c970e7")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1"
-					(reference "H6")
 					(unit 1)
 				)
 			)
