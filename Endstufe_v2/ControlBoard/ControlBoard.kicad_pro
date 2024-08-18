@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,17 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "footprint_symbol_mismatch|117500000|78025020|0e8bc447-9793-4e75-8d73-fbc7ffa4e132|00000000-0000-0000-0000-000000000000",
-        "hole_clearance|114699898|74099976|e2b063ac-d87b-4e92-bf9d-dcf7d3be418e|db4e55ec-4760-4262-b3be-902e4e67b0b4",
-        "hole_clearance|120300102|74099976|3342901e-dfd5-43a5-a1fe-52fd63dbf6b7|6540f3a8-e132-4684-bf50-87f1b7e70a95",
-        "hole_clearance|132100000|148215000|3bc9161b-cc84-4fce-95fa-036ad54dc674|7625dd86-2fa5-46f1-8445-20699427c857",
-        "hole_clearance|137900000|148215000|d452eeb9-e9d4-4321-8cf4-425be1d823d2|bee42998-83c8-45df-aa52-4a1834021eec",
-        "hole_near_hole|114959995|76710085|e2b063ac-d87b-4e92-bf9d-dcf7d3be418e|db4e55ec-4760-4262-b3be-902e4e67b0b4",
-        "hole_near_hole|120040005|76710085|3342901e-dfd5-43a5-a1fe-52fd63dbf6b7|6540f3a8-e132-4684-bf50-87f1b7e70a95",
-        "padstack|132110000|148710000|3bc9161b-cc84-4fce-95fa-036ad54dc674|00000000-0000-0000-0000-000000000000",
-        "padstack|137890000|148710000|d452eeb9-e9d4-4321-8cf4-425be1d823d2|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -471,7 +461,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.11,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -481,9 +471,77 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1427,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.11,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "AnalogAudio",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1427,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "BSX",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SpeakerSignal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -492,7 +550,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "\\+(24V|3V3|2V5|1V2)"
+      },
+      {
+        "netclass": "AnalogAudio",
+        "pattern": ".*DAC(1|2|3)(P|N)"
+      },
+      {
+        "netclass": "AnalogAudio",
+        "pattern": ".*OUTPUTx(N|P)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
