@@ -234,12 +234,12 @@
       "footprints": true,
       "graphics": false,
       "keepouts": false,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": false,
       "pads": false,
       "text": false,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
@@ -279,8 +279,8 @@
       39,
       40
     ],
-    "visible_layers": "ffdffff_7ffffff9",
-    "zone_display_mode": 0
+    "visible_layers": "ffdffff_fffffff9",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_password": "",

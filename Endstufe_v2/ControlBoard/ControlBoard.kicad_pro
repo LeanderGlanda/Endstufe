@@ -548,7 +548,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+1V2": "rgb(22, 255, 11)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -565,7 +567,7 @@
       },
       {
         "netclass": "AnalogAudio",
-        "pattern": ".*OUTPUTx(N|P)"
+        "pattern": ".*x(N|P)"
       }
     ]
   },
