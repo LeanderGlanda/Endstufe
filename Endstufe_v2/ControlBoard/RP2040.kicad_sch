@@ -5785,17 +5785,6 @@
 		)
 		(uuid "0549da16-afaf-4785-a12c-4f7012b66584")
 	)
-	(label "GPIO20_UART_TX"
-		(at 139.7 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "071366f7-5785-4bcb-9673-967935f616fa")
-	)
 	(label "USB_D-"
 		(at 153.67 63.5 180)
 		(fields_autoplaced yes)
@@ -5819,7 +5808,7 @@
 		(uuid "2f7aeefb-e9fb-4a38-8d92-957618c1f09b")
 	)
 	(label "GPIO21_UART_RX"
-		(at 139.7 137.16 0)
+		(at 139.7 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5827,7 +5816,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "58b11890-d59c-41ea-a966-ece71caf1496")
+		(uuid "653b0247-6e7c-4689-9c94-822976836268")
 	)
 	(label "GPIO21_UART_RX"
 		(at 226.06 106.68 0)
@@ -5850,6 +5839,17 @@
 			(justify left bottom)
 		)
 		(uuid "da03cb2e-1b26-4ad8-83af-52bcd66e4834")
+	)
+	(label "GPIO20_UART_TX"
+		(at 139.7 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e506fac4-f18c-406f-abca-341d9dd8c9fc")
 	)
 	(label "USB_D-"
 		(at 59.69 153.67 0)
