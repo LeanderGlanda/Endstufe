@@ -1,38 +1,13 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
       "BSX",
       "SpeakerSignal"
     ],
-    "hidden_nets": [
-      "/ADAU1962A/DAC_Filter/DACxP",
-      "/ADAU1962A/DAC_Filter/DACxN",
-      "/ADAU1962A/DAC_Filter1/DACxP",
-      "/ADAU1962A/DAC_Filter1/DACxN",
-      "/ADAU1962A/DAC_Filter2/DACxP",
-      "/ADAU1962A/DAC_Filter2/DACxN",
-      "/ADAU1962A/DAC_Filter3/DACxP",
-      "/ADAU1962A/DAC_Filter3/DACxN",
-      "/ADAU1962A/DAC_Filter4/DACxP",
-      "/ADAU1962A/DAC_Filter4/DACxN",
-      "/ADAU1962A/DAC_Filter5/DACxP",
-      "/ADAU1962A/DAC_Filter5/DACxN",
-      "/ADAU1962A/DAC_Filter6/DACxP",
-      "/ADAU1962A/DAC_Filter6/DACxN",
-      "/ADAU1962A/DAC_Filter7/DACxP",
-      "/ADAU1962A/DAC_Filter7/DACxN",
-      "/ADAU1962A/DAC_Filter8/DACxP",
-      "/ADAU1962A/DAC_Filter8/DACxN",
-      "/ADAU1962A/DAC_Filter9/DACxP",
-      "/ADAU1962A/DAC_Filter9/DACxN",
-      "/ADAU1962A/DAC_Filter10/DACxP",
-      "/ADAU1962A/DAC_Filter10/DACxN",
-      "/ADAU1962A/DAC_Filter11/DACxP",
-      "/ADAU1962A/DAC_Filter11/DACxN"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
