@@ -1,16 +1,14 @@
-(footprint "MountingHole_3.2mm_M3_ISO14580_Pad"
+(footprint "TestPoint_Pad_D1.0mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
-	(locked yes)
 	(layer "F.Cu")
-	(descr "Mounting Hole 3.2mm, M3, ISO14580")
-	(tags "mounting hole 3.2mm m3 iso14580")
+	(descr "SMD pad as test Point, diameter 1.0mm")
+	(tags "test point SMD pad")
 	(property "Reference" "REF**"
-		(at 0 -3.75 0)
+		(at 0 -1.448 0)
 		(layer "F.SilkS")
-		(hide yes)
-		(uuid "5420d650-2d1e-4910-8f04-68cc38e4328c")
+		(uuid "fa3ca00c-318d-4364-9a29-5015557e359b")
 		(effects
 			(font
 				(size 1 1)
@@ -18,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_Pad"
-		(at 0 3.75 0)
+	(property "Value" "TestPoint"
+		(at 0 1.55 0)
 		(layer "F.Fab")
-		(uuid "615441d4-b58f-4293-9602-5ee8a28d63db")
+		(uuid "ecb1bdf4-f37d-4ccf-853b-fab87e05cef2")
 		(effects
 			(font
 				(size 1 1)
@@ -29,11 +27,12 @@
 			)
 		)
 	)
-	(property "Footprint" "Endstufe:MountingHole_3.2mm_M3_ISO14580_Pad"
+	(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 		(at 0 0 0)
+		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c9400b42-ea52-447c-8a09-aab3787741fb")
+		(uuid "6a537ce8-069c-44c2-b805-9d27896867d1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,9 +42,10 @@
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
+		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0f570707-2463-4407-a1cf-e6a8975d31f5")
+		(uuid "d4e4df3a-b29a-465a-86fc-807417c98f16")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,11 +53,12 @@
 			)
 		)
 	)
-	(property "Description" "Mounting Hole with connection"
+	(property "Description" "test point"
 		(at 0 0 0)
+		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7dc23eaf-e87f-4168-9928-e9970247b395")
+		(uuid "a3ee9814-c727-4e9e-9ba1-9c0cad351fab")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,30 +69,30 @@
 	(attr exclude_from_pos_files)
 	(fp_circle
 		(center 0 0)
-		(end 2.75 0)
+		(end 0 0.7)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(fill none)
-		(layer "Cmts.User")
-		(uuid "cd6440aa-a141-408e-b54b-c9e24cc4b419")
+		(layer "F.SilkS")
+		(uuid "f8a2d2bc-98c2-49cd-94ac-862bb8abdfe1")
 	)
 	(fp_circle
 		(center 0 0)
-		(end 3 0)
+		(end 1 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "d453516d-bada-4ccf-bcbc-7816c11c0c8f")
+		(uuid "03311432-70ee-47aa-8ca8-cbbfe14e4721")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -1.45 0)
 		(layer "F.Fab")
-		(uuid "02bdc3eb-afd2-4830-a733-c7fedfd42cef")
+		(uuid "f4ece0f9-75c1-408f-bb64-41f3b6aec89f")
 		(effects
 			(font
 				(size 1 1)
@@ -99,12 +100,10 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" smd circle
 		(at 0 0)
-		(size 5.5 5.5)
-		(drill 3.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "7f5951b1-d4ba-4573-a4a2-112540c29504")
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "cb559190-1503-47ae-aac8-62dd863da636")
 	)
 )
