@@ -6,7 +6,7 @@
 	(descr "CONN-TH_ZPLR135-T8 footprint")
 	(tags "CONN-TH_ZPLR135-T8 footprint C277778")
 	(property "Reference" "REF**"
-		(at 0 -11.805029 0)
+		(at 0 -14.805029 0)
 		(layer "F.SilkS")
 		(uuid "248fc02c-8e67-4c44-ab1b-8f9d0a0efe74")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "ZPLR135_T8"
-		(at 0 5.694996 0)
+		(at 0 2.694996 0)
 		(layer "F.Fab")
 		(uuid "26705d7f-26eb-4bce-822c-f0539c9a8852")
 		(effects
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" "Endstufe:CONN-TH_ZPLR135-T8"
-		(at 0 0 0)
+		(at 0 -3 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "89c21594-8c37-4f87-8fed-bcd750c4d1d6")
@@ -40,7 +40,7 @@
 		)
 	)
 	(property "Datasheet" "https://item.szlcsc.com/265251.html"
-		(at 0 0 0)
+		(at 0 -3 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "78c275e0-f9db-43ee-a8b4-a8051f40887e")
@@ -52,7 +52,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 -3 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "99064817-49b2-469e-9683-b04a913aaee2")
@@ -64,7 +64,7 @@
 		)
 	)
 	(property "LCSC" "C277778"
-		(at 0 0 0)
+		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -78,8 +78,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -5 -6.750029)
-		(end -5 6.749996)
+		(start -5 -9.750029)
+		(end -5 3.749996)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -88,8 +88,8 @@
 		(uuid "ddd9c1b0-8edc-4c28-a5aa-48b9341a519e")
 	)
 	(fp_line
-		(start -5 -6.750029)
-		(end 5 -6.750029)
+		(start -5 -9.750029)
+		(end 5 -9.750029)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -98,8 +98,8 @@
 		(uuid "a7ad1f4b-e1ba-4699-9e90-befb083f8c44")
 	)
 	(fp_line
-		(start -5 6.749996)
-		(end 5 6.749996)
+		(start -5 3.749996)
+		(end 5 3.749996)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -108,8 +108,8 @@
 		(uuid "efc16f7e-2c72-4a2a-91b0-b84ba1a1e3d7")
 	)
 	(fp_line
-		(start 5 -6.750029)
-		(end 5 6.749996)
+		(start 5 -9.750029)
+		(end 5 3.749996)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -118,8 +118,8 @@
 		(uuid "0ecf15f0-f7c0-4cbd-95a6-78da9f518169")
 	)
 	(fp_circle
-		(center -5.127 6.876996)
-		(end -5.097003 6.876996)
+		(center -5.127 3.876996)
+		(end -5.097003 3.876996)
 		(stroke
 			(width 0.059995)
 			(type solid)
@@ -129,7 +129,7 @@
 		(uuid "20bd77e0-d936-49ed-9720-c754813edc27")
 	)
 	(fp_text user "REF**"
-		(at 0 7.694996 0)
+		(at 0 4.694996 0)
 		(layer "F.Fab")
 		(uuid "f9226155-3666-48c1-bf1c-829f15de8996")
 		(effects
@@ -140,21 +140,21 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -2.800102 -0.870044)
+		(at -2.800102 -3.870044)
 		(size 3.300025 3.300025)
 		(drill 3.300025)
 		(layers "*.Cu" "*.Mask")
 		(uuid "064389bd-0faa-41bd-aa82-be1522d6f90f")
 	)
 	(pad "" np_thru_hole circle
-		(at 2.800102 -0.870044)
+		(at 2.800102 -3.870044)
 		(size 3.300025 3.300025)
 		(drill 3.300025)
 		(layers "*.Cu" "*.Mask")
 		(uuid "588e63c2-c58b-42c0-b0e0-959c451ee742")
 	)
 	(pad "1" thru_hole circle
-		(at -2.540005 4.369986)
+		(at -2.540005 1.369986)
 		(size 1.5 1.5)
 		(drill 0.900025)
 		(layers "*.Cu" "*.Mask")
@@ -162,7 +162,7 @@
 		(uuid "a4e75bfd-70ca-45a8-bf90-e2f0e204dded")
 	)
 	(pad "2" thru_hole circle
-		(at 0 4.369986)
+		(at 0 1.369986)
 		(size 1.5 1.5)
 		(drill 0.900025)
 		(layers "*.Cu" "*.Mask")
@@ -170,7 +170,7 @@
 		(uuid "280643ce-4034-4604-ad78-0bf1b2d92d42")
 	)
 	(pad "3" thru_hole circle
-		(at 2.540005 4.369986)
+		(at 2.540005 1.369986)
 		(size 1.5 1.5)
 		(drill 0.900025)
 		(layers "*.Cu" "*.Mask")
@@ -178,7 +178,7 @@
 		(uuid "9b2541ed-9af6-4e2b-998f-bbf1f18baa2d")
 	)
 	(pad "4" thru_hole circle
-		(at 2.540005 1.740065)
+		(at 2.540005 -1.259935)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -186,7 +186,7 @@
 		(uuid "6cd590ab-c0b9-403b-9456-f534cecd5550")
 	)
 	(pad "5" thru_hole circle
-		(at -2.540005 1.740065)
+		(at -2.540005 -1.259935)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
