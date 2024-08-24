@@ -9,7 +9,7 @@
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "7c2fa13c-42f8-48a2-83d4-9149283a1385")
+		(uuid "96a3db20-e0e0-4e38-a1e9-df6396d734c1")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "4k3"
 		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "2c988bba-b01a-48b1-9023-adea3c3e9a4f")
+		(uuid "773e8017-8d13-454e-bea4-7f124add0f94")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "efa7ff1d-6fe3-4de4-9749-ffc136a73687")
+		(uuid "87a2813c-c388-4cdb-b7d0-00d97d688b67")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "92056925-80bb-4e26-8a6f-1be380ec0cca")
+		(uuid "1f041e85-d4ed-41d8-8c6d-013cdae6708c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cf6e2081-e736-4ec0-972d-5bf38e509d12")
+		(uuid "6b0cd4f2-c509-4bca-b804-255a27bdc98d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -71,7 +71,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f6fe4b97-d2c6-44e4-a438-7619fbb9e954")
+		(uuid "731e5c7f-f832-4b8c-a71b-53eaafdc13a6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -84,7 +84,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "42d637b6-3768-4458-98fe-0c43d069fa9a")
+		(uuid "544c5981-da40-4ce7-b9cf-d909a554e790")
 		(effects
 			(font
 				(size 1 1)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fa6ab745-07f1-48c2-8a0d-9edebd8c414f")
+		(uuid "05ef2b75-c356-45c6-922f-407983a9daaa")
 	)
 	(fp_line
 		(start -0.237258 0.5225)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "14c3d980-01b0-4f3b-847e-b066b2b139e5")
+		(uuid "434e332f-6c6e-407a-8b10-49773a2fb265")
 	)
 	(fp_line
 		(start -1.48 -0.73)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fda589d6-1757-4471-8c1c-a6b034e0eab2")
+		(uuid "398ccabb-f51a-42f2-a7c9-cfe78794452e")
 	)
 	(fp_line
 		(start -1.48 0.73)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3401fb0d-6bcd-4a73-8ed0-9645bc04a189")
+		(uuid "303c2a2d-d433-4cf1-b09b-abbadde3c74e")
 	)
 	(fp_line
 		(start 1.48 -0.73)
@@ -141,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "69e05314-df00-4d8b-a64e-2532e4336265")
+		(uuid "34e44034-69d4-4e13-828d-e1dd8d46ee9e")
 	)
 	(fp_line
 		(start 1.48 0.73)
@@ -151,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dc1ef882-2cfb-40fd-94b9-7b41e92b4886")
+		(uuid "c6e542c5-5181-4b16-98ea-9b1d0c656d61")
 	)
 	(fp_line
 		(start -0.8 -0.4125)
@@ -161,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b8e44ce4-1383-4b01-ad99-7da72bc0c308")
+		(uuid "6bef7ae6-b357-4c96-9d43-ef658ef70baa")
 	)
 	(fp_line
 		(start -0.8 0.4125)
@@ -171,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a851b324-1f9e-4df4-a852-3260697c36fa")
+		(uuid "99420ad1-ee17-4c5f-a2af-5bd2bb8e9685")
 	)
 	(fp_line
 		(start 0.8 -0.4125)
@@ -181,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7c4ca476-80ca-4175-b927-a87d66125193")
+		(uuid "17025581-43f9-40d6-98ad-4d72f1d341d0")
 	)
 	(fp_line
 		(start 0.8 0.4125)
@@ -191,12 +191,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "90241dc9-e42d-4cb1-834b-b43a8cce2a38")
+		(uuid "3b03f9cd-9af2-4a4c-8ce6-cc0eb3547f0a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "194fbdc8-9d4f-4e80-875f-a8a5938008a2")
+		(uuid "f3952dda-a408-468b-a492-cb9d75378f61")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -209,14 +209,14 @@
 		(size 0.8 0.95)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "eeba9b07-818b-4500-9b97-7d3c53b7f95b")
+		(uuid "52e7c7fc-90cd-4130-adfb-301ceacc57dc")
 	)
 	(pad "2" smd roundrect
 		(at 0.825 0)
 		(size 0.8 0.95)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "60f1f581-7903-4fad-ad22-34b150372964")
+		(uuid "98d12b02-98cf-4fee-b442-cdf21d24ad5a")
 	)
 	(model "${KIPRJMOD}/libraries/Endstufe3D//R_0603_1608Metric.wrl"
 		(offset

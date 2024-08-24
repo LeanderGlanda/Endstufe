@@ -7,7 +7,7 @@
 		(at 0 -4.75 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "93547be7-5f2f-4b2f-adcb-320a930c9ad9")
+		(uuid "8631c48f-ea30-4e60-920b-d2e2609a8d8b")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "TPS62933"
 		(at 0 4.75 0)
 		(layer "F.Fab")
-		(uuid "af89492a-d29d-4560-850a-128de8d0013f")
+		(uuid "3b85ddb7-60b8-4739-9732-d26f1075bed8")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a7a3278a-cc46-4394-af7b-263bd0ee9a0a")
+		(uuid "523651df-3be2-4b80-8d31-bdf160b5657f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "380b2e06-bd6b-42fe-bdeb-87b73068545b")
+		(uuid "5c2ef809-019c-49d7-ba89-2b610327b0ea")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7046ade8-a00c-49f4-8d5f-474836f2bd5b")
+		(uuid "6ef77953-ef58-49d0-9180-f83f436b360d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -69,7 +69,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9817f76-7d5f-437a-968c-2cc6dd4a8109")
+		(uuid "93da4012-d386-4438-9546-20f462122659")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "76763b3c-f443-4fa2-a219-6905ca01b31a")
+		(uuid "ae25b37f-3d58-451c-b94c-d6fda940abd3")
 	)
 	(fp_line
 		(start 0.51 -1.14)
@@ -96,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "46905c34-0a46-440c-bdf0-7f6d8f77948c")
+		(uuid "61baecf3-52ac-403b-b266-ba71b18e74d9")
 	)
 	(fp_circle
 		(center 0.85 1.2)
@@ -107,7 +107,7 @@
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "54ae83f8-5fa8-45f3-a514-5309d3e558ec")
+		(uuid "0724a2f8-c988-4489-8f35-fd3ba84d3a56")
 	)
 	(fp_circle
 		(center 0.76 0.76)
@@ -118,7 +118,7 @@
 		)
 		(fill none)
 		(layer "Cmts.User")
-		(uuid "b52d016b-c807-45c3-ab12-96edc1e5d26c")
+		(uuid "edd313b0-67c9-4425-89df-841a3c268573")
 	)
 	(fp_circle
 		(center 0.8 1.05)
@@ -129,12 +129,12 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "b2b18368-7625-4332-89aa-93c0b0164c15")
+		(uuid "dfd4e490-397c-4fab-9b92-6b4c0901010e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "c8cd23ec-fad1-4c5d-9e97-5b5aaaf84019")
+		(uuid "95c20652-344c-4506-af2c-07c516f4a764")
 		(effects
 			(font
 				(size 1 1)
@@ -146,49 +146,49 @@
 		(at 0.64 0.75 90)
 		(size 0.28 0.68)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "1d2b2fb5-9d43-4456-829f-620bcbac8baf")
+		(uuid "10ae8c6d-600f-4ee8-bb96-f1929278d899")
 	)
 	(pad "2" smd rect
 		(at 0.64 0.25 90)
 		(size 0.28 0.68)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "2cc24943-fb05-4140-89b9-88ecfd038ad3")
+		(uuid "21e854e8-8804-4039-bf3b-9a92ec40907c")
 	)
 	(pad "3" smd rect
 		(at 0.64 -0.25 90)
 		(size 0.28 0.68)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "bf7566da-908c-4a6f-bd5f-46f2a9b3efa4")
+		(uuid "f39c036e-db41-4848-9f3b-302fcb881167")
 	)
 	(pad "4" smd rect
 		(at 0.64 -0.75 90)
 		(size 0.28 0.68)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "bb0d47f6-6c7b-4fca-aaa9-dce8abbbee49")
+		(uuid "e6166dd0-f118-4b32-a0b7-5bc89536b8da")
 	)
 	(pad "5" smd rect
 		(at -0.64 -0.75 90)
 		(size 0.28 0.68)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "f4214477-e955-4006-856d-d69946e619a0")
+		(uuid "ed5f7385-0fb3-4665-b4f8-685f6f376ba1")
 	)
 	(pad "6" smd rect
 		(at -0.64 -0.25 90)
 		(size 0.28 0.68)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "55be46ab-6576-4252-a423-39978e4d5bce")
+		(uuid "6810f21f-3537-4699-8575-77cda81a5c8d")
 	)
 	(pad "7" smd rect
 		(at -0.64 0.25 90)
 		(size 0.28 0.68)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "c12a3c24-e2ad-4b83-884b-1e722d7e9a1d")
+		(uuid "bbca2eae-ecd5-4cb4-a68c-e001aa5fdb2d")
 	)
 	(pad "8" smd rect
 		(at -0.64 0.75 90)
 		(size 0.28 0.68)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "0605ca1c-8276-4889-8a08-d1416e05990c")
+		(uuid "4e306ccd-9075-4161-9c90-436064372562")
 	)
 	(model "${KIPRJMOD}/libraries/Endstufe3D//SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BR.wrl"
 		(offset
