@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -11.805029 0)
 		(layer "F.SilkS")
-		(uuid "3fcebfda-4881-4e66-b735-64a0410cecd8")
+		(uuid "248fc02c-8e67-4c44-ab1b-8f9d0a0efe74")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "ZPLR135_T8"
 		(at 0 5.694996 0)
 		(layer "F.Fab")
-		(uuid "4adb19de-4759-44c3-bfe8-02bd7f4a543a")
+		(uuid "26705d7f-26eb-4bce-822c-f0539c9a8852")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "28f2a88e-8b78-4e9d-b6d6-af71904280bc")
+		(uuid "89c21594-8c37-4f87-8fed-bcd750c4d1d6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cf388561-c331-4c42-bbc3-dccc319df330")
+		(uuid "78c275e0-f9db-43ee-a8b4-a8051f40887e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fbfc9d49-9cac-428c-8fe2-3b7938c185ec")
+		(uuid "99064817-49b2-469e-9683-b04a913aaee2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,7 +68,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5ced2a6d-5078-4631-853d-df6ed87d2f17")
+		(uuid "2a9ade98-dada-4855-b452-14991291a877")
 		(effects
 			(font
 				(size 1 1)
@@ -85,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "35ea8080-da8f-4fb5-b3b8-88843ff89eee")
+		(uuid "ddd9c1b0-8edc-4c28-a5aa-48b9341a519e")
 	)
 	(fp_line
 		(start -5 -6.750029)
@@ -95,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2e7cffa7-9dc8-4f62-8cc8-8511718e1f6d")
+		(uuid "a7ad1f4b-e1ba-4699-9e90-befb083f8c44")
 	)
 	(fp_line
 		(start -5 6.749996)
@@ -105,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2d1f25e9-a14d-44c9-8b9e-75c2a92403d9")
+		(uuid "efc16f7e-2c72-4a2a-91b0-b84ba1a1e3d7")
 	)
 	(fp_line
 		(start 5 -6.750029)
@@ -115,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "644a14f8-8c29-4e01-bc1b-6c1af8fe5fd0")
+		(uuid "0ecf15f0-f7c0-4cbd-95a6-78da9f518169")
 	)
 	(fp_circle
 		(center -5.127 6.876996)
@@ -126,12 +126,12 @@
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "c0ac9c65-6620-46e6-aafe-bcd83741c1c4")
+		(uuid "20bd77e0-d936-49ed-9720-c754813edc27")
 	)
 	(fp_text user "REF**"
 		(at 0 7.694996 0)
 		(layer "F.Fab")
-		(uuid "8e0bda11-bf5a-48c7-951e-dd5a80b8bc1b")
+		(uuid "f9226155-3666-48c1-bf1c-829f15de8996")
 		(effects
 			(font
 				(size 1 1)
@@ -144,14 +144,14 @@
 		(size 3.300025 3.300025)
 		(drill 3.300025)
 		(layers "*.Cu" "*.Mask")
-		(uuid "c158e2ff-6888-4552-9090-46e333d1b34f")
+		(uuid "064389bd-0faa-41bd-aa82-be1522d6f90f")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.800102 -0.870044)
 		(size 3.300025 3.300025)
 		(drill 3.300025)
 		(layers "*.Cu" "*.Mask")
-		(uuid "fe3e14b9-68fa-4362-818a-b6f000385c2e")
+		(uuid "588e63c2-c58b-42c0-b0e0-959c451ee742")
 	)
 	(pad "1" thru_hole circle
 		(at -2.540005 4.369986)
@@ -159,7 +159,7 @@
 		(drill 0.900025)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2b7c52d8-ccaa-4d1b-adaf-a0b3201916c1")
+		(uuid "a4e75bfd-70ca-45a8-bf90-e2f0e204dded")
 	)
 	(pad "2" thru_hole circle
 		(at 0 4.369986)
@@ -167,7 +167,7 @@
 		(drill 0.900025)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f952d212-a01c-4c80-92ef-66d457a4b6eb")
+		(uuid "280643ce-4034-4604-ad78-0bf1b2d92d42")
 	)
 	(pad "3" thru_hole circle
 		(at 2.540005 4.369986)
@@ -175,7 +175,7 @@
 		(drill 0.900025)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1ebca30a-c99a-4580-9abb-5b78044fd368")
+		(uuid "9b2541ed-9af6-4e2b-998f-bbf1f18baa2d")
 	)
 	(pad "4" thru_hole circle
 		(at 2.540005 1.740065)
@@ -183,7 +183,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "56ce89d0-dcc9-495c-88fb-7e71efc8555b")
+		(uuid "6cd590ab-c0b9-403b-9456-f534cecd5550")
 	)
 	(pad "5" thru_hole circle
 		(at -2.540005 1.740065)
@@ -191,6 +191,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "dc964549-5842-4dc6-8dcd-80025e1971d4")
+		(uuid "0c9267ea-a471-4002-80c6-4c2b55c2ea5c")
 	)
 )
