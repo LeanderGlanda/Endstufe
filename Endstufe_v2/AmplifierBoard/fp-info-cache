@@ -1,4 +1,4 @@
-23769096190776979
+23788299571543897
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56518,6 +56518,27 @@ IND-SMD_L8.5-W8.0_PCC-M0854M
 2
 2
 Endstufe
+JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical
+JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
+0
+2
+2
+Endstufe
+JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
+JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
+0
+4
+4
+Endstufe
+JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical
+JST XH series connector, B6B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
+0
+6
+6
+Endstufe
 L2520
 
 
@@ -56552,6 +56573,13 @@ LQFP-80_L14.0-W14.0-P0.65-LS16.0-BL footprint C654426
 0
 80
 80
+Endstufe
+L_0805_2012Metric
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
 Endstufe
 Molex_Sabre_43160-1102_1x02_P7.49mm_Horizontal
 Molex Sabre Power Connector, 43160-1102, 2 Pins per row (http://www.molex.com/pdm_docs/sd/431605304_sd.pdf), generated with kicad-footprint-generator
@@ -56609,12 +56637,40 @@ Through hole pin header THT 1x04 2.54mm single row
 4
 4
 Endstufe
+PinHeader_1x05_P2.54mm_Vertical
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+Endstufe
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+Endstufe
 PinHeader_1x10_P2.54mm_Vertical
 Through hole straight pin header, 1x10, 2.54mm pitch, single row
 Through hole pin header THT 1x10 2.54mm single row
 0
 10
 10
+Endstufe
+PinHeader_2x02_P2.54mm_Vertical
+Through hole straight pin header, 2x02, 2.54mm pitch, double rows
+Through hole pin header THT 2x02 2.54mm double row
+0
+4
+4
+Endstufe
+PinHeader_2x03_P2.54mm_Vertical
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
 Endstufe
 PinHeader_2x04_P2.54mm_Vertical
 Through hole straight pin header, 2x04, 2.54mm pitch, double rows
@@ -56629,6 +56685,13 @@ Through hole pin header THT 2x05 2.54mm double row
 0
 10
 10
+Endstufe
+PinSocket_1x02_P2.54mm_Vertical
+Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x02 2.54mm single row
+0
+2
+2
 Endstufe
 Potentiometer_Bourns_3314G_Vertical
 Potentiometer, vertical, Bourns 3314G, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
@@ -56654,6 +56717,13 @@ Endstufe
 R_0805_2012Metric
 Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
+0
+2
+2
+Endstufe
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
 0
 2
 2
@@ -56727,6 +56797,13 @@ TSSOP-30_L7.8-W4.4-P0.50-LS6.4-BL
 0
 30
 30
+Endstufe
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
 Endstufe
 USB-C-SMD_TYPE-C16PIN
 
