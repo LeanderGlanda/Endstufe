@@ -5089,6 +5089,16 @@
 		)
 		(uuid "ebbc5a6f-c7f6-4fbb-84ef-b8400c7524fb")
 	)
+	(text "Use selfboot mode"
+		(exclude_from_sim no)
+		(at 164.592 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f9d48ae4-de59-4657-b9ef-4d65e2a0f465")
+	)
 	(label "SPDIFIN"
 		(at 109.22 76.2 180)
 		(fields_autoplaced yes)
@@ -7341,6 +7351,72 @@
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/70b67e3d-1dd9-4820-9634-6ce668eb2a07"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe:+3V3")
+		(at 168.91 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59ea6beb-6f75-42ea-8d58-d58ef5032900")
+		(property "Reference" "#PWR066"
+			(at 168.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91ca39ac-c399-432f-8908-446ffd682665")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/70b67e3d-1dd9-4820-9634-6ce668eb2a07"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10899,72 +10975,6 @@
 			(project "ControlBoard"
 				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/70b67e3d-1dd9-4820-9634-6ce668eb2a07"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Endstufe:+3V3")
-		(at 168.91 181.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1a5a8a5-2b43-4da5-bc6f-ae49a7baf4bb")
-		(property "Reference" "#PWR066"
-			(at 168.91 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9c2e6a5-0abd-4c65-ba3b-cbac03661007")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/4f887f51-77c1-41d4-a3eb-45d362caffe1/70b67e3d-1dd9-4820-9634-6ce668eb2a07"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
