@@ -1992,6 +1992,26 @@
 		)
 		(uuid "fc241420-eff8-408e-bef8-4c22df518a38")
 	)
+	(text "Default\nI2C Address\n0x38"
+		(exclude_from_sim no)
+		(at 70.358 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7acaa05d-313b-4099-ac91-5672d84505f2")
+	)
+	(text "Default\nI2C Address\n0x04"
+		(exclude_from_sim no)
+		(at 211.074 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fd68b9f-2109-4754-a0cd-372c0202957f")
+	)
 	(label "ADAU1467_ADDR0"
 		(at 60.96 96.52 0)
 		(fields_autoplaced yes)
