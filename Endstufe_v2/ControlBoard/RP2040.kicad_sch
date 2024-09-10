@@ -6030,7 +6030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Endstufe:C_0603_1608Metric"
+		(property "Footprint" "Endstufe:C_0402_1005Metric"
 			(at 129.54 108.2548 0)
 			(effects
 				(font
@@ -6057,7 +6057,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1658"
+		(property "LCSC Part #" "C526980"
 			(at 125.73 109.22 0)
 			(effects
 				(font
@@ -7259,7 +7259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Endstufe:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 236.982 45.72 90)
 			(effects
 				(font
@@ -7698,7 +7698,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Pin"
+		(property "Value" "DNP"
 			(at 261.62 34.29 90)
 			(effects
 				(font
@@ -7706,7 +7706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Endstufe:PinHeader_1x06_P2.54mm_Vertical"
 			(at 262.89 36.83 0)
 			(effects
 				(font
@@ -7788,7 +7788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Endstufe:TestPoint_Pad_D1.0mm"
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -8443,7 +8443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Endstufe:C_0603_1608Metric"
+		(property "Footprint" "Endstufe:C_0402_1005Metric"
 			(at 129.54 98.0948 0)
 			(effects
 				(font
@@ -8470,7 +8470,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1658"
+		(property "LCSC Part #" "C526980"
 			(at 125.73 99.06 0)
 			(effects
 				(font
@@ -8586,7 +8586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Endstufe:PinHeader_1x05_P2.54mm_Vertical"
 			(at 134.62 132.08 0)
 			(effects
 				(font
@@ -9446,7 +9446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Endstufe:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 226.822 45.72 90)
 			(effects
 				(font

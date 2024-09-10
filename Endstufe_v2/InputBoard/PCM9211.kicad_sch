@@ -5492,7 +5492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN-TH_ZPLR135-T8"
+		(property "Footprint" "Endstufe:CONN-TH_ZPLR135-T8"
 			(at 44.45 41.91 0)
 			(effects
 				(font
@@ -5523,6 +5523,15 @@
 		)
 		(property "LCSC" "C277778"
 			(at 44.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-3"
+			(at 0 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +5931,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C458861"
+		(property "LCSC Part #" "C526980"
 			(at 33.02 101.6 0)
 			(effects
 				(font
@@ -6104,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN-TH_ZPLR135-T8"
+		(property "Footprint" "Endstufe:CONN-TH_ZPLR135-T8"
 			(at 80.01 41.91 0)
 			(effects
 				(font
@@ -6135,6 +6144,15 @@
 		)
 		(property "LCSC" "C277778"
 			(at 80.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-3"
+			(at 0 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,6 +6240,15 @@
 		)
 		(property "LCSC Part #" "C181660"
 			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,6 +6467,15 @@
 		)
 		(property "LCSC Part #" "C181660"
 			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,7 +6728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN-TH_ZPLR135-T8"
+		(property "Footprint" "Endstufe:CONN-TH_ZPLR135-T8"
 			(at 151.13 41.91 0)
 			(effects
 				(font
@@ -6723,6 +6759,15 @@
 		)
 		(property "LCSC" "C277778"
 			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-3"
+			(at 0 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +6854,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C852886"
+		(property "LCSC Part #" "C2684537"
 			(at 271.78 52.07 0)
 			(effects
 				(font
@@ -6859,7 +6904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN-TH_ZPLR135-T8"
+		(property "Footprint" "Endstufe:CONN-TH_ZPLR135-T8"
 			(at 115.57 41.91 0)
 			(effects
 				(font
@@ -6890,6 +6935,15 @@
 		)
 		(property "LCSC" "C277778"
 			(at 115.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-3"
+			(at 0 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +7030,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C361177"
+		(property "LCSC Part #" "C77084"
 			(at 271.78 44.45 0)
 			(effects
 				(font
@@ -7785,7 +7839,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C458861"
+		(property "LCSC Part #" "C526980"
 			(at 33.02 116.84 0)
 			(effects
 				(font

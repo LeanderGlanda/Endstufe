@@ -4674,7 +4674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Endstufe:CONN-TH_B6B-XH-2-LF-SN"
+		(property "Footprint" "Endstufe:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 240.03 59.69 0)
 			(effects
 				(font
@@ -4703,6 +4703,15 @@
 		)
 		(property "LCSC" "C157986"
 			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 480.06 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Endstufe:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 133.35 166.37 0)
 			(effects
 				(font
@@ -5218,6 +5227,24 @@
 		)
 		(property "LCSC Part #" "C158012"
 			(at 133.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 0 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 0 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5284,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "DNP"
 			(at 134.62 176.53 0)
 			(effects
 				(font
@@ -5438,6 +5465,15 @@
 		)
 		(property "LCSC Part #" "C2829970"
 			(at 69.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "1.5,-0.1"
+			(at 16.51 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Endstufe:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 133.35 143.51 0)
 			(effects
 				(font
@@ -5812,6 +5848,24 @@
 		)
 		(property "LCSC Part #" "C158012"
 			(at 133.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 0 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 0 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_02x06_Top_Bottom"
+		(property "Value" "DNP"
 			(at 167.64 45.7199 90)
 			(effects
 				(font
@@ -6912,7 +6966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Endstufe:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 133.35 154.94 0)
 			(effects
 				(font
@@ -6941,6 +6995,24 @@
 		)
 		(property "LCSC Part #" "C158012"
 			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 0 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 0 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Endstufe:CONN-TH_B6B-XH-2-LF-SN"
+		(property "Footprint" "Endstufe:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 134.62 59.69 0)
 			(effects
 				(font
@@ -7285,6 +7357,15 @@
 		)
 		(property "LCSC" "C157986"
 			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 0 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +7418,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "DNP"
 			(at 47.625 157.48 0)
 			(effects
 				(font

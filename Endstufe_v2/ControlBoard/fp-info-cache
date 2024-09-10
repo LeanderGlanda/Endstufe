@@ -1,4 +1,4 @@
-23788332553823969
+23790059944505344
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56510,6 +56510,13 @@ Hole_3mm
 0
 1
 1
+Endstufe
+IND-SMD_L4.4-W4.2
+IND-SMD_L4.4-W4.2 footprint
+IND-SMD_L4.4-W4.2 footprint C167206
+0
+2
+2
 Endstufe
 IND-SMD_L8.5-W8.0_PCC-M0854M
 

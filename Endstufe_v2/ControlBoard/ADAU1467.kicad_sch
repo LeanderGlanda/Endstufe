@@ -5715,7 +5715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Endstufe:TestPoint_Pad_D1.0mm"
 			(at 146.05 46.99 0)
 			(effects
 				(font
@@ -5942,7 +5942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C458861"
+		(property "LCSC Part #" "C526980"
 			(at 93.98 160.02 0)
 			(effects
 				(font
@@ -5992,7 +5992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Endstufe:PinHeader_1x04_P2.54mm_Vertical"
 			(at 166.37 29.21 0)
 			(effects
 				(font
@@ -6199,7 +6199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Endstufe:TestPoint_Pad_D1.0mm"
 			(at 109.22 91.44 0)
 			(effects
 				(font
@@ -6539,7 +6539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Endstufe:TestPoint_Pad_D1.0mm"
 			(at 148.59 46.99 0)
 			(effects
 				(font
@@ -6897,7 +6897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Endstufe:TestPoint_Pad_D1.0mm"
 			(at 163.83 168.91 0)
 			(effects
 				(font
@@ -6962,7 +6962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN-TH_ZPLR135-T8"
+		(property "Footprint" "Endstufe:CONN-TH_ZPLR135-T8"
 			(at 256.54 99.06 0)
 			(effects
 				(font
@@ -6993,6 +6993,15 @@
 		)
 		(property "LCSC" "C277778"
 			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-3"
+			(at 0 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Endstufe:CONN-TH_B4B-XH-2-LF-SN"
+		(property "Footprint" "Endstufe:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 208.28 116.84 0)
 			(effects
 				(font
@@ -7537,6 +7546,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 416.56 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C157999"
+			(at 416.56 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +8015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Endstufe:L_0805_2012Metric"
 			(at 247.65 100.33 0)
 			(effects
 				(font
@@ -8094,7 +8121,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C458861"
+		(property "LCSC Part #" "C526980"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -9272,7 +9299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Endstufe:TestPoint_Pad_D1.0mm"
 			(at 125.73 143.51 0)
 			(effects
 				(font
@@ -9406,7 +9433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Endstufe:TestPoint_Pad_D1.0mm"
 			(at 62.23 83.82 0)
 			(effects
 				(font
@@ -9814,7 +9841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Endstufe:C_0402_1005Metric"
 			(at 86.0552 118.11 0)
 			(effects
 				(font
@@ -10155,7 +10182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Endstufe:C_0402_1005Metric"
 			(at 80.01 109.5248 0)
 			(effects
 				(font
@@ -10338,6 +10365,15 @@
 		)
 		(property "LCSC" "C2692818"
 			(at 76.2 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4275"
+			(at 194.31 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11488,7 +11524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Endstufe:PinHeader_2x03_P2.54mm_Vertical"
 			(at 31.75 97.79 0)
 			(effects
 				(font

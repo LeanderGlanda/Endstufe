@@ -2866,7 +2866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Endstufe:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 214.63 147.32 0)
 			(effects
 				(font
@@ -2895,6 +2895,24 @@
 		)
 		(property "LCSC Part #" "C158012"
 			(at 214.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 0 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 0 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Endstufe:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 214.63 134.62 0)
 			(effects
 				(font
@@ -3239,6 +3257,24 @@
 		)
 		(property "LCSC Part #" "C158012"
 			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 0 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 0 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Endstufe:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 83.82 152.4 0)
 			(effects
 				(font
@@ -3395,6 +3431,24 @@
 		)
 		(property "LCSC Part #" "C158012"
 			(at 83.82 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 0 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 0 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Endstufe:TestPoint_Pad_D1.0mm"
 			(at 135.89 66.04 0)
 			(effects
 				(font
@@ -4977,7 +5031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Endstufe:L2520"
+		(property "Footprint" "Endstufe:IND-SMD_L4.4-W4.2"
 			(at 186.69 76.2 0)
 			(effects
 				(font
@@ -5004,7 +5058,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C280577"
+		(property "LCSC Part #" "C167206"
 			(at 186.69 76.2 0)
 			(effects
 				(font
@@ -5440,7 +5494,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3200405"
+		(property "LCSC Part #" "C6290372"
 			(at 143.51 76.2 0)
 			(effects
 				(font

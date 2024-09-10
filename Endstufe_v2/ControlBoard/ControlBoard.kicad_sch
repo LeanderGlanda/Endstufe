@@ -2952,7 +2952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Endstufe:CONN-TH_B4B-XH-2-LF-SN"
+		(property "Footprint" "Endstufe:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 125.73 68.58 0)
 			(effects
 				(font
@@ -2983,6 +2983,15 @@
 		)
 		(property "LCSC" "C157999"
 			(at 125.476 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Endstufe:CONN-TH_B4B-XH-2-LF-SN"
+		(property "Footprint" "Endstufe:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 125.73 82.55 0)
 			(effects
 				(font
@@ -3479,6 +3488,15 @@
 		)
 		(property "LCSC" "C157999"
 			(at 125.476 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 251.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Endstufe:CONN-TH_B6B-XH-2-LF-SN"
+		(property "Footprint" "Endstufe:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 217.17 68.58 0)
 			(effects
 				(font
@@ -3779,6 +3797,15 @@
 		)
 		(property "LCSC" "C157986"
 			(at 217.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 434.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Endstufe:PinHeader_1x06_P2.54mm_Vertical"
 			(at 143.51 24.13 0)
 			(effects
 				(font
@@ -4056,7 +4083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Endstufe:CONN-TH_B6B-XH-2-LF-SN"
+		(property "Footprint" "Endstufe:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -4085,6 +4112,15 @@
 		)
 		(property "LCSC" "C157986"
 			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 233.68 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Endstufe:CONN-TH_B4B-XH-2-LF-SN"
+		(property "Footprint" "Endstufe:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -4176,6 +4212,15 @@
 		)
 		(property "LCSC" "C157999"
 			(at 125.476 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 251.46 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+		(property "Footprint" "Endstufe:PinHeader_2x02_P2.54mm_Vertical"
 			(at 227.33 99.06 0)
 			(effects
 				(font
@@ -4370,7 +4415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Endstufe:CONN-TH_B4B-XH-2-LF-SN"
+		(property "Footprint" "Endstufe:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 116.84 175.26 0)
 			(effects
 				(font
@@ -4401,6 +4446,15 @@
 		)
 		(property "LCSC" "C157999"
 			(at 116.586 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-0.5"
+			(at 233.68 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+		(property "Footprint" "Endstufe:PinHeader_2x02_P2.54mm_Vertical"
 			(at 35.56 99.06 0)
 			(effects
 				(font
