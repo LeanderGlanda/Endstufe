@@ -59,8 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "silk_overlap|221440476|132490000|0ee55128-822b-4f15-b84f-c6bcaaae3929|c548e3bd-6b0d-42e5-a487-ecd1fa40c868",
-        "silk_overlap|252490000|110559523|bad7f8b2-0055-4f0d-90f0-3b6ad9843da7|6e5eb8e1-3ded-4720-a0c4-c67e19fa24e3",
         "starved_thermal|143530000|88425000|b7655825-1934-4fd3-b1d2-c76ff4e1fde0|98c2b975-fd4d-4977-9989-773c37442404|B.Cu",
         "starved_thermal|143530000|88425000|b7655825-1934-4fd3-b1d2-c76ff4e1fde0|98c2b975-fd4d-4977-9989-773c37442404|F.Cu",
         "starved_thermal|143530000|88425000|b7655825-1934-4fd3-b1d2-c76ff4e1fde0|98c2b975-fd4d-4977-9989-773c37442404|In1.Cu",
