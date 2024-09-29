@@ -1,0 +1,12 @@
+2 Pin: JST XH B2B XH A Header: C158012 Housing: C144401
+4 Pin: JST XH B4B XH A Header: C157999 Housing: C144403
+6 Pin: JST XH B6B XH A Header: C157986 Housing: C144405
+
+Remark for 2 Pin:
+I need 2 Pin JST XH cables. I have JST XH B2B A (C158012) wire-to-board connectors. The housings should be mounted in reverse, so if you look from the side onto the cable on one connector the latch should be at the top and at the bottom.
+
+Remark for 4 Pin:
+I need cables for JST XH B4B A (C157999) wire to board connectors. Connectors should be mounted reversed again too, like explained in the other cables remark.
+
+Remark for 6 Pin:
+I need cables for JST XH B6B A (C157986) wire to board connectors. Connectors should be mounted reversed again too, like explained in an other cables remark.

@@ -1,0 +1,57 @@
+Cell Name         = DC1
+Parameter Name    = DCInpAlg145X1value
+Parameter Address = 20
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = W Noise1
+Parameter Name    = WhiteNAlgS3001enable
+Parameter Address = 21
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = __SafeLoad_Module__data_SafeLoad
+Parameter Address = 24576
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = __SafeLoad_Module__address_SafeLoad
+Parameter Address = 24581
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = __SafeLoad_Module__num_SafeLoad_lower
+Parameter Address = 24582
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = __SafeLoad_Module__num_SafeLoad_upper
+Parameter Address = 24583
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
