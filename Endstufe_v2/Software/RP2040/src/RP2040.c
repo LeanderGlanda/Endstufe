@@ -55,23 +55,16 @@ void clear_adau1467_panic() {
 
 void dsp_status() {
     printf("DSP Status: ");
-    read_dsp_register(0xF4, 0x05, 2); // DSP Status
+    read_dsp_register(0xF4, 0x05, 2);
 
     printf("More DSP Status: ");
-    read_dsp_register(0xF4, 0x00, 10); // DSP Status
+    read_dsp_register(0xF4, 0x00, 10);
     
     printf("Panic Register: ");
-    read_dsp_register(0xF4, 0x28, 2); // Panic register
-
-    // write_mp23_pullup();
-
-    // uint8_t content[2];
-    // content[0] = 0x00;
-    // content[1] = 0x01;
-    // write_dsp_register(0xF5, 0xd9, 2, content);
+    read_dsp_register(0xF4, 0x28, 2);
 
     printf("MP23: ");
-    read_dsp_register(0xF5, 0xC9, 2); // MP23 register
+    read_dsp_register(0xF5, 0xC9, 2);
 }
 
 void reset_dsp() {
@@ -91,13 +84,134 @@ void setup_dsp() {
     sleep_ms(10);
 }
 
+void pcm1865_init() {
+    uint8_t data[2] = {0, 0};
+
+    // Select Page 0
+    data[0] = 0x00;
+    data[1] = 0x00;
+    int status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
+    printf("%d\n", status);
+
+    // Enable Automatic Clipping Supression
+    data[0] = 0x05;
+    data[1] = 0b10000111;
+    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
+
+    // Settings for ADC1 OK (0x06 and 0x07)
+    // ADC2 needs to be configured for VIN(L/R)2
+    // Polarity for both is not inverted
+    data[0] = 0x08;
+    data[1] = 0b01000010;
+    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
+
+    data[0] = 0x09;
+    data[1] = 0b01000010;
+    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
+
+    
+    // Configure SCK Clock source and Master Mode
+    // XTAL clock source, Master mode, Auto Clock Detector 
+    data[0] = 0x20;
+    data[1] = 0b10010001;
+    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
+
+    // Set 12.288 BCLK
+    data[0] = 0x26;
+    data[1] = 0b00000001;
+    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
+
+    // BCLK is devided by 64 in 0x27 which makes 192kHz LRCK
+
+
+    // The following register should be configured correctly:
+    // 0x0B: One can change I2S to other formats and change the word length. (24 Bit default)
+    // 0x0C-0x0E: TDM stuff
+    // 0x0F: DPGA CH1 Left Gain Setting
+    // 0x10-0x15: GPIO config / status
+    // 0x16-0x19: DPGA (Gain) Settings
+    // 0x1A-0x1B: Mic/DIN Stuff
+    // 0x21-0x2D DSP/ADC Clock Divider Values
+    // 0x30-0x57 Interrupt / Signal Detection sleep / etc. (Also scan time in sleep) / DC level
+    // 0x58-62 AUXADC stuff and interrupt / control stuff
+    // 0x70 Enter Sleep states
+    // 0x71 Mute Control and 2 channels / 4 channels selection    
+}
+
+void pcm1865_printStatus() {
+    uint8_t data[10];
+    // Select Page 0
+    data[0] = 0x00;
+    data[1] = 0x00;
+    int status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
+    printf("%d\n", status);
+
+    // 0x72 should be 0x0F -> Run state
+    data[0] = 0x70;
+    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 1, true);
+    printf("%d\n", status);
+    // Now the PCM1685 knows where to start reading from, we can read now
+    status = i2c_read_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 10, false);
+    printf("%d\n", status);
+
+    // Print out the data
+    for(int i = 0; i < 10; i++)
+        printf("0x%x\n", data[i]);
+}
+
+void shutdown_amplifiers() {
+    printf("Disabling amplifiers!\n");
+    gpio_init(BOARD_MUTEA_PIN);
+    gpio_init(BOARD_MUTEB_PIN);
+    gpio_init(BOARD_SDZA_PIN);
+    gpio_init(BOARD_SDZB_PIN);
+    gpio_set_dir(BOARD_MUTEA_PIN, GPIO_OUT);
+    gpio_set_dir(BOARD_MUTEB_PIN, GPIO_OUT);
+    gpio_set_dir(BOARD_SDZA_PIN, GPIO_OUT);
+    gpio_set_dir(BOARD_SDZB_PIN, GPIO_OUT);
+    gpio_put(BOARD_MUTEA_PIN, 1);
+    gpio_put(BOARD_MUTEB_PIN, 1);
+    gpio_put(BOARD_SDZA_PIN, 0);
+    gpio_put(BOARD_SDZB_PIN, 0);
+}
+
+void setup_adau1962a() {
+    uint8_t data[2] = {0, 0};
+
+    // XTALI clock, xtal enabled, normal operation, Setting 12 for 24.576 SCK in 192kHz mode
+    data[0] = 0x00;
+    data[1] = 0b00000001;
+    int status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+    printf("%d\n", status);
+
+    sleep_ms(50);
+
+    // XTALI clock, xtal enabled, normal operation, Setting 12 for 24.576 SCK in 192kHz mode
+    data[0] = 0x00;
+    data[1] = 0b00000101;
+    status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+    printf("%d\n", status);
+
+    // I2S, Stero (no TDM), 192Khz Low Propagation Delay, Stay muted
+    data[0] = 0x06;
+    data[1] = 0b00000111;
+    i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+
+    sleep_ms(50);
+
+    // Unmute
+    data[0] = 0x06;
+    data[1] = 0b00000110;
+    i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+
+    // https://ez.analog.com/audio/f/q-a/90292/adau1966a-register-programming-sequence/264515
+}
+
 int main()
 {
-    // Enable UART so we can print status output
-
+    // Configure and enable UART
     stdio_uart_init_full(BOARD_UART, BOARD_UART_BAUDRATE, BOARD_UART_TX_PIN, BOARD_UART_RX_PIN);
-    // stdio_init_all();
-    // This example will use I2C0 on the default SDA and SCL pins (GP4, GP5 on a Pico)
+    // Setup I2C
     i2c_init(BOARD_I2C, 100 * 1000);
     gpio_set_function(BOARD_I2C_SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(BOARD_I2C_SCL_PIN, GPIO_FUNC_I2C);
@@ -107,13 +221,19 @@ int main()
     printf("\nEndstufe\n");
 
     enable_adau1962a();
+    shutdown_amplifiers();
     
     setup_dsp();
 
     dsp_status();
 
+    pcm1865_init();
+    sleep_ms(100);
+    pcm1865_printStatus();
+
+    setup_adau1962a();
+
     while (true) {
-        // printf("Hello, world!\n");
         sleep_ms(1000);
     }
 }

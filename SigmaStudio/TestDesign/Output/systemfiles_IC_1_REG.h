@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Sunday, September 29, 2024 4:08:17 PM
+ * Created:        Friday, October 4, 2024 10:24:55 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -58,12 +58,12 @@
 /* CLK_GEN1_M  - Registers (IC 1) */
 #define REG_CLK_GEN1_M_IC_1_ADDR                  0xF020
 #define REG_CLK_GEN1_M_IC_1_BYTE                  2
-#define REG_CLK_GEN1_M_IC_1_VALUE                 0x6
+#define REG_CLK_GEN1_M_IC_1_VALUE                 0x3
 
 /* CLK_GEN1_N  - Registers (IC 1) */
 #define REG_CLK_GEN1_N_IC_1_ADDR                  0xF021
 #define REG_CLK_GEN1_N_IC_1_BYTE                  2
-#define REG_CLK_GEN1_N_IC_1_VALUE                 0x1
+#define REG_CLK_GEN1_N_IC_1_VALUE                 0x2
 
 /* CLK_GEN2_M  - Registers (IC 1) */
 #define REG_CLK_GEN2_M_IC_1_ADDR                  0xF022
@@ -108,7 +108,7 @@
 /* ASRC_INPUT0  - Registers (IC 1) */
 #define REG_ASRC_INPUT0_IC_1_ADDR                 0xF100
 #define REG_ASRC_INPUT0_IC_1_BYTE                 2
-#define REG_ASRC_INPUT0_IC_1_VALUE                0x3
+#define REG_ASRC_INPUT0_IC_1_VALUE                0x0
 
 /* ASRC_INPUT1  - Registers (IC 1) */
 #define REG_ASRC_INPUT1_IC_1_ADDR                 0xF101
@@ -148,7 +148,7 @@
 /* ASRC_OUT_RATE0  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE0_IC_1_ADDR              0xF140
 #define REG_ASRC_OUT_RATE0_IC_1_BYTE              2
-#define REG_ASRC_OUT_RATE0_IC_1_VALUE             0x5
+#define REG_ASRC_OUT_RATE0_IC_1_VALUE             0x0
 
 /* ASRC_OUT_RATE1  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE1_IC_1_ADDR              0xF141
@@ -228,12 +228,12 @@
 /* SOUT_SOURCE8  - Registers (IC 1) */
 #define REG_SOUT_SOURCE8_IC_1_ADDR                0xF188
 #define REG_SOUT_SOURCE8_IC_1_BYTE                2
-#define REG_SOUT_SOURCE8_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE8_IC_1_VALUE               0xA
 
 /* SOUT_SOURCE9  - Registers (IC 1) */
 #define REG_SOUT_SOURCE9_IC_1_ADDR                0xF189
 #define REG_SOUT_SOURCE9_IC_1_BYTE                2
-#define REG_SOUT_SOURCE9_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE9_IC_1_VALUE               0xA
 
 /* SOUT_SOURCE10  - Registers (IC 1) */
 #define REG_SOUT_SOURCE10_IC_1_ADDR               0xF18A
@@ -343,7 +343,7 @@
 /* SERIAL_BYTE_3_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_3_0_IC_1_ADDR             0xF20C
 #define REG_SERIAL_BYTE_3_0_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_3_0_IC_1_VALUE            0x9000
+#define REG_SERIAL_BYTE_3_0_IC_1_VALUE            0x6C00
 
 /* SERIAL_BYTE_3_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_3_1_IC_1_ADDR             0xF20D
@@ -1093,7 +1093,7 @@
 /* START_ADDRESS  - Registers (IC 1) */
 #define REG_START_ADDRESS_IC_1_ADDR               0xF404
 #define REG_START_ADDRESS_IC_1_BYTE               2
-#define REG_START_ADDRESS_IC_1_VALUE              0x0
+#define REG_START_ADDRESS_IC_1_VALUE              0xC000
 
 /* CORE_STATUS  - Registers (IC 1) */
 #define REG_CORE_STATUS_IC_1_ADDR                 0xF405
@@ -1653,7 +1653,7 @@
 /* MP9_MODE1  - Registers (IC 1) */
 #define REG_MP9_MODE1_IC_1_ADDR                   0xF5C9
 #define REG_MP9_MODE1_IC_1_BYTE                   2
-#define REG_MP9_MODE1_IC_1_VALUE                  0x5
+#define REG_MP9_MODE1_IC_1_VALUE                  0x4
 
 /* MP10_MODE1  - Registers (IC 1) */
 #define REG_MP10_MODE1_IC_1_ADDR                  0xF5CA
@@ -1713,7 +1713,7 @@
 /* MP9_WRITE1  - Registers (IC 1) */
 #define REG_MP9_WRITE1_IC_1_ADDR                  0xF5D9
 #define REG_MP9_WRITE1_IC_1_BYTE                  2
-#define REG_MP9_WRITE1_IC_1_VALUE                 0x1
+#define REG_MP9_WRITE1_IC_1_VALUE                 0x0
 
 /* MP10_WRITE1  - Registers (IC 1) */
 #define REG_MP10_WRITE1_IC_1_ADDR                 0xF5DA
@@ -3111,12 +3111,12 @@
 #define R6_PLL_WATCHDOG_PLL_WATCHDOG_IC_1_SHIFT   0
 
 /* CLK_GEN1_M (IC 1) */
-#define R7_CLK_GEN1_M_CLOCKGEN1_M_IC_1            0x06   /* 000000110b	[8:0] */
+#define R7_CLK_GEN1_M_CLOCKGEN1_M_IC_1            0x03   /* 000000011b	[8:0] */
 #define R7_CLK_GEN1_M_CLOCKGEN1_M_IC_1_MASK       0x1FF
 #define R7_CLK_GEN1_M_CLOCKGEN1_M_IC_1_SHIFT      0
 
 /* CLK_GEN1_N (IC 1) */
-#define R8_CLK_GEN1_N_CLOCKGEN1_N_IC_1            0x01   /* 000000001b	[8:0] */
+#define R8_CLK_GEN1_N_CLOCKGEN1_N_IC_1            0x02   /* 000000010b	[8:0] */
 #define R8_CLK_GEN1_N_CLOCKGEN1_N_IC_1_MASK       0x1FF
 #define R8_CLK_GEN1_N_CLOCKGEN1_N_IC_1_SHIFT      0
 
@@ -3212,7 +3212,7 @@
 #define R16_POWER_ENABLE1_PDM1_PWR_IC_1_SHIFT     4
 
 /* ASRC_INPUT0 (IC 1) */
-#define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1          0x3    /* 011b	[2:0] */
+#define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1          0x0    /* 000b	[2:0] */
 #define R17_ASRC_INPUT0_ASRC_SIN_CHANNEL_IC_1     0x0    /* 00000b	[7:3] */
 #define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1_MASK     0x7
 #define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1_SHIFT    0
@@ -3276,7 +3276,7 @@
 #define R24_ASRC_INPUT7_ASRC_SIN_CHANNEL_IC_1_SHIFT 3
 
 /* ASRC_OUT_RATE0 (IC 1) */
-#define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1         0x5    /* 0101b	[3:0] */
+#define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1         0x0    /* 0000b	[3:0] */
 #define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1_MASK    0xF
 #define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1_SHIFT   0
 
@@ -3381,7 +3381,7 @@
 
 /* SOUT_SOURCE8 (IC 1) */
 #define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
-#define R41_SOUT_SOURCE8_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
+#define R41_SOUT_SOURCE8_SOUT_ASRC_SELECT_IC_1    0x1    /* 001b	[5:3] */
 #define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1_MASK    0x7
 #define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1_SHIFT   0
 #define R41_SOUT_SOURCE8_SOUT_ASRC_SELECT_IC_1_MASK 0x38
@@ -3389,7 +3389,7 @@
 
 /* SOUT_SOURCE9 (IC 1) */
 #define R42_SOUT_SOURCE9_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
-#define R42_SOUT_SOURCE9_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
+#define R42_SOUT_SOURCE9_SOUT_ASRC_SELECT_IC_1    0x1    /* 001b	[5:3] */
 #define R42_SOUT_SOURCE9_SOUT_SOURCE_IC_1_MASK    0x7
 #define R42_SOUT_SOURCE9_SOUT_SOURCE_IC_1_SHIFT   0
 #define R42_SOUT_SOURCE9_SOUT_ASRC_SELECT_IC_1_MASK 0x38
@@ -3630,8 +3630,8 @@
 #define R64_SERIAL_BYTE_3_0_BCLK_POL_IC_1         0x0    /* 0b	[7] */
 #define R64_SERIAL_BYTE_3_0_LRCLK_POL_IC_1        0x0    /* 0b	[8] */
 #define R64_SERIAL_BYTE_3_0_LRCLK_MODE_IC_1       0x0    /* 0b	[9] */
-#define R64_SERIAL_BYTE_3_0_BCLK_SRC_IC_1         0x4    /* 100b	[12:10] */
-#define R64_SERIAL_BYTE_3_0_LRCLK_SRC_IC_1        0x4    /* 100b	[15:13] */
+#define R64_SERIAL_BYTE_3_0_BCLK_SRC_IC_1         0x3    /* 011b	[12:10] */
+#define R64_SERIAL_BYTE_3_0_LRCLK_SRC_IC_1        0x3    /* 011b	[15:13] */
 #define R64_SERIAL_BYTE_3_0_TDM_MODE_IC_1_MASK    0x7
 #define R64_SERIAL_BYTE_3_0_TDM_MODE_IC_1_SHIFT   0
 #define R64_SERIAL_BYTE_3_0_DATA_FMT_IC_1_MASK    0x18
@@ -6117,7 +6117,7 @@
 #define R213_KILL_CORE_KILL_CORE_IC_1_SHIFT       0
 
 /* START_ADDRESS (IC 1) */
-#define R214_START_ADDRESS_START_ADDRESS_IC_1     0x0000 /* 0000000000000000b	[15:0] */
+#define R214_START_ADDRESS_START_ADDRESS_IC_1     0xC000 /* 1100000000000000b	[15:0] */
 #define R214_START_ADDRESS_START_ADDRESS_IC_1_MASK 0xFFFF
 #define R214_START_ADDRESS_START_ADDRESS_IC_1_SHIFT 0
 
@@ -7334,7 +7334,7 @@
 #define R325_MP8_MODE1_SS_SELECT1_IC_1_SHIFT      8
 
 /* MP9_MODE1 (IC 1) */
-#define R326_MP9_MODE1_MP_ENABLE1_IC_1            0x1    /* 1b	[0] */
+#define R326_MP9_MODE1_MP_ENABLE1_IC_1            0x0    /* 0b	[0] */
 #define R326_MP9_MODE1_MP_MODE1_IC_1              0x2    /* 010b	[3:1] */
 #define R326_MP9_MODE1_DEBOUNCE_VALUE1_IC_1       0x0    /* 0000b	[7:4] */
 #define R326_MP9_MODE1_SS_SELECT1_IC_1            0x0    /* 000b	[10:8] */
@@ -7421,7 +7421,7 @@
 #define R337_MP8_WRITE1_MP_REG_WRITE1_IC_1_SHIFT  0
 
 /* MP9_WRITE1 (IC 1) */
-#define R338_MP9_WRITE1_MP_REG_WRITE1_IC_1        0x1    /* 1b	[0] */
+#define R338_MP9_WRITE1_MP_REG_WRITE1_IC_1        0x0    /* 0b	[0] */
 #define R338_MP9_WRITE1_MP_REG_WRITE1_IC_1_MASK   0x1
 #define R338_MP9_WRITE1_MP_REG_WRITE1_IC_1_SHIFT  0
 

@@ -1,5 +1,5 @@
-Cell Name         = DC1
-Parameter Name    = DCInpAlg145X1value
+Cell Name         = W Noise1
+Parameter Name    = WhiteNAlgS3001enable
 Parameter Address = 20
 Parameter Value   = 1
 Parameter Data :
@@ -7,12 +7,21 @@ Parameter Data :
 
 
 
-Cell Name         = W Noise1
-Parameter Name    = WhiteNAlgS3001enable
+Cell Name         = Single 1
+Parameter Name    = GainAlgNS145X1gain
 Parameter Address = 21
 Parameter Value   = 1
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Single 2
+Parameter Name    = GainAlgNS145X2gain
+Parameter Address = 22
+Parameter Value   = 0.630957365036011
+Parameter Data :
+0x00, 0xA1, 0x86, 0x6C, 
 
 
 

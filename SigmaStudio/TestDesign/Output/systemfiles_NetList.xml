@@ -20,20 +20,32 @@
             <Algorithm name="AsrcInSigma300Alg1" friendlyname="From ASRC " cell="AsrcIn1 " location="{X=212, Y=197} " Growth="16 " GrowthB="0 " FS="192000">
                 <Link pin="O_C0_A0_P1_out" dir="out" link="Link0" />
             </Algorithm>
-            <Algorithm name="DCInpAlg145X1" friendlyname="DC-Input " cell="DC1 " location="{X=160, Y=540} " Growth="0 " GrowthB="0 " FS="192000">
-                <Link pin="O_C34_A0_P1_out" dir="out" link="Link1" />
-            </Algorithm>
             <Algorithm name="WhiteNAlgS3001" friendlyname="White Noise " cell="W Noise1 " location="{X=407, Y=307} " Growth="0 " GrowthB="0 " FS="192000">
-                <Link pin="O_C38_A0_P1_out" dir="out" link="Link2" />
+                <Link pin="O_C38_A0_P1_out" dir="out" link="Link1" />
+            </Algorithm>
+            <Algorithm name="ICInput4ADAU145X1" friendlyname="ADAU145x Inputs 40-47 " cell="Input1 " location="{X=295, Y=762} " Growth="8 " GrowthB="0 " FS="192000">
+                <Link pin="O_C42_A0_P1_out" dir="out" link="Link2" />
+                <Link pin="O_C42_A0_P2_out" dir="out" link="Link3" />
             </Algorithm>
             <Algorithm name="ICOutADAU145X1" friendlyname="Output " cell="Output1 " location="{X=640, Y=204} " Growth="1 " GrowthB="0">
                 <Link pin="I_C17_A0_P1_in" dir="in" link="Link0" />
             </Algorithm>
-            <Algorithm name="GPOAlg3001" friendlyname="General Purpose Output " cell="GPO1 " location="{X=678, Y=596} " Growth="0 " GrowthB="0">
-                <Link pin="I_C25_A0_P1_in" dir="in" link="Link1" />
-            </Algorithm>
             <Algorithm name="ICOutADAU145X2" friendlyname="Output " cell="Output2 " location="{X=636, Y=259} " Growth="1 " GrowthB="0">
-                <Link pin="I_C21_A0_P1_in" dir="in" link="Link2" />
+                <Link pin="I_C21_A0_P1_in" dir="in" link="Link1" />
+            </Algorithm>
+            <Algorithm name="GainAlgNS145X1" friendlyname="Gain (no-slew) " cell="Single 1 " location="{X=521, Y=526} " Growth="1 " GrowthB="0">
+                <Link pin="I_C19_A0_P1_in" dir="in" link="Link2" />
+                <Link pin="O_C19_A0_P2_out" dir="out" link="Link4" />
+            </Algorithm>
+            <Algorithm name="GainAlgNS145X2" friendlyname="Gain (no-slew) " cell="Single 2 " location="{X=514, Y=740} " Growth="1 " GrowthB="0">
+                <Link pin="I_C29_A0_P1_in" dir="in" link="Link3" />
+                <Link pin="O_C29_A0_P2_out" dir="out" link="Link5" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X3" friendlyname="Output " cell="Output3 " location="{X=658, Y=727} " Growth="1 " GrowthB="0">
+                <Link pin="I_C69_A0_P1_in" dir="in" link="Link4" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X4" friendlyname="Output " cell="Output4 " location="{X=667, Y=778} " Growth="1 " GrowthB="0">
+                <Link pin="I_C71_A0_P1_in" dir="in" link="Link5" />
             </Algorithm>
         </Schematic>
     </IC>

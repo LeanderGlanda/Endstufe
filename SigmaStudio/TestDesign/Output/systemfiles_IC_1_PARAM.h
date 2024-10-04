@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_PARAM.h
  *
- * Created:        Sunday, September 29, 2024 4:08:17 PM
+ * Created:        Friday, October 4, 2024 10:24:55 PM
  * Description:    TestDesigndspproj:IC 1 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -40,20 +40,28 @@
 #define MOD_SAFELOADMODULE_NUM_SAFELOAD_UPPER_ADDR     24583
 #define MOD_SAFELOADMODULE_NUM_SAFELOAD_UPPER_MEMORYPAGE 0
 
-/* Module DC1 - DC Input Entry*/
-#define MOD_DC1_COUNT                                  1
-#define MOD_DC1_DEVICE                                 "IC1"
-#define MOD_DC1_DCINPALG145X1VALUE_ADDR                20
-#define MOD_DC1_DCINPALG145X1VALUE_VALUE               SIGMASTUDIOTYPE_8_24_CONVERT(1)
-#define MOD_DC1_DCINPALG145X1VALUE_TYPE                SIGMASTUDIOTYPE_8_24
-#define MOD_DC1_DCINPALG145X1VALUE_MEMORYPAGE          0
-
 /* Module W Noise1 - White Noise*/
 #define MOD_WNOISE1_COUNT                              1
 #define MOD_WNOISE1_DEVICE                             "IC1"
-#define MOD_WNOISE1_ENABLENOISE_ADDR                   21
+#define MOD_WNOISE1_ENABLENOISE_ADDR                   20
 #define MOD_WNOISE1_ENABLENOISE_VALUE                  SIGMASTUDIOTYPE_8_24_CONVERT(1)
 #define MOD_WNOISE1_ENABLENOISE_TYPE                   SIGMASTUDIOTYPE_8_24
 #define MOD_WNOISE1_ENABLENOISE_MEMORYPAGE             0
+
+/* Module Single 1 - Single Volume*/
+#define MOD_SINGLE1_COUNT                              1
+#define MOD_SINGLE1_DEVICE                             "IC1"
+#define MOD_SINGLE1_GAINALGNS145X1GAIN_ADDR            21
+#define MOD_SINGLE1_GAINALGNS145X1GAIN_VALUE           SIGMASTUDIOTYPE_8_24_CONVERT(1)
+#define MOD_SINGLE1_GAINALGNS145X1GAIN_TYPE            SIGMASTUDIOTYPE_8_24
+#define MOD_SINGLE1_GAINALGNS145X1GAIN_MEMORYPAGE      0
+
+/* Module Single 2 - Single Volume*/
+#define MOD_SINGLE2_COUNT                              1
+#define MOD_SINGLE2_DEVICE                             "IC1"
+#define MOD_SINGLE2_GAINALGNS145X2GAIN_ADDR            22
+#define MOD_SINGLE2_GAINALGNS145X2GAIN_VALUE           SIGMASTUDIOTYPE_8_24_CONVERT(0.630957344480193)
+#define MOD_SINGLE2_GAINALGNS145X2GAIN_TYPE            SIGMASTUDIOTYPE_8_24
+#define MOD_SINGLE2_GAINALGNS145X2GAIN_MEMORYPAGE      0
 
 #endif
