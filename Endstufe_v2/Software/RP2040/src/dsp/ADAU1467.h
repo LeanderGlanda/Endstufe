@@ -2,7 +2,7 @@
 extern "C" {
 #endif
 
-void setup_adau1467();
+void load_sigmastudio_program_adau1467();
 
 #ifdef __cplusplus
 }

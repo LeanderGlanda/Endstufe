@@ -81,6 +81,14 @@ void reset_dsp() {
     gpio_put(BOARD_ADAU1467_RST_Pin, 0);
     sleep_ms(100);
     gpio_put(BOARD_ADAU1467_RST_Pin, 1);
+    sleep_ms(100);
+}
+
+void setup_dsp() {
+    reset_dsp();
+    load_sigmastudio_program_adau1467();
+    clear_adau1467_panic();
+    sleep_ms(10);
 }
 
 int main()
@@ -100,20 +108,8 @@ int main()
 
     enable_adau1962a();
     
-    reset_dsp();
-    //read_dsp_register(0xF4, 0x28, 2); // Panic register
-    //clear_adau1467_panic();
-    //read_dsp_register(0xF4, 0x28, 2); // Panic register
+    setup_dsp();
 
-    // dsp_status();
-
-    setup_adau1467();
-
-    //read_dsp_register(0xF4, 0x28, 2); // Panic register
-    //clear_adau1467_panic();
-    //read_dsp_register(0xF4, 0x28, 2); // Panic register
-
-    sleep_ms(500);
     dsp_status();
 
     while (true) {
