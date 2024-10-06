@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_PARAM.h
  *
- * Created:        Friday, October 4, 2024 10:24:55 PM
+ * Created:        Sunday, October 6, 2024 10:47:50 PM
  * Description:    TestDesigndspproj:IC 1 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -60,7 +60,7 @@
 #define MOD_SINGLE2_COUNT                              1
 #define MOD_SINGLE2_DEVICE                             "IC1"
 #define MOD_SINGLE2_GAINALGNS145X2GAIN_ADDR            22
-#define MOD_SINGLE2_GAINALGNS145X2GAIN_VALUE           SIGMASTUDIOTYPE_8_24_CONVERT(0.630957344480193)
+#define MOD_SINGLE2_GAINALGNS145X2GAIN_VALUE           SIGMASTUDIOTYPE_8_24_CONVERT(1)
 #define MOD_SINGLE2_GAINALGNS145X2GAIN_TYPE            SIGMASTUDIOTYPE_8_24
 #define MOD_SINGLE2_GAINALGNS145X2GAIN_MEMORYPAGE      0
 

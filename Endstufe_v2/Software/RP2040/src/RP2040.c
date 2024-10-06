@@ -161,18 +161,20 @@ void pcm1865_printStatus() {
 
 void shutdown_amplifiers() {
     printf("Disabling amplifiers!\n");
-    gpio_init(BOARD_MUTEA_PIN);
-    gpio_init(BOARD_MUTEB_PIN);
-    gpio_init(BOARD_SDZA_PIN);
-    gpio_init(BOARD_SDZB_PIN);
-    gpio_set_dir(BOARD_MUTEA_PIN, GPIO_OUT);
-    gpio_set_dir(BOARD_MUTEB_PIN, GPIO_OUT);
-    gpio_set_dir(BOARD_SDZA_PIN, GPIO_OUT);
-    gpio_set_dir(BOARD_SDZB_PIN, GPIO_OUT);
+
     gpio_put(BOARD_MUTEA_PIN, 1);
     gpio_put(BOARD_MUTEB_PIN, 1);
     gpio_put(BOARD_SDZA_PIN, 0);
     gpio_put(BOARD_SDZB_PIN, 0);
+}
+
+void enable_amplifiers() {
+    printf("Disabling amplifiers!\n");
+    
+    gpio_put(BOARD_MUTEA_PIN, 0);
+    gpio_put(BOARD_MUTEB_PIN, 0);
+    gpio_put(BOARD_SDZA_PIN, 1);
+    gpio_put(BOARD_SDZB_PIN, 1);
 }
 
 void setup_adau1962a() {
@@ -195,16 +197,37 @@ void setup_adau1962a() {
     // I2S, Stero (no TDM), 192Khz Low Propagation Delay, Stay muted
     data[0] = 0x06;
     data[1] = 0b00000111;
-    i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+    status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+    printf("%d\n", status);
 
     sleep_ms(50);
 
     // Unmute
     data[0] = 0x06;
     data[1] = 0b00000110;
-    i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+    status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+    printf("%d\n", status);
+
+    sleep_ms(50);
 
     // https://ez.analog.com/audio/f/q-a/90292/adau1966a-register-programming-sequence/264515
+}
+
+void read_i2c_register(const uint8_t i2c_addr, const uint8_t reg_addr, uint8_t length) {
+    uint8_t dst[36];
+    i2c_write_blocking(BOARD_I2C, i2c_addr, &reg_addr, 1, true);
+    int bytes_read = i2c_read_blocking(BOARD_I2C, i2c_addr, dst, length, false);
+    printf("Read %d bytes from i2c_addr 0x%x, register 0x%x: ", bytes_read, i2c_addr, reg_addr);
+    for(int i = 0; i < length; i++) {
+        printf("0x%x ", dst[i]);
+    }
+    printf("\n");
+}
+
+void read_adau1962a() {
+    printf("ADAU1962A register dump:\n");
+    read_i2c_register(I2C_ADAU1962A_ADDRESS, 0x00, 32);
+    //read_i2c_register(I2C_ADAU1962A_ADDRESS, 0x06, 1);
 }
 
 int main()
@@ -218,10 +241,20 @@ int main()
     gpio_pull_up(BOARD_I2C_SDA_PIN);
     gpio_pull_up(BOARD_I2C_SCL_PIN);
 
+    // Setup amp gpios
+    gpio_init(BOARD_MUTEA_PIN);
+    gpio_init(BOARD_MUTEB_PIN);
+    gpio_init(BOARD_SDZA_PIN);
+    gpio_init(BOARD_SDZB_PIN);
+    gpio_set_dir(BOARD_MUTEA_PIN, GPIO_OUT);
+    gpio_set_dir(BOARD_MUTEB_PIN, GPIO_OUT);
+    gpio_set_dir(BOARD_SDZA_PIN, GPIO_OUT);
+    gpio_set_dir(BOARD_SDZB_PIN, GPIO_OUT);
+
     printf("\nEndstufe\n");
 
-    enable_adau1962a();
     shutdown_amplifiers();
+    enable_adau1962a();
     
     setup_dsp();
 
@@ -232,6 +265,8 @@ int main()
     pcm1865_printStatus();
 
     setup_adau1962a();
+    read_adau1962a();
+    enable_amplifiers();
 
     while (true) {
         sleep_ms(1000);

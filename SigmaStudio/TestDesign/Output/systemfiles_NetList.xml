@@ -33,19 +33,19 @@
             <Algorithm name="ICOutADAU145X2" friendlyname="Output " cell="Output2 " location="{X=636, Y=259} " Growth="1 " GrowthB="0">
                 <Link pin="I_C21_A0_P1_in" dir="in" link="Link1" />
             </Algorithm>
-            <Algorithm name="GainAlgNS145X1" friendlyname="Gain (no-slew) " cell="Single 1 " location="{X=521, Y=526} " Growth="1 " GrowthB="0">
+            <Algorithm name="GainAlgNS145X1" friendlyname="Gain (no-slew) " cell="Single 1 " location="{X=468, Y=572} " Growth="1 " GrowthB="0">
                 <Link pin="I_C19_A0_P1_in" dir="in" link="Link2" />
-                <Link pin="O_C19_A0_P2_out" dir="out" link="Link4" />
+                <Link pin="O_C19_A0_P2_out" dir="out" link="Link5" />
             </Algorithm>
-            <Algorithm name="GainAlgNS145X2" friendlyname="Gain (no-slew) " cell="Single 2 " location="{X=514, Y=740} " Growth="1 " GrowthB="0">
+            <Algorithm name="GainAlgNS145X2" friendlyname="Gain (no-slew) " cell="Single 2 " location="{X=468, Y=764} " Growth="1 " GrowthB="0">
                 <Link pin="I_C29_A0_P1_in" dir="in" link="Link3" />
-                <Link pin="O_C29_A0_P2_out" dir="out" link="Link5" />
-            </Algorithm>
-            <Algorithm name="ICOutADAU145X3" friendlyname="Output " cell="Output3 " location="{X=658, Y=727} " Growth="1 " GrowthB="0">
-                <Link pin="I_C69_A0_P1_in" dir="in" link="Link4" />
+                <Link pin="O_C29_A0_P2_out" dir="out" link="Link4" />
             </Algorithm>
             <Algorithm name="ICOutADAU145X4" friendlyname="Output " cell="Output4 " location="{X=667, Y=778} " Growth="1 " GrowthB="0">
-                <Link pin="I_C71_A0_P1_in" dir="in" link="Link5" />
+                <Link pin="I_C71_A0_P1_in" dir="in" link="Link4" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X3" friendlyname="Output " cell="Output3 " location="{X=863, Y=632} " Growth="1 " GrowthB="0">
+                <Link pin="I_C69_A0_P1_in" dir="in" link="Link5" />
             </Algorithm>
         </Schematic>
     </IC>

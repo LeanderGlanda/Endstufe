@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Friday, October 4, 2024 10:24:55 PM
+ * Created:        Sunday, October 6, 2024 10:47:50 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -28,7 +28,7 @@
 /* PLL_CTRL1  - Registers (IC 1) */
 #define REG_PLL_CTRL1_IC_1_ADDR                   0xF001
 #define REG_PLL_CTRL1_IC_1_BYTE                   2
-#define REG_PLL_CTRL1_IC_1_VALUE                  0x2
+#define REG_PLL_CTRL1_IC_1_VALUE                  0x3
 
 /* PLL_CLK_SRC  - Registers (IC 1) */
 #define REG_PLL_CLK_SRC_IC_1_ADDR                 0xF002
@@ -1093,7 +1093,7 @@
 /* START_ADDRESS  - Registers (IC 1) */
 #define REG_START_ADDRESS_IC_1_ADDR               0xF404
 #define REG_START_ADDRESS_IC_1_BYTE               2
-#define REG_START_ADDRESS_IC_1_VALUE              0xC000
+#define REG_START_ADDRESS_IC_1_VALUE              0x0
 
 /* CORE_STATUS  - Registers (IC 1) */
 #define REG_CORE_STATUS_IC_1_ADDR                 0xF405
@@ -3078,7 +3078,7 @@
 #define R0_PLL_CTRL0_PLL_FBDIVIDER_IC_1_SHIFT     0
 
 /* PLL_CTRL1 (IC 1) */
-#define R1_PLL_CTRL1_PLL_DIV_IC_1                 0x2    /* 10b	[1:0] */
+#define R1_PLL_CTRL1_PLL_DIV_IC_1                 0x3    /* 11b	[1:0] */
 #define R1_PLL_CTRL1_PLL_DIV_IC_1_MASK            0x3
 #define R1_PLL_CTRL1_PLL_DIV_IC_1_SHIFT           0
 
@@ -6117,7 +6117,7 @@
 #define R213_KILL_CORE_KILL_CORE_IC_1_SHIFT       0
 
 /* START_ADDRESS (IC 1) */
-#define R214_START_ADDRESS_START_ADDRESS_IC_1     0xC000 /* 1100000000000000b	[15:0] */
+#define R214_START_ADDRESS_START_ADDRESS_IC_1     0x0000 /* 0000000000000000b	[15:0] */
 #define R214_START_ADDRESS_START_ADDRESS_IC_1_MASK 0xFFFF
 #define R214_START_ADDRESS_START_ADDRESS_IC_1_SHIFT 0
 

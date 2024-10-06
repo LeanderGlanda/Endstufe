@@ -19,9 +19,9 @@ Parameter Data :
 Cell Name         = Single 2
 Parameter Name    = GainAlgNS145X2gain
 Parameter Address = 22
-Parameter Value   = 0.630957365036011
+Parameter Value   = 1
 Parameter Data :
-0x00, 0xA1, 0x86, 0x6C, 
+0x01, 0x00, 0x00, 0x00, 
 
 
 
