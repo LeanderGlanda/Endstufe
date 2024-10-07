@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Sunday, October 6, 2024 10:47:50 PM
+ * Created:        Monday, October 7, 2024 8:45:59 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -363,7 +363,7 @@
 /* SERIAL_BYTE_5_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_0_IC_1_ADDR             0xF214
 #define REG_SERIAL_BYTE_5_0_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x9000
+#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x9041
 
 /* SERIAL_BYTE_5_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_1_IC_1_ADDR             0xF215
@@ -1813,7 +1813,7 @@
 /* SPDIF_RESTART  - Registers (IC 1) */
 #define REG_SPDIF_RESTART_IC_1_ADDR               0xF604
 #define REG_SPDIF_RESTART_IC_1_BYTE               2
-#define REG_SPDIF_RESTART_IC_1_VALUE              0x0
+#define REG_SPDIF_RESTART_IC_1_VALUE              0x1
 
 /* SPDIF_LOSS_OF_LOCK  - Registers (IC 1) */
 #define REG_SPDIF_LOSS_OF_LOCK_IC_1_ADDR          0xF605
@@ -3698,9 +3698,9 @@
 #define R67_SERIAL_BYTE_4_1_TRISTATE_IC_1_SHIFT   5
 
 /* SERIAL_BYTE_5_0 (IC 1) */
-#define R68_SERIAL_BYTE_5_0_TDM_MODE_IC_1         0x0    /* 000b	[2:0] */
+#define R68_SERIAL_BYTE_5_0_TDM_MODE_IC_1         0x1    /* 001b	[2:0] */
 #define R68_SERIAL_BYTE_5_0_DATA_FMT_IC_1         0x0    /* 00b	[4:3] */
-#define R68_SERIAL_BYTE_5_0_WORD_LEN_IC_1         0x0    /* 00b	[6:5] */
+#define R68_SERIAL_BYTE_5_0_WORD_LEN_IC_1         0x2    /* 10b	[6:5] */
 #define R68_SERIAL_BYTE_5_0_BCLK_POL_IC_1         0x0    /* 0b	[7] */
 #define R68_SERIAL_BYTE_5_0_LRCLK_POL_IC_1        0x0    /* 0b	[8] */
 #define R68_SERIAL_BYTE_5_0_LRCLK_MODE_IC_1       0x0    /* 0b	[9] */
@@ -7536,7 +7536,7 @@
 #define R357_SPDIF_RX_COMPRMODE_COMPR_MODE_IC_1_SHIFT 0
 
 /* SPDIF_RESTART (IC 1) */
-#define R358_SPDIF_RESTART_RESTART_AUDIO_IC_1     0x0    /* 0b	[0] */
+#define R358_SPDIF_RESTART_RESTART_AUDIO_IC_1     0x1    /* 1b	[0] */
 #define R358_SPDIF_RESTART_RESTART_AUDIO_IC_1_MASK 0x1
 #define R358_SPDIF_RESTART_RESTART_AUDIO_IC_1_SHIFT 0
 

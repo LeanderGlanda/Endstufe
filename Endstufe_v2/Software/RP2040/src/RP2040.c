@@ -95,8 +95,8 @@ void pcm1865_init() {
 
     // Enable Automatic Clipping Supression
     data[0] = 0x05;
-    data[1] = 0b10000111;
-    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
+    data[1] = 0b10111111;
+    //status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
 
     // Settings for ADC1 OK (0x06 and 0x07)
     // ADC2 needs to be configured for VIN(L/R)2
@@ -172,9 +172,9 @@ void enable_amplifiers() {
     printf("Disabling amplifiers!\n");
     
     gpio_put(BOARD_MUTEA_PIN, 0);
-    gpio_put(BOARD_MUTEB_PIN, 0);
+    //gpio_put(BOARD_MUTEB_PIN, 0);
     gpio_put(BOARD_SDZA_PIN, 1);
-    gpio_put(BOARD_SDZB_PIN, 1);
+    //gpio_put(BOARD_SDZB_PIN, 1);
 }
 
 void setup_adau1962a() {
@@ -194,9 +194,15 @@ void setup_adau1962a() {
     status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
     printf("%d\n", status);
 
-    // I2S, Stero (no TDM), 192Khz Low Propagation Delay, Stay muted
+    // I2S, TDM4, 192Khz Low Propagation Delay, Stay muted
     data[0] = 0x06;
-    data[1] = 0b00000111;
+    data[1] = 0b00010101;
+    status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+    printf("%d\n", status);
+
+    // Make outputs quieter
+    data[0] = 0x0B;
+    data[1] = 0b00001000;
     status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
     printf("%d\n", status);
 
@@ -204,7 +210,7 @@ void setup_adau1962a() {
 
     // Unmute
     data[0] = 0x06;
-    data[1] = 0b00000110;
+    data[1] = 0b00010100;
     status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
     printf("%d\n", status);
 
@@ -266,7 +272,7 @@ int main()
 
     setup_adau1962a();
     read_adau1962a();
-    enable_amplifiers();
+    //enable_amplifiers();
 
     while (true) {
         sleep_ms(1000);
