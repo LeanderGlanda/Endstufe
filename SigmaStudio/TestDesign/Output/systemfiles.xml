@@ -401,7 +401,7 @@
             <Address>61972</Address>
             <AddrIncr>0</AddrIncr>
             <Size>2</Size>
-            <Data>0x90, 0x01, </Data>
+            <Data>0x90, 0x00, </Data>
         </Register>
         <Register>
             <Name>IC 1.SERIAL_BYTE_6_0</Name>
@@ -437,6 +437,13 @@
             <AddrIncr>0</AddrIncr>
             <Size>2</Size>
             <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_7_ROUTE</Name>
+            <Address>62023</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x14, </Data>
         </Register>
         <Program>
             <Name>Program Data</Name>

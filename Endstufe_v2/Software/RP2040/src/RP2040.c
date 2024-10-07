@@ -196,7 +196,7 @@ void setup_adau1962a() {
 
     // I2S, TDM4, 192Khz Low Propagation Delay, Stay muted
     data[0] = 0x06;
-    data[1] = 0b00010101;
+    data[1] = 0b00000101;
     status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
     printf("%d\n", status);
 
@@ -210,7 +210,7 @@ void setup_adau1962a() {
 
     // Unmute
     data[0] = 0x06;
-    data[1] = 0b00010100;
+    data[1] = 0b00000100;
     status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
     printf("%d\n", status);
 

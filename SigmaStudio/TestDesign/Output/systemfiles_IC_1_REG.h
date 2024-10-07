@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Monday, October 7, 2024 9:26:02 PM
+ * Created:        Monday, October 7, 2024 9:31:43 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -363,7 +363,7 @@
 /* SERIAL_BYTE_5_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_0_IC_1_ADDR             0xF214
 #define REG_SERIAL_BYTE_5_0_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x9001
+#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x9000
 
 /* SERIAL_BYTE_5_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_1_IC_1_ADDR             0xF215
@@ -428,7 +428,7 @@
 /* SDATA_7_ROUTE  - Registers (IC 1) */
 #define REG_SDATA_7_ROUTE_IC_1_ADDR               0xF247
 #define REG_SDATA_7_ROUTE_IC_1_BYTE               2
-#define REG_SDATA_7_ROUTE_IC_1_VALUE              0x0
+#define REG_SDATA_7_ROUTE_IC_1_VALUE              0x14
 
 /* FTDM_IN0  - Registers (IC 1) */
 #define REG_FTDM_IN0_IC_1_ADDR                    0xF300
@@ -3698,7 +3698,7 @@
 #define R67_SERIAL_BYTE_4_1_TRISTATE_IC_1_SHIFT   5
 
 /* SERIAL_BYTE_5_0 (IC 1) */
-#define R68_SERIAL_BYTE_5_0_TDM_MODE_IC_1         0x1    /* 001b	[2:0] */
+#define R68_SERIAL_BYTE_5_0_TDM_MODE_IC_1         0x0    /* 000b	[2:0] */
 #define R68_SERIAL_BYTE_5_0_DATA_FMT_IC_1         0x0    /* 00b	[4:3] */
 #define R68_SERIAL_BYTE_5_0_WORD_LEN_IC_1         0x0    /* 00b	[6:5] */
 #define R68_SERIAL_BYTE_5_0_BCLK_POL_IC_1         0x0    /* 0b	[7] */
@@ -3908,8 +3908,8 @@
 
 /* SDATA_7_ROUTE (IC 1) */
 #define R81_SDATA_7_ROUTE_CHAN_IC_1               0x0    /* 00b	[1:0] */
-#define R81_SDATA_7_ROUTE_PORT_SEL_IC_1           0x0    /* 00b	[3:2] */
-#define R81_SDATA_7_ROUTE_DIR_IC_1                0x0    /* 0b	[4] */
+#define R81_SDATA_7_ROUTE_PORT_SEL_IC_1           0x1    /* 01b	[3:2] */
+#define R81_SDATA_7_ROUTE_DIR_IC_1                0x1    /* 1b	[4] */
 #define R81_SDATA_7_ROUTE_ENBL_IC_1               0x0    /* 0b	[5] */
 #define R81_SDATA_7_ROUTE_CHAN_IC_1_MASK          0x3
 #define R81_SDATA_7_ROUTE_CHAN_IC_1_SHIFT         0
