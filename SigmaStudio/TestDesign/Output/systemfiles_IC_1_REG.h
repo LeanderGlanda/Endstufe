@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Monday, October 7, 2024 8:45:59 PM
+ * Created:        Monday, October 7, 2024 9:26:02 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -363,7 +363,7 @@
 /* SERIAL_BYTE_5_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_0_IC_1_ADDR             0xF214
 #define REG_SERIAL_BYTE_5_0_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x9041
+#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x9001
 
 /* SERIAL_BYTE_5_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_1_IC_1_ADDR             0xF215
@@ -2843,7 +2843,7 @@
 /* BCLK_OUT1_PIN  - Registers (IC 1) */
 #define REG_BCLK_OUT1_PIN_IC_1_ADDR               0xF785
 #define REG_BCLK_OUT1_PIN_IC_1_BYTE               2
-#define REG_BCLK_OUT1_PIN_IC_1_VALUE              0x18
+#define REG_BCLK_OUT1_PIN_IC_1_VALUE              0x1B
 
 /* BCLK_OUT2_PIN  - Registers (IC 1) */
 #define REG_BCLK_OUT2_PIN_IC_1_ADDR               0xF786
@@ -2883,7 +2883,7 @@
 /* LRCLK_OUT1_PIN  - Registers (IC 1) */
 #define REG_LRCLK_OUT1_PIN_IC_1_ADDR              0xF78D
 #define REG_LRCLK_OUT1_PIN_IC_1_BYTE              2
-#define REG_LRCLK_OUT1_PIN_IC_1_VALUE             0x18
+#define REG_LRCLK_OUT1_PIN_IC_1_VALUE             0x1B
 
 /* LRCLK_OUT2_PIN  - Registers (IC 1) */
 #define REG_LRCLK_OUT2_PIN_IC_1_ADDR              0xF78E
@@ -2923,7 +2923,7 @@
 /* SDATA_OUT1_PIN  - Registers (IC 1) */
 #define REG_SDATA_OUT1_PIN_IC_1_ADDR              0xF795
 #define REG_SDATA_OUT1_PIN_IC_1_BYTE              2
-#define REG_SDATA_OUT1_PIN_IC_1_VALUE             0x8
+#define REG_SDATA_OUT1_PIN_IC_1_VALUE             0xB
 
 /* SDATA_OUT2_PIN  - Registers (IC 1) */
 #define REG_SDATA_OUT2_PIN_IC_1_ADDR              0xF796
@@ -3700,7 +3700,7 @@
 /* SERIAL_BYTE_5_0 (IC 1) */
 #define R68_SERIAL_BYTE_5_0_TDM_MODE_IC_1         0x1    /* 001b	[2:0] */
 #define R68_SERIAL_BYTE_5_0_DATA_FMT_IC_1         0x0    /* 00b	[4:3] */
-#define R68_SERIAL_BYTE_5_0_WORD_LEN_IC_1         0x2    /* 10b	[6:5] */
+#define R68_SERIAL_BYTE_5_0_WORD_LEN_IC_1         0x0    /* 00b	[6:5] */
 #define R68_SERIAL_BYTE_5_0_BCLK_POL_IC_1         0x0    /* 0b	[7] */
 #define R68_SERIAL_BYTE_5_0_LRCLK_POL_IC_1        0x0    /* 0b	[8] */
 #define R68_SERIAL_BYTE_5_0_LRCLK_MODE_IC_1       0x0    /* 0b	[9] */
@@ -8599,7 +8599,7 @@
 #define R563_BCLK_OUT0_PIN_BCLK_OUT_PULL_IC_1_SHIFT 4
 
 /* BCLK_OUT1_PIN (IC 1) */
-#define R564_BCLK_OUT1_PIN_BCLK_OUT_DRIVE_IC_1    0x0    /* 00b	[1:0] */
+#define R564_BCLK_OUT1_PIN_BCLK_OUT_DRIVE_IC_1    0x3    /* 11b	[1:0] */
 #define R564_BCLK_OUT1_PIN_BCLK_OUT_SLEW_IC_1     0x2    /* 10b	[3:2] */
 #define R564_BCLK_OUT1_PIN_BCLK_OUT_PULL_IC_1     0x1    /* 1b	[4] */
 #define R564_BCLK_OUT1_PIN_BCLK_OUT_DRIVE_IC_1_MASK 0x3
@@ -8687,7 +8687,7 @@
 #define R571_LRCLK_OUT0_PIN_LRCLK_OUT_PULL_IC_1_SHIFT 4
 
 /* LRCLK_OUT1_PIN (IC 1) */
-#define R572_LRCLK_OUT1_PIN_LRCLK_OUT_DRIVE_IC_1  0x0    /* 00b	[1:0] */
+#define R572_LRCLK_OUT1_PIN_LRCLK_OUT_DRIVE_IC_1  0x3    /* 11b	[1:0] */
 #define R572_LRCLK_OUT1_PIN_LRCLK_OUT_SLEW_IC_1   0x2    /* 10b	[3:2] */
 #define R572_LRCLK_OUT1_PIN_LRCLK_OUT_PULL_IC_1   0x1    /* 1b	[4] */
 #define R572_LRCLK_OUT1_PIN_LRCLK_OUT_DRIVE_IC_1_MASK 0x3
@@ -8775,7 +8775,7 @@
 #define R579_SDATA_OUT0_PIN_SDATA_OUT_PULL_IC_1_SHIFT 4
 
 /* SDATA_OUT1_PIN (IC 1) */
-#define R580_SDATA_OUT1_PIN_SDATA_OUT_DRIVE_IC_1  0x0    /* 00b	[1:0] */
+#define R580_SDATA_OUT1_PIN_SDATA_OUT_DRIVE_IC_1  0x3    /* 11b	[1:0] */
 #define R580_SDATA_OUT1_PIN_SDATA_OUT_SLEW_IC_1   0x2    /* 10b	[3:2] */
 #define R580_SDATA_OUT1_PIN_SDATA_OUT_PULL_IC_1   0x0    /* 0b	[4] */
 #define R580_SDATA_OUT1_PIN_SDATA_OUT_DRIVE_IC_1_MASK 0x3

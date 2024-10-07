@@ -272,7 +272,7 @@ int main()
 
     setup_adau1962a();
     read_adau1962a();
-    //enable_amplifiers();
+    enable_amplifiers();
 
     while (true) {
         sleep_ms(1000);
