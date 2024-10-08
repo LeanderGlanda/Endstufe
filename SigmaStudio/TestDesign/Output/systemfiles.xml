@@ -177,21 +177,21 @@
             <Address>63365</Address>
             <AddrIncr>0</AddrIncr>
             <Size>2</Size>
-            <Data>0x00, 0x1B, </Data>
+            <Data>0x00, 0x1F, </Data>
         </Register>
         <Register>
             <Name>IC 1.LRCLK_OUT1_PIN</Name>
             <Address>63373</Address>
             <AddrIncr>0</AddrIncr>
             <Size>2</Size>
-            <Data>0x00, 0x1B, </Data>
+            <Data>0x00, 0x1F, </Data>
         </Register>
         <Register>
             <Name>IC 1.SDATA_OUT1_PIN</Name>
             <Address>63381</Address>
             <AddrIncr>0</AddrIncr>
             <Size>2</Size>
-            <Data>0x00, 0x0B, </Data>
+            <Data>0x00, 0x0F, </Data>
         </Register>
         <Register>
             <Name>IC 1.SOUT_SOURCE0</Name>
@@ -401,7 +401,7 @@
             <Address>61972</Address>
             <AddrIncr>0</AddrIncr>
             <Size>2</Size>
-            <Data>0x90, 0x00, </Data>
+            <Data>0x90, 0x01, </Data>
         </Register>
         <Register>
             <Name>IC 1.SERIAL_BYTE_6_0</Name>

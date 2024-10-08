@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1.h
  *
- * Created:        Monday, October 7, 2024 9:31:43 PM
+ * Created:        Tuesday, October 8, 2024 4:09:32 PM
  * Description:    TestDesigndspproj:IC 1 program data.
  *
  * This software is distributed in the hope that it will be useful,
@@ -350,17 +350,17 @@ ADI_REG_TYPE R17_CLK_GEN1_N_IC_1_Default[REG_CLK_GEN1_N_IC_1_BYTE] = {
 
 /* Register Default - IC 1.BCLK_OUT1_PIN */
 ADI_REG_TYPE R18_BCLK_OUT1_PIN_IC_1_Default[REG_BCLK_OUT1_PIN_IC_1_BYTE] = {
-0x00, 0x1B
+0x00, 0x1F
 };
 
 /* Register Default - IC 1.LRCLK_OUT1_PIN */
 ADI_REG_TYPE R19_LRCLK_OUT1_PIN_IC_1_Default[REG_LRCLK_OUT1_PIN_IC_1_BYTE] = {
-0x00, 0x1B
+0x00, 0x1F
 };
 
 /* Register Default - IC 1.SDATA_OUT1_PIN */
 ADI_REG_TYPE R20_SDATA_OUT1_PIN_IC_1_Default[REG_SDATA_OUT1_PIN_IC_1_BYTE] = {
-0x00, 0x0B
+0x00, 0x0F
 };
 
 /* Register Default - IC 1.SOUT_SOURCE0 */
@@ -510,7 +510,7 @@ ADI_REG_TYPE R49_SERIAL_BYTE_4_0_IC_1_Default[REG_SERIAL_BYTE_4_0_IC_1_BYTE] = {
 
 /* Register Default - IC 1.SERIAL_BYTE_5_0 */
 ADI_REG_TYPE R50_SERIAL_BYTE_5_0_IC_1_Default[REG_SERIAL_BYTE_5_0_IC_1_BYTE] = {
-0x90, 0x00
+0x90, 0x01
 };
 
 /* Register Default - IC 1.SERIAL_BYTE_6_0 */
