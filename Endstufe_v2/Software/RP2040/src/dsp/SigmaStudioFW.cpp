@@ -74,7 +74,7 @@ void SIGMA_WRITE_REGISTER_BLOCK(uint8_t devAddress, int register_address, int le
     write_buffer[1] = (uint8_t)(((uint16_t)register_address) & 0xff);
     memcpy(&write_buffer[2], pData, length);
     int bytes_written = 0;
-    bytes_written += i2c_write_blocking(BOARD_I2C, I2C_ADAU1467_ADDRESS, write_buffer, length + 2, false);
+    bytes_written += i2c_write_blocking(BOARD_I2C, devAddress, write_buffer, length + 2, false);
     if (bytes_written != (length + 2))
     {
         std::cout << "Sent " << bytes_written << ", but should have sent " << length << " bytes!\n";

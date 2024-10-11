@@ -196,7 +196,13 @@ void setup_adau1962a() {
 
     // I2S, TDM4, 192Khz Low Propagation Delay, Stay muted
     data[0] = 0x06;
-    data[1] = 0b00000101;
+    data[1] = 0b00010101;
+    status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+    printf("%d\n", status);
+
+    // Latch on BCLK Falling Edge
+    data[0] = 0x07;
+    data[1] = 0b00000010;
     status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
     printf("%d\n", status);
 
@@ -210,7 +216,7 @@ void setup_adau1962a() {
 
     // Unmute
     data[0] = 0x06;
-    data[1] = 0b00000100;
+    data[1] = 0b00010100;
     status = i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
     printf("%d\n", status);
 
@@ -270,8 +276,10 @@ int main()
     sleep_ms(100);
     pcm1865_printStatus();
 
-    setup_adau1962a();
-    read_adau1962a();
+    load_sigmastudio_program_adau1962a();
+    sleep_ms(10);
+    //setup_adau1962a();
+    //read_adau1962a();
     enable_amplifiers();
 
     while (true) {

@@ -608,4 +608,232 @@
             </Algorithm>
         </Module>
     </IC>
+    <IC>
+        <Name>IC 2</Name>
+        <PartNumber>ADAU1966</PartNumber>
+        <Register>
+            <Name>IC 2.PLL_CLK_CTRL0 Register.PLL_CLK_CTRL0</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x05, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.PLL_CLK_CTRL1 Register.PLL_CLK_CTRL1</Name>
+            <Address>1</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x2A, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.PDN_THRMSENS_CTRL_1 Register.PDN_THRMSENS_CTRL_1</Name>
+            <Address>2</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0xA4, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.PDN_CTRL2 Register.PDN_CTRL2</Name>
+            <Address>3</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.PDN_CTRL3 Register.PDN_CTRL3</Name>
+            <Address>4</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC_CTRL0 Register.DAC_CTRL0</Name>
+            <Address>6</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x15, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC_CTRL1 Register.DAC_CTRL1</Name>
+            <Address>7</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC_CTRL2 Register.DAC_CTRL2</Name>
+            <Address>8</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x06, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC_MUTE1 Register.DAC_MUTE1</Name>
+            <Address>9</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC_MUTE2 Register.DAC_MUTE2</Name>
+            <Address>10</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DACMSTR_VOL Register.DACMSTR_VOL</Name>
+            <Address>11</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x20, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC01_VOL Register.DAC01_VOL</Name>
+            <Address>12</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC02_VOL Register.DAC02_VOL</Name>
+            <Address>13</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC03_VOL Register.DAC03_VOL</Name>
+            <Address>14</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC04_VOL Register.DAC04_VOL</Name>
+            <Address>15</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC05_VOL Register.DAC05_VOL</Name>
+            <Address>16</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC06_VOL Register.DAC06_VOL</Name>
+            <Address>17</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC07_VOL Register.DAC07_VOL</Name>
+            <Address>18</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC08_VOL Register.DAC08_VOL</Name>
+            <Address>19</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC09_VOL Register.DAC09_VOL</Name>
+            <Address>20</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC10_VOL Register.DAC10_VOL</Name>
+            <Address>21</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC11_VOL Register.DAC11_VOL</Name>
+            <Address>22</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC12_VOL Register.DAC12_VOL</Name>
+            <Address>23</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC13_VOL Register.DAC13_VOL</Name>
+            <Address>24</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC14_VOL Register.DAC14_VOL</Name>
+            <Address>25</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC15_VOL Register.DAC15_VOL</Name>
+            <Address>26</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC16_VOL Register.DAC16_VOL</Name>
+            <Address>27</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.CM_SEL_PAD_STRGTH Register.CM_SEL_PAD_STRGTH</Name>
+            <Address>28</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC_POWER1 Register.DAC_POWER1</Name>
+            <Address>29</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0xAA, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC_POWER2 Register.DAC_POWER2</Name>
+            <Address>30</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0xAA, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC_POWER3 Register.DAC_POWER3</Name>
+            <Address>31</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0xAA, </Data>
+        </Register>
+        <Register>
+            <Name>IC 2.DAC_POWER4 Register.DAC_POWER4</Name>
+            <Address>32</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>1</Size>
+            <Data>0xAA, </Data>
+        </Register>
+    </IC>
 </Schematic>

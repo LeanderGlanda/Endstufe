@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1.h
  *
- * Created:        Tuesday, October 8, 2024 4:09:32 PM
+ * Created:        Friday, October 11, 2024 9:04:13 PM
  * Description:    TestDesigndspproj:IC 1 program data.
  *
  * This software is distributed in the hope that it will be useful,

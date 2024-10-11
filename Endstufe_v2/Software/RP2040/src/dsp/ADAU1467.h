@@ -4,6 +4,8 @@ extern "C" {
 
 void load_sigmastudio_program_adau1467();
 
+void load_sigmastudio_program_adau1962a();
+
 #ifdef __cplusplus
 }
 #endif

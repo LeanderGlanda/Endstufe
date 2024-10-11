@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1.h
  *
- * Created:        Tuesday, October 8, 2024 4:09:32 PM
+ * Created:        Friday, October 11, 2024 9:04:13 PM
  * Description:    TestDesigndspproj:IC 1 program data.
  *
  * This software is distributed in the hope that it will be useful,
@@ -23,7 +23,7 @@
 #include "systemfiles_IC_1_REG.h"
 
 #define DEVICE_ARCHITECTURE_IC_1                  "ADAU1467"
-#define DEVICE_ADDR_IC_1                          0x0
+#define DEVICE_ADDR_IC_1                          0x38
 
 /* DSP Ram Data */
 #define DM1_DATA_SIZE_IC_1 80

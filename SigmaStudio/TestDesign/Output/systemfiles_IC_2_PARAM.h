@@ -1,8 +1,8 @@
 /*
- * File:           defines.h
+ * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_PARAM.h
  *
  * Created:        Friday, October 11, 2024 9:04:13 PM
- * Description:    TestDesigndspproj IC default download data definitions.
+ * Description:    TestDesigndspproj:IC 2 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,
  * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
@@ -16,14 +16,8 @@
  *
  * Copyright ©2024 Analog Devices, Inc. All rights reserved.
  */
-#ifndef __DEFINES_H__
-#define __DEFINES_H__
-
-#define BufferSize_IC_1     	1094
-#define NumTransactions_IC_1	67
-
-#define BufferSize_IC_2     	96
-#define NumTransactions_IC_2	32
+#ifndef __SYSTEMFILES_IC_2_PARAM_H__
+#define __SYSTEMFILES_IC_2_PARAM_H__
 
 
 #endif

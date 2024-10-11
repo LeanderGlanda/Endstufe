@@ -1,0 +1,64 @@
+0x00, 0x00, 			/* (0) IC 2.PLL_CLK_CTRL0 Register.PLL_CLK_CTRL0 */
+0x05, 
+0x00, 0x01, 			/* (1) IC 2.PLL_CLK_CTRL1 Register.PLL_CLK_CTRL1 */
+0x2A, 
+0x00, 0x02, 			/* (2) IC 2.PDN_THRMSENS_CTRL_1 Register.PDN_THRMSENS_CTRL_1 */
+0xA4, 
+0x00, 0x03, 			/* (3) IC 2.PDN_CTRL2 Register.PDN_CTRL2 */
+0x00, 
+0x00, 0x04, 			/* (4) IC 2.PDN_CTRL3 Register.PDN_CTRL3 */
+0x00, 
+0x00, 0x06, 			/* (5) IC 2.DAC_CTRL0 Register.DAC_CTRL0 */
+0x15, 
+0x00, 0x07, 			/* (6) IC 2.DAC_CTRL1 Register.DAC_CTRL1 */
+0x02, 
+0x00, 0x08, 			/* (7) IC 2.DAC_CTRL2 Register.DAC_CTRL2 */
+0x06, 
+0x00, 0x09, 			/* (8) IC 2.DAC_MUTE1 Register.DAC_MUTE1 */
+0x00, 
+0x00, 0x0A, 			/* (9) IC 2.DAC_MUTE2 Register.DAC_MUTE2 */
+0x00, 
+0x00, 0x0B, 			/* (10) IC 2.DACMSTR_VOL Register.DACMSTR_VOL */
+0x20, 
+0x00, 0x0C, 			/* (11) IC 2.DAC01_VOL Register.DAC01_VOL */
+0x00, 
+0x00, 0x0D, 			/* (12) IC 2.DAC02_VOL Register.DAC02_VOL */
+0x00, 
+0x00, 0x0E, 			/* (13) IC 2.DAC03_VOL Register.DAC03_VOL */
+0x00, 
+0x00, 0x0F, 			/* (14) IC 2.DAC04_VOL Register.DAC04_VOL */
+0x00, 
+0x00, 0x10, 			/* (15) IC 2.DAC05_VOL Register.DAC05_VOL */
+0x00, 
+0x00, 0x11, 			/* (16) IC 2.DAC06_VOL Register.DAC06_VOL */
+0x00, 
+0x00, 0x12, 			/* (17) IC 2.DAC07_VOL Register.DAC07_VOL */
+0x00, 
+0x00, 0x13, 			/* (18) IC 2.DAC08_VOL Register.DAC08_VOL */
+0x00, 
+0x00, 0x14, 			/* (19) IC 2.DAC09_VOL Register.DAC09_VOL */
+0x00, 
+0x00, 0x15, 			/* (20) IC 2.DAC10_VOL Register.DAC10_VOL */
+0x00, 
+0x00, 0x16, 			/* (21) IC 2.DAC11_VOL Register.DAC11_VOL */
+0x00, 
+0x00, 0x17, 			/* (22) IC 2.DAC12_VOL Register.DAC12_VOL */
+0x00, 
+0x00, 0x18, 			/* (23) IC 2.DAC13_VOL Register.DAC13_VOL */
+0x00, 
+0x00, 0x19, 			/* (24) IC 2.DAC14_VOL Register.DAC14_VOL */
+0x00, 
+0x00, 0x1A, 			/* (25) IC 2.DAC15_VOL Register.DAC15_VOL */
+0x00, 
+0x00, 0x1B, 			/* (26) IC 2.DAC16_VOL Register.DAC16_VOL */
+0x00, 
+0x00, 0x1C, 			/* (27) IC 2.CM_SEL_PAD_STRGTH Register.CM_SEL_PAD_STRGTH */
+0x00, 
+0x00, 0x1D, 			/* (28) IC 2.DAC_POWER1 Register.DAC_POWER1 */
+0xAA, 
+0x00, 0x1E, 			/* (29) IC 2.DAC_POWER2 Register.DAC_POWER2 */
+0xAA, 
+0x00, 0x1F, 			/* (30) IC 2.DAC_POWER3 Register.DAC_POWER3 */
+0xAA, 
+0x00, 0x20, 			/* (31) IC 2.DAC_POWER4 Register.DAC_POWER4 */
+0xAA, 
