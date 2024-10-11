@@ -69,17 +69,31 @@ uint8_t getMemoryDepth(uint32_t address) {
 #endif
 
 void SIGMA_WRITE_REGISTER_BLOCK(uint8_t devAddress, int register_address, int length, uint8_t pData[]) {
-    uint8_t* write_buffer = (uint8_t*)malloc(length + 2);
-    write_buffer[0] = (uint8_t)(((uint16_t)register_address) >> 8);
-    write_buffer[1] = (uint8_t)(((uint16_t)register_address) & 0xff);
-    memcpy(&write_buffer[2], pData, length);
-    int bytes_written = 0;
-    bytes_written += i2c_write_blocking(BOARD_I2C, devAddress, write_buffer, length + 2, false);
-    if (bytes_written != (length + 2))
-    {
-        std::cout << "Sent " << bytes_written << ", but should have sent " << length << " bytes!\n";
+    if (devAddress == I2C_ADAU1467_ADDRESS) {
+        uint8_t* write_buffer = (uint8_t*)malloc(length + 2);
+        write_buffer[0] = (uint8_t)(((uint16_t)register_address) >> 8);
+        write_buffer[1] = (uint8_t)(((uint16_t)register_address) & 0xff);
+        memcpy(&write_buffer[2], pData, length);
+        int bytes_written = 0;
+        bytes_written += i2c_write_blocking(BOARD_I2C, devAddress, write_buffer, length + 2, false);
+        if (bytes_written != (length + 2))
+        {
+            std::cout << "Sent " << bytes_written << ", but should have sent " << length << " bytes!\n";
+        }
+        free(write_buffer);
+    } else if (devAddress == I2C_ADAU1962A_ADDRESS) {
+        uint8_t* write_buffer = (uint8_t*)malloc(length + 1);
+        write_buffer[0] = (uint8_t)register_address;
+        memcpy(&write_buffer[1], pData, length);
+        int bytes_written = 0;
+        bytes_written += i2c_write_blocking(BOARD_I2C, devAddress, write_buffer, length + 1, false);
+        if (bytes_written != (length + 1))
+        {
+            std::cout << "Sent " << bytes_written << ", but should have sent " << length << " bytes!\n";
+        }
+        free(write_buffer);
     }
-    free(write_buffer);
+
 }
 
 // Write a 32-bit integer to the DSP. NOTE: 5.23 not supported quite yet.

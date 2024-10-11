@@ -279,7 +279,7 @@ int main()
     load_sigmastudio_program_adau1962a();
     sleep_ms(10);
     //setup_adau1962a();
-    //read_adau1962a();
+    read_adau1962a();
     enable_amplifiers();
 
     while (true) {
