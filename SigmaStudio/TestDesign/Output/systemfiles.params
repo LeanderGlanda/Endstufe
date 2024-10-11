@@ -38,7 +38,7 @@ Cell Name         = Tone1
 Parameter Name    = SinePhaseGainAlgS3001gain_0
 Parameter Address = 20
 Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
+0x00, 0x50, 0xF4, 0x4E, 
 
 
 
@@ -64,7 +64,7 @@ Cell Name         = Tone1_2
 Parameter Name    = SinePhaseGainAlgS3002gain_0
 Parameter Address = 30
 Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
+0x00, 0x50, 0xF4, 0x4E, 
 
 
 

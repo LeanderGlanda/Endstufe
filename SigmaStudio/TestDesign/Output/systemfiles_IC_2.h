@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2.h
  *
- * Created:        Friday, October 11, 2024 9:04:13 PM
+ * Created:        Friday, October 11, 2024 10:37:47 PM
  * Description:    TestDesigndspproj:IC 2 program data.
  *
  * This software is distributed in the hope that it will be useful,
@@ -43,12 +43,12 @@ ADI_REG_TYPE R2_PDN_THRMSENS_CTRL_1_IC_2_Default[REG_PDN_THRMSENS_CTRL_1_IC_2_BY
 
 /* Register Default - IC 2.PDN_CTRL2 Register.PDN_CTRL2 */
 ADI_REG_TYPE R3_PDN_CTRL2_IC_2_Default[REG_PDN_CTRL2_IC_2_BYTE] = {
-0x00
+0xF8
 };
 
 /* Register Default - IC 2.PDN_CTRL3 Register.PDN_CTRL3 */
 ADI_REG_TYPE R4_PDN_CTRL3_IC_2_Default[REG_PDN_CTRL3_IC_2_BYTE] = {
-0x00
+0x0F
 };
 
 /* Register Default - IC 2.DAC_CTRL0 Register.DAC_CTRL0 */
@@ -58,7 +58,7 @@ ADI_REG_TYPE R5_DAC_CTRL0_IC_2_Default[REG_DAC_CTRL0_IC_2_BYTE] = {
 
 /* Register Default - IC 2.DAC_CTRL1 Register.DAC_CTRL1 */
 ADI_REG_TYPE R6_DAC_CTRL1_IC_2_Default[REG_DAC_CTRL1_IC_2_BYTE] = {
-0x02
+0x03
 };
 
 /* Register Default - IC 2.DAC_CTRL2 Register.DAC_CTRL2 */
@@ -68,12 +68,12 @@ ADI_REG_TYPE R7_DAC_CTRL2_IC_2_Default[REG_DAC_CTRL2_IC_2_BYTE] = {
 
 /* Register Default - IC 2.DAC_MUTE1 Register.DAC_MUTE1 */
 ADI_REG_TYPE R8_DAC_MUTE1_IC_2_Default[REG_DAC_MUTE1_IC_2_BYTE] = {
-0x00
+0xF8
 };
 
 /* Register Default - IC 2.DAC_MUTE2 Register.DAC_MUTE2 */
 ADI_REG_TYPE R9_DAC_MUTE2_IC_2_Default[REG_DAC_MUTE2_IC_2_BYTE] = {
-0x00
+0x0F
 };
 
 /* Register Default - IC 2.DACMSTR_VOL Register.DACMSTR_VOL */

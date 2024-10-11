@@ -5,19 +5,19 @@
 0x00, 0x02, 			/* (2) IC 2.PDN_THRMSENS_CTRL_1 Register.PDN_THRMSENS_CTRL_1 */
 0xA4, 
 0x00, 0x03, 			/* (3) IC 2.PDN_CTRL2 Register.PDN_CTRL2 */
-0x00, 
+0xF8, 
 0x00, 0x04, 			/* (4) IC 2.PDN_CTRL3 Register.PDN_CTRL3 */
-0x00, 
+0x0F, 
 0x00, 0x06, 			/* (5) IC 2.DAC_CTRL0 Register.DAC_CTRL0 */
 0x15, 
 0x00, 0x07, 			/* (6) IC 2.DAC_CTRL1 Register.DAC_CTRL1 */
-0x02, 
+0x03, 
 0x00, 0x08, 			/* (7) IC 2.DAC_CTRL2 Register.DAC_CTRL2 */
 0x06, 
 0x00, 0x09, 			/* (8) IC 2.DAC_MUTE1 Register.DAC_MUTE1 */
-0x00, 
+0xF8, 
 0x00, 0x0A, 			/* (9) IC 2.DAC_MUTE2 Register.DAC_MUTE2 */
-0x00, 
+0x0F, 
 0x00, 0x0B, 			/* (10) IC 2.DACMSTR_VOL Register.DACMSTR_VOL */
 0x20, 
 0x00, 0x0C, 			/* (11) IC 2.DAC01_VOL Register.DAC01_VOL */

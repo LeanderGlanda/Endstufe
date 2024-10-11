@@ -169,7 +169,7 @@ void shutdown_amplifiers() {
 }
 
 void enable_amplifiers() {
-    printf("Disabling amplifiers!\n");
+    printf("Enabling amplifiers!\n");
     
     gpio_put(BOARD_MUTEA_PIN, 0);
     //gpio_put(BOARD_MUTEB_PIN, 0);
@@ -242,6 +242,15 @@ void read_adau1962a() {
     //read_i2c_register(I2C_ADAU1962A_ADDRESS, 0x06, 1);
 }
 
+void unmute_adau1962a() {
+    uint8_t data[2] = {0, 0};
+    // Unmute
+    data[0] = 0x06;
+    data[1] = 0x14;
+    i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
+
+}
+
 int main()
 {
     // Configure and enable UART
@@ -280,9 +289,13 @@ int main()
     sleep_ms(10);
     //setup_adau1962a();
     read_adau1962a();
-    enable_amplifiers();
+    sleep_ms(10);
+    unmute_adau1962a();
 
     while (true) {
         sleep_ms(1000);
+        enable_amplifiers();
+        sleep_ms(1000);
+        shutdown_amplifiers();
     }
 }

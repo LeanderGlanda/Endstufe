@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_REG.h
  *
- * Created:        Friday, October 11, 2024 9:04:13 PM
+ * Created:        Friday, October 11, 2024 10:37:47 PM
  * Description:    TestDesigndspproj:IC 2 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -38,12 +38,12 @@
 /* PDN_CTRL2  - Registers (IC 2) */
 #define REG_PDN_CTRL2_IC_2_ADDR                   0x3
 #define REG_PDN_CTRL2_IC_2_BYTE                   1
-#define REG_PDN_CTRL2_IC_2_VALUE                  0x0
+#define REG_PDN_CTRL2_IC_2_VALUE                  0xF8
 
 /* PDN_CTRL3  - Registers (IC 2) */
 #define REG_PDN_CTRL3_IC_2_ADDR                   0x4
 #define REG_PDN_CTRL3_IC_2_BYTE                   1
-#define REG_PDN_CTRL3_IC_2_VALUE                  0x0
+#define REG_PDN_CTRL3_IC_2_VALUE                  0xF
 
 /* THRM_TEMP_STAT  - Registers (IC 2) */
 #define REG_THRM_TEMP_STAT_IC_2_ADDR              0x5
@@ -58,7 +58,7 @@
 /* DAC_CTRL1  - Registers (IC 2) */
 #define REG_DAC_CTRL1_IC_2_ADDR                   0x7
 #define REG_DAC_CTRL1_IC_2_BYTE                   1
-#define REG_DAC_CTRL1_IC_2_VALUE                  0x2
+#define REG_DAC_CTRL1_IC_2_VALUE                  0x3
 
 /* DAC_CTRL2  - Registers (IC 2) */
 #define REG_DAC_CTRL2_IC_2_ADDR                   0x8
@@ -68,12 +68,12 @@
 /* DAC_MUTE1  - Registers (IC 2) */
 #define REG_DAC_MUTE1_IC_2_ADDR                   0x9
 #define REG_DAC_MUTE1_IC_2_BYTE                   1
-#define REG_DAC_MUTE1_IC_2_VALUE                  0x0
+#define REG_DAC_MUTE1_IC_2_VALUE                  0xF8
 
 /* DAC_MUTE2  - Registers (IC 2) */
 #define REG_DAC_MUTE2_IC_2_ADDR                   0xA
 #define REG_DAC_MUTE2_IC_2_BYTE                   1
-#define REG_DAC_MUTE2_IC_2_VALUE                  0x0
+#define REG_DAC_MUTE2_IC_2_VALUE                  0xF
 
 /* DACMSTR_VOL  - Registers (IC 2) */
 #define REG_DACMSTR_VOL_IC_2_ADDR                 0xB
@@ -253,11 +253,11 @@
 #define R3_DAC01_PDN_IC_2                         0x0    /* 0b	[0] */
 #define R3_DAC02_PDN_IC_2                         0x0    /* 0b	[1] */
 #define R3_DAC03_PDN_IC_2                         0x0    /* 0b	[2] */
-#define R3_DAC04_PDN_IC_2                         0x0    /* 0b	[3] */
-#define R3_DAC05_PDN_IC_2                         0x0    /* 0b	[4] */
-#define R3_DAC06_PDN_IC_2                         0x0    /* 0b	[5] */
-#define R3_DAC07_PDN_IC_2                         0x0    /* 0b	[6] */
-#define R3_DAC08_PDN_IC_2                         0x0    /* 0b	[7] */
+#define R3_DAC04_PDN_IC_2                         0x1    /* 1b	[3] */
+#define R3_DAC05_PDN_IC_2                         0x1    /* 1b	[4] */
+#define R3_DAC06_PDN_IC_2                         0x1    /* 1b	[5] */
+#define R3_DAC07_PDN_IC_2                         0x1    /* 1b	[6] */
+#define R3_DAC08_PDN_IC_2                         0x1    /* 1b	[7] */
 #define R3_DAC01_PDN_IC_2_MASK                    0x1
 #define R3_DAC01_PDN_IC_2_SHIFT                   0
 #define R3_DAC02_PDN_IC_2_MASK                    0x2
@@ -276,10 +276,10 @@
 #define R3_DAC08_PDN_IC_2_SHIFT                   7
 
 /* PDN_CTRL3 (IC 2) */
-#define R4_DAC09_PDN_IC_2                         0x0    /* 0b	[0] */
-#define R4_DAC10_PDN_IC_2                         0x0    /* 0b	[1] */
-#define R4_DAC11_PDN_IC_2                         0x0    /* 0b	[2] */
-#define R4_DAC12_PDN_IC_2                         0x0    /* 0b	[3] */
+#define R4_DAC09_PDN_IC_2                         0x1    /* 1b	[0] */
+#define R4_DAC10_PDN_IC_2                         0x1    /* 1b	[1] */
+#define R4_DAC11_PDN_IC_2                         0x1    /* 1b	[2] */
+#define R4_DAC12_PDN_IC_2                         0x1    /* 1b	[3] */
 #define R4_DAC13_PDN_IC_2                         0x0    /* 0b	[4] */
 #define R4_DAC14_PDN_IC_2                         0x0    /* 0b	[5] */
 #define R4_DAC15_PDN_IC_2                         0x0    /* 0b	[6] */
@@ -321,7 +321,7 @@
 #define R6_SDATA_FMT_IC_2_SHIFT                   6
 
 /* DAC_CTRL1 (IC 2) */
-#define R7_SAI_MS_IC_2                            0x0    /* 0b	[0] */
+#define R7_SAI_MS_IC_2                            0x1    /* 1b	[0] */
 #define R7_BCLK_EDGE_IC_2                         0x1    /* 1b	[1] */
 #define R7_BCLK_RATE_IC_2                         0x0    /* 0b	[2] */
 #define R7_SAI_MSB_IC_2                           0x0    /* 0b	[4] */
@@ -367,11 +367,11 @@
 #define R9_DAC01_MUTE_IC_2                        0x0    /* 0b	[0] */
 #define R9_DAC02_MUTE_IC_2                        0x0    /* 0b	[1] */
 #define R9_DAC03_MUTE_IC_2                        0x0    /* 0b	[2] */
-#define R9_DAC04_MUTE_IC_2                        0x0    /* 0b	[3] */
-#define R9_DAC05_MUTE_IC_2                        0x0    /* 0b	[4] */
-#define R9_DAC06_MUTE_IC_2                        0x0    /* 0b	[5] */
-#define R9_DAC07_MUTE_IC_2                        0x0    /* 0b	[6] */
-#define R9_DAC08_MUTE_IC_2                        0x0    /* 0b	[7] */
+#define R9_DAC04_MUTE_IC_2                        0x1    /* 1b	[3] */
+#define R9_DAC05_MUTE_IC_2                        0x1    /* 1b	[4] */
+#define R9_DAC06_MUTE_IC_2                        0x1    /* 1b	[5] */
+#define R9_DAC07_MUTE_IC_2                        0x1    /* 1b	[6] */
+#define R9_DAC08_MUTE_IC_2                        0x1    /* 1b	[7] */
 #define R9_DAC01_MUTE_IC_2_MASK                   0x1
 #define R9_DAC01_MUTE_IC_2_SHIFT                  0
 #define R9_DAC02_MUTE_IC_2_MASK                   0x2
@@ -390,10 +390,10 @@
 #define R9_DAC08_MUTE_IC_2_SHIFT                  7
 
 /* DAC_MUTE2 (IC 2) */
-#define R10_DAC09_MUTE_IC_2                       0x0    /* 0b	[0] */
-#define R10_DAC10_MUTE_IC_2                       0x0    /* 0b	[1] */
-#define R10_DAC11_MUTE_IC_2                       0x0    /* 0b	[2] */
-#define R10_DAC12_MUTE_IC_2                       0x0    /* 0b	[3] */
+#define R10_DAC09_MUTE_IC_2                       0x1    /* 1b	[0] */
+#define R10_DAC10_MUTE_IC_2                       0x1    /* 1b	[1] */
+#define R10_DAC11_MUTE_IC_2                       0x1    /* 1b	[2] */
+#define R10_DAC12_MUTE_IC_2                       0x1    /* 1b	[3] */
 #define R10_DAC13_MUTE_IC_2                       0x0    /* 0b	[4] */
 #define R10_DAC14_MUTE_IC_2                       0x0    /* 0b	[5] */
 #define R10_DAC15_MUTE_IC_2                       0x0    /* 0b	[6] */
