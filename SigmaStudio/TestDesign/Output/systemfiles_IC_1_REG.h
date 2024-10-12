@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Saturday, October 12, 2024 10:55:24 AM
+ * Created:        Saturday, October 12, 2024 12:06:27 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -368,7 +368,7 @@
 /* SERIAL_BYTE_5_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_1_IC_1_ADDR             0xF215
 #define REG_SERIAL_BYTE_5_1_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_5_1_IC_1_VALUE            0x1
+#define REG_SERIAL_BYTE_5_1_IC_1_VALUE            0x2
 
 /* SERIAL_BYTE_6_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_6_0_IC_1_ADDR             0xF218
@@ -3724,7 +3724,7 @@
 #define R68_SERIAL_BYTE_5_0_LRCLK_SRC_IC_1_SHIFT  13
 
 /* SERIAL_BYTE_5_1 (IC 1) */
-#define R69_SERIAL_BYTE_5_1_FS_IC_1               0x1    /* 001b	[2:0] */
+#define R69_SERIAL_BYTE_5_1_FS_IC_1               0x2    /* 010b	[2:0] */
 #define R69_SERIAL_BYTE_5_1_CLK_DOMAIN_IC_1       0x0    /* 00b	[4:3] */
 #define R69_SERIAL_BYTE_5_1_TRISTATE_IC_1         0x0    /* 0b	[5] */
 #define R69_SERIAL_BYTE_5_1_FS_IC_1_MASK          0x7

@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_REG.h
  *
- * Created:        Saturday, October 12, 2024 10:55:24 AM
+ * Created:        Saturday, October 12, 2024 12:06:27 PM
  * Description:    TestDesigndspproj:IC 2 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -53,7 +53,7 @@
 /* DAC_CTRL0  - Registers (IC 2) */
 #define REG_DAC_CTRL0_IC_2_ADDR                   0x6
 #define REG_DAC_CTRL0_IC_2_BYTE                   1
-#define REG_DAC_CTRL0_IC_2_VALUE                  0x3
+#define REG_DAC_CTRL0_IC_2_VALUE                  0x5
 
 /* DAC_CTRL1  - Registers (IC 2) */
 #define REG_DAC_CTRL1_IC_2_ADDR                   0x7
@@ -163,7 +163,7 @@
 /* CM_SEL_PAD_STRGTH  - Registers (IC 2) */
 #define REG_CM_SEL_PAD_STRGTH_IC_2_ADDR           0x1C
 #define REG_CM_SEL_PAD_STRGTH_IC_2_BYTE           1
-#define REG_CM_SEL_PAD_STRGTH_IC_2_VALUE          0x0
+#define REG_CM_SEL_PAD_STRGTH_IC_2_VALUE          0x20
 
 /* DAC_POWER1  - Registers (IC 2) */
 #define REG_DAC_POWER1_IC_2_ADDR                  0x1D
@@ -308,7 +308,7 @@
 
 /* DAC_CTRL0 (IC 2) */
 #define R6_MMUTE_IC_2                             0x1    /* 1b	[0] */
-#define R6_FS_IC_2                                0x1    /* 01b	[2:1] */
+#define R6_FS_IC_2                                0x2    /* 10b	[2:1] */
 #define R6_SAI_IC_2                               0x0    /* 000b	[5:3] */
 #define R6_SDATA_FMT_IC_2                         0x0    /* 00b	[7:6] */
 #define R6_MMUTE_IC_2_MASK                        0x1
@@ -502,7 +502,7 @@
 
 /* CM_SEL_PAD_STRGTH (IC 2) */
 #define R28_CM_SEL_IC_2                           0x0    /* 0b	[1] */
-#define R28_PAD_DRV_IC_2                          0x0    /* 0b	[5] */
+#define R28_PAD_DRV_IC_2                          0x1    /* 1b	[5] */
 #define R28_CM_SEL_IC_2_MASK                      0x2
 #define R28_CM_SEL_IC_2_SHIFT                     1
 #define R28_PAD_DRV_IC_2_MASK                     0x20
