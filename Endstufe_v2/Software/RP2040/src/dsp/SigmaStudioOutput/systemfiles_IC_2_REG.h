@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_REG.h
  *
- * Created:        Saturday, October 12, 2024 10:36:26 AM
+ * Created:        Saturday, October 12, 2024 10:55:24 AM
  * Description:    TestDesigndspproj:IC 2 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -53,7 +53,7 @@
 /* DAC_CTRL0  - Registers (IC 2) */
 #define REG_DAC_CTRL0_IC_2_ADDR                   0x6
 #define REG_DAC_CTRL0_IC_2_BYTE                   1
-#define REG_DAC_CTRL0_IC_2_VALUE                  0x13
+#define REG_DAC_CTRL0_IC_2_VALUE                  0x3
 
 /* DAC_CTRL1  - Registers (IC 2) */
 #define REG_DAC_CTRL1_IC_2_ADDR                   0x7
@@ -309,7 +309,7 @@
 /* DAC_CTRL0 (IC 2) */
 #define R6_MMUTE_IC_2                             0x1    /* 1b	[0] */
 #define R6_FS_IC_2                                0x1    /* 01b	[2:1] */
-#define R6_SAI_IC_2                               0x2    /* 010b	[5:3] */
+#define R6_SAI_IC_2                               0x0    /* 000b	[5:3] */
 #define R6_SDATA_FMT_IC_2                         0x0    /* 00b	[7:6] */
 #define R6_MMUTE_IC_2_MASK                        0x1
 #define R6_MMUTE_IC_2_SHIFT                       0

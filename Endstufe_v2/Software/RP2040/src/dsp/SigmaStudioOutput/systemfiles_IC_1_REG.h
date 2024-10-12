@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Saturday, October 12, 2024 10:32:11 AM
+ * Created:        Saturday, October 12, 2024 10:55:24 AM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -363,7 +363,7 @@
 /* SERIAL_BYTE_5_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_0_IC_1_ADDR             0xF214
 #define REG_SERIAL_BYTE_5_0_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x9001
+#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x9000
 
 /* SERIAL_BYTE_5_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_1_IC_1_ADDR             0xF215
@@ -428,7 +428,7 @@
 /* SDATA_7_ROUTE  - Registers (IC 1) */
 #define REG_SDATA_7_ROUTE_IC_1_ADDR               0xF247
 #define REG_SDATA_7_ROUTE_IC_1_BYTE               2
-#define REG_SDATA_7_ROUTE_IC_1_VALUE              0x14
+#define REG_SDATA_7_ROUTE_IC_1_VALUE              0x34
 
 /* FTDM_IN0  - Registers (IC 1) */
 #define REG_FTDM_IN0_IC_1_ADDR                    0xF300
@@ -1073,7 +1073,7 @@
 /* HIBERNATE  - Registers (IC 1) */
 #define REG_HIBERNATE_IC_1_ADDR                   0xF400
 #define REG_HIBERNATE_IC_1_BYTE                   2
-#define REG_HIBERNATE_IC_1_VALUE                  0x0
+#define REG_HIBERNATE_IC_1_VALUE                  0x1
 
 /* START_PULSE  - Registers (IC 1) */
 #define REG_START_PULSE_IC_1_ADDR                 0xF401
@@ -1088,7 +1088,7 @@
 /* KILL_CORE  - Registers (IC 1) */
 #define REG_KILL_CORE_IC_1_ADDR                   0xF403
 #define REG_KILL_CORE_IC_1_BYTE                   2
-#define REG_KILL_CORE_IC_1_VALUE                  0x0
+#define REG_KILL_CORE_IC_1_VALUE                  0x1
 
 /* START_ADDRESS  - Registers (IC 1) */
 #define REG_START_ADDRESS_IC_1_ADDR               0xF404
@@ -3698,7 +3698,7 @@
 #define R67_SERIAL_BYTE_4_1_TRISTATE_IC_1_SHIFT   5
 
 /* SERIAL_BYTE_5_0 (IC 1) */
-#define R68_SERIAL_BYTE_5_0_TDM_MODE_IC_1         0x1    /* 001b	[2:0] */
+#define R68_SERIAL_BYTE_5_0_TDM_MODE_IC_1         0x0    /* 000b	[2:0] */
 #define R68_SERIAL_BYTE_5_0_DATA_FMT_IC_1         0x0    /* 00b	[4:3] */
 #define R68_SERIAL_BYTE_5_0_WORD_LEN_IC_1         0x0    /* 00b	[6:5] */
 #define R68_SERIAL_BYTE_5_0_BCLK_POL_IC_1         0x0    /* 0b	[7] */
@@ -3910,7 +3910,7 @@
 #define R81_SDATA_7_ROUTE_CHAN_IC_1               0x0    /* 00b	[1:0] */
 #define R81_SDATA_7_ROUTE_PORT_SEL_IC_1           0x1    /* 01b	[3:2] */
 #define R81_SDATA_7_ROUTE_DIR_IC_1                0x1    /* 1b	[4] */
-#define R81_SDATA_7_ROUTE_ENBL_IC_1               0x0    /* 0b	[5] */
+#define R81_SDATA_7_ROUTE_ENBL_IC_1               0x1    /* 1b	[5] */
 #define R81_SDATA_7_ROUTE_CHAN_IC_1_MASK          0x3
 #define R81_SDATA_7_ROUTE_CHAN_IC_1_SHIFT         0
 #define R81_SDATA_7_ROUTE_PORT_SEL_IC_1_MASK      0xC
@@ -6097,7 +6097,7 @@
 #define R209_FTDM_OUT63_SLOT_ENABLE_OUT_IC_1_SHIFT 7
 
 /* HIBERNATE (IC 1) */
-#define R210_HIBERNATE_HIBERNATE_IC_1             0x0    /* 0b	[0] */
+#define R210_HIBERNATE_HIBERNATE_IC_1             0x1    /* 1b	[0] */
 #define R210_HIBERNATE_HIBERNATE_IC_1_MASK        0x1
 #define R210_HIBERNATE_HIBERNATE_IC_1_SHIFT       0
 
@@ -6112,7 +6112,7 @@
 #define R212_START_CORE_START_CORE_IC_1_SHIFT     0
 
 /* KILL_CORE (IC 1) */
-#define R213_KILL_CORE_KILL_CORE_IC_1             0x0    /* 0b	[0] */
+#define R213_KILL_CORE_KILL_CORE_IC_1             0x1    /* 1b	[0] */
 #define R213_KILL_CORE_KILL_CORE_IC_1_MASK        0x1
 #define R213_KILL_CORE_KILL_CORE_IC_1_SHIFT       0
 

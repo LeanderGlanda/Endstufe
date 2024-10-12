@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1.h
  *
- * Created:        Saturday, October 12, 2024 10:32:11 AM
+ * Created:        Saturday, October 12, 2024 10:55:24 AM
  * Description:    TestDesigndspproj:IC 1 program data.
  *
  * This software is distributed in the hope that it will be useful,
@@ -178,9 +178,9 @@ ADI_REG_TYPE Program_Data_IC_1[PROGRAM_SIZE_IC_1] = {
 0x00, 0x00, 0x00, 0x00, 
 0x05, 0x4C, 0x10, 0x5E, 
 0x06, 0x00, 0x10, 0x2E, 
-0x0D, 0x00, 0xFC, 0xD2, 
+0x0D, 0x00, 0xFC, 0xD4, 
 0x06, 0x00, 0x10, 0x3E, 
-0x0D, 0x00, 0xFC, 0xD3, 
+0x0D, 0x00, 0xFC, 0xD5, 
 0x06, 0x00, 0x10, 0x4E, 
 0x0D, 0x00, 0xFC, 0xD0, 
 0x06, 0x00, 0x10, 0x5E, 
@@ -510,7 +510,7 @@ ADI_REG_TYPE R49_SERIAL_BYTE_4_0_IC_1_Default[REG_SERIAL_BYTE_4_0_IC_1_BYTE] = {
 
 /* Register Default - IC 1.SERIAL_BYTE_5_0 */
 ADI_REG_TYPE R50_SERIAL_BYTE_5_0_IC_1_Default[REG_SERIAL_BYTE_5_0_IC_1_BYTE] = {
-0x90, 0x01
+0x90, 0x00
 };
 
 /* Register Default - IC 1.SERIAL_BYTE_5_1 */
@@ -545,7 +545,7 @@ ADI_REG_TYPE R56_SECONDARY_I2C_IC_1_Default[REG_SECONDARY_I2C_IC_1_BYTE] = {
 
 /* Register Default - IC 1.SDATA_7_ROUTE */
 ADI_REG_TYPE R57_SDATA_7_ROUTE_IC_1_Default[REG_SDATA_7_ROUTE_IC_1_BYTE] = {
-0x00, 0x14
+0x00, 0x34
 };
 
 /* Register Default - IC 1.KILL_CORE */

@@ -159,6 +159,49 @@ void pcm1865_printStatus() {
         printf("0x%x\n", data[i]);
 }
 
+void pcm1865_printGain() {
+    uint8_t data[10];
+    // Select Page 0
+    data[0] = 0x00;
+    data[1] = 0x00;
+    int status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 2, false);
+    printf("%d\n", status);
+
+    data[0] = 0x01;
+    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 1, true);
+    printf("%d\n", status);
+    // Now the PCM1685 knows where to start reading from, we can read now
+    status = i2c_read_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 4, false);
+    printf("%d\n", status);
+
+    printf("Gain settings of PCM1865:\n");
+    // Print out the data
+    for(int i = 0; i < 4; i++)
+        printf("0x%x\n", data[i]);
+
+    data[0] = 0x0F;
+    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 1, true);
+    printf("%d\n", status);
+    // Now the PCM1685 knows where to start reading from, we can read now
+    status = i2c_read_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 1, false);
+    printf("%d\n", status);
+
+    // Print out the data
+    for(int i = 0; i < 1; i++)
+        printf("0x%x\n", data[i]);
+
+    data[0] = 0x16;
+    status = i2c_write_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 1, true);
+    printf("%d\n", status);
+    // Now the PCM1685 knows where to start reading from, we can read now
+    status = i2c_read_blocking(BOARD_I2C, I2C_PCM1865_ADDRESS, data, 3, false);
+    printf("%d\n", status);
+
+    // Print out the data
+    for(int i = 0; i < 3; i++)
+        printf("0x%x\n", data[i]);
+}
+
 void shutdown_amplifiers() {
     printf("Disabling amplifiers!\n");
 
@@ -246,7 +289,7 @@ void unmute_adau1962a() {
     uint8_t data[2] = {0, 0};
     // Unmute
     data[0] = 0x06;
-    data[1] = 0x12;
+    data[1] = 0x02;
     i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
 
 }
@@ -267,10 +310,14 @@ int main()
     gpio_init(BOARD_MUTEB_PIN);
     gpio_init(BOARD_SDZA_PIN);
     gpio_init(BOARD_SDZB_PIN);
+    gpio_init(BOARD_FAULTZA_PIN);
+    gpio_init(BOARD_FAULTZB_PIN);
     gpio_set_dir(BOARD_MUTEA_PIN, GPIO_OUT);
     gpio_set_dir(BOARD_MUTEB_PIN, GPIO_OUT);
     gpio_set_dir(BOARD_SDZA_PIN, GPIO_OUT);
     gpio_set_dir(BOARD_SDZB_PIN, GPIO_OUT);
+    gpio_set_dir(BOARD_FAULTZA_PIN, GPIO_IN);
+    gpio_set_dir(BOARD_FAULTZB_PIN, GPIO_IN);
 
     printf("\nEndstufe\n");
 
@@ -291,6 +338,8 @@ int main()
     read_adau1962a();
     sleep_ms(10);
     unmute_adau1962a();
+
+    pcm1865_printGain();
 
     while (true) {
         sleep_ms(1000);
