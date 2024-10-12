@@ -401,7 +401,14 @@
             <Address>61972</Address>
             <AddrIncr>0</AddrIncr>
             <Size>2</Size>
-            <Data>0x24, 0x01, </Data>
+            <Data>0x90, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_5_1</Name>
+            <Address>61973</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
         </Register>
         <Register>
             <Name>IC 1.SERIAL_BYTE_6_0</Name>
@@ -651,14 +658,14 @@
             <Address>6</Address>
             <AddrIncr>0</AddrIncr>
             <Size>1</Size>
-            <Data>0x15, </Data>
+            <Data>0x13, </Data>
         </Register>
         <Register>
             <Name>IC 2.DAC_CTRL1 Register.DAC_CTRL1</Name>
             <Address>7</Address>
             <AddrIncr>0</AddrIncr>
             <Size>1</Size>
-            <Data>0x03, </Data>
+            <Data>0x02, </Data>
         </Register>
         <Register>
             <Name>IC 2.DAC_CTRL2 Register.DAC_CTRL2</Name>

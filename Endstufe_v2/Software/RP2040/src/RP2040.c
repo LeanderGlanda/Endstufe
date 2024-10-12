@@ -246,7 +246,7 @@ void unmute_adau1962a() {
     uint8_t data[2] = {0, 0};
     // Unmute
     data[0] = 0x06;
-    data[1] = 0x14;
+    data[1] = 0x12;
     i2c_write_blocking(BOARD_I2C, I2C_ADAU1962A_ADDRESS, data, 2, false);
 
 }
