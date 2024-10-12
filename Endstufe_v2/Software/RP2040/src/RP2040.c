@@ -172,9 +172,9 @@ void enable_amplifiers() {
     printf("Enabling amplifiers!\n");
     
     gpio_put(BOARD_MUTEA_PIN, 0);
-    //gpio_put(BOARD_MUTEB_PIN, 0);
+    gpio_put(BOARD_MUTEB_PIN, 0);
     gpio_put(BOARD_SDZA_PIN, 1);
-    //gpio_put(BOARD_SDZB_PIN, 1);
+    gpio_put(BOARD_SDZB_PIN, 1);
 }
 
 void setup_adau1962a() {
