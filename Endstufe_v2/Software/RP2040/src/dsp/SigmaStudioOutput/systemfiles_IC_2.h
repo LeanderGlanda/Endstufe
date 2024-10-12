@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2.h
  *
- * Created:        Saturday, October 12, 2024 12:06:27 PM
+ * Created:        Saturday, October 12, 2024 2:36:30 PM
  * Description:    TestDesigndspproj:IC 2 program data.
  *
  * This software is distributed in the hope that it will be useful,
@@ -58,7 +58,7 @@ ADI_REG_TYPE R5_DAC_CTRL0_IC_2_Default[REG_DAC_CTRL0_IC_2_BYTE] = {
 
 /* Register Default - IC 2.DAC_CTRL1 Register.DAC_CTRL1 */
 ADI_REG_TYPE R6_DAC_CTRL1_IC_2_Default[REG_DAC_CTRL1_IC_2_BYTE] = {
-0x02
+0x00
 };
 
 /* Register Default - IC 2.DAC_CTRL2 Register.DAC_CTRL2 */

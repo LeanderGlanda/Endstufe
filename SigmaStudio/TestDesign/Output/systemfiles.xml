@@ -658,7 +658,7 @@
             <Address>7</Address>
             <AddrIncr>0</AddrIncr>
             <Size>1</Size>
-            <Data>0x02, </Data>
+            <Data>0x00, </Data>
         </Register>
         <Register>
             <Name>IC 2.DAC_CTRL2 Register.DAC_CTRL2</Name>
