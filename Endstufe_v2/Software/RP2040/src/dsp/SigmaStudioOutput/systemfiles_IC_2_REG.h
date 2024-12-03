@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_REG.h
+ * File:           C:\Users\Leander\Documents\Hardware\Elektronikprojekte\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_REG.h
  *
- * Created:        Saturday, October 12, 2024 2:36:30 PM
+ * Created:        Tuesday, December 3, 2024 3:46:59 PM
  * Description:    TestDesigndspproj:IC 2 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,

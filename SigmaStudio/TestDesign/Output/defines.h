@@ -1,7 +1,7 @@
 /*
  * File:           defines.h
  *
- * Created:        Saturday, October 12, 2024 2:36:30 PM
+ * Created:        Tuesday, December 3, 2024 3:46:59 PM
  * Description:    TestDesigndspproj IC default download data definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -19,8 +19,8 @@
 #ifndef __DEFINES_H__
 #define __DEFINES_H__
 
-#define BufferSize_IC_1     	1094
-#define NumTransactions_IC_1	67
+#define BufferSize_IC_1     	1098
+#define NumTransactions_IC_1	68
 
 #define BufferSize_IC_2     	96
 #define NumTransactions_IC_2	32

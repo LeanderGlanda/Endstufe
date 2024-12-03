@@ -439,6 +439,13 @@
             <Data>0x00, 0x01, </Data>
         </Register>
         <Register>
+            <Name>IC 1.SDATA_IO7_PIN</Name>
+            <Address>63415</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x0F, </Data>
+        </Register>
+        <Register>
             <Name>IC 1.SDATA_7_ROUTE</Name>
             <Address>62023</Address>
             <AddrIncr>0</AddrIncr>

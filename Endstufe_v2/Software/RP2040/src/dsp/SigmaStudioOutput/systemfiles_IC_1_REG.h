@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
+ * File:           C:\Users\Leander\Documents\Hardware\Elektronikprojekte\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Saturday, October 12, 2024 12:06:27 PM
+ * Created:        Tuesday, December 3, 2024 3:46:59 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -3043,7 +3043,7 @@
 /* SDATA_IO7_PIN  - Registers (IC 1) */
 #define REG_SDATA_IO7_PIN_IC_1_ADDR               0xF7B7
 #define REG_SDATA_IO7_PIN_IC_1_BYTE               2
-#define REG_SDATA_IO7_PIN_IC_1_VALUE              0x18
+#define REG_SDATA_IO7_PIN_IC_1_VALUE              0xF
 
 /* MP24_PIN  - Registers (IC 1) */
 #define REG_MP24_PIN_IC_1_ADDR                    0xF7B8
@@ -9039,9 +9039,9 @@
 #define R603_SDATA_IO6_PIN_SDATA_IO_PULL_IC_1_SHIFT 4
 
 /* SDATA_IO7_PIN (IC 1) */
-#define R604_SDATA_IO7_PIN_SDATA_IO_DRIVE_IC_1    0x0    /* 00b	[1:0] */
-#define R604_SDATA_IO7_PIN_SDATA_IO_SLEW_IC_1     0x2    /* 10b	[3:2] */
-#define R604_SDATA_IO7_PIN_SDATA_IO_PULL_IC_1     0x1    /* 1b	[4] */
+#define R604_SDATA_IO7_PIN_SDATA_IO_DRIVE_IC_1    0x3    /* 11b	[1:0] */
+#define R604_SDATA_IO7_PIN_SDATA_IO_SLEW_IC_1     0x3    /* 11b	[3:2] */
+#define R604_SDATA_IO7_PIN_SDATA_IO_PULL_IC_1     0x0    /* 0b	[4] */
 #define R604_SDATA_IO7_PIN_SDATA_IO_DRIVE_IC_1_MASK 0x3
 #define R604_SDATA_IO7_PIN_SDATA_IO_DRIVE_IC_1_SHIFT 0
 #define R604_SDATA_IO7_PIN_SDATA_IO_SLEW_IC_1_MASK 0xC
