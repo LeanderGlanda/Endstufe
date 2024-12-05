@@ -322,7 +322,7 @@ int main()
     printf("\nEndstufe\n");
 
     shutdown_amplifiers();
-    enable_adau1962a();
+
     
     setup_dsp();
 
@@ -332,6 +332,8 @@ int main()
     sleep_ms(100);
     pcm1865_printStatus();
 
+    enable_adau1962a();
+    sleep_ms(10);
     load_sigmastudio_program_adau1962a();
     sleep_ms(100);
     //setup_adau1962a();

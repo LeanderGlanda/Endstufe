@@ -19,7 +19,7 @@
 0x00, 0x0A, 			/* (9) IC 2.DAC_MUTE2 Register.DAC_MUTE2 */
 0x0F, 
 0x00, 0x0B, 			/* (10) IC 2.DACMSTR_VOL Register.DACMSTR_VOL */
-0x20, 
+0x00, 
 0x00, 0x0C, 			/* (11) IC 2.DAC01_VOL Register.DAC01_VOL */
 0x00, 
 0x00, 0x0D, 			/* (12) IC 2.DAC02_VOL Register.DAC02_VOL */

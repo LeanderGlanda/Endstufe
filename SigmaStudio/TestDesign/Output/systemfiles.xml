@@ -693,7 +693,7 @@
             <Address>11</Address>
             <AddrIncr>0</AddrIncr>
             <Size>1</Size>
-            <Data>0x20, </Data>
+            <Data>0x00, </Data>
         </Register>
         <Register>
             <Name>IC 2.DAC01_VOL Register.DAC01_VOL</Name>
