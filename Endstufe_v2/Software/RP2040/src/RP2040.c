@@ -347,6 +347,6 @@ int main()
         sleep_ms(1000);
         enable_amplifiers();
         sleep_ms(1000);
-        shutdown_amplifiers();
+        //shutdown_amplifiers();
     }
 }
