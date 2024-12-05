@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Elektronikprojekte\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Tuesday, December 3, 2024 3:46:59 PM
+ * Created:        Thursday, December 5, 2024 7:55:08 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -108,12 +108,12 @@
 /* ASRC_INPUT0  - Registers (IC 1) */
 #define REG_ASRC_INPUT0_IC_1_ADDR                 0xF100
 #define REG_ASRC_INPUT0_IC_1_BYTE                 2
-#define REG_ASRC_INPUT0_IC_1_VALUE                0x0
+#define REG_ASRC_INPUT0_IC_1_VALUE                0x2
 
 /* ASRC_INPUT1  - Registers (IC 1) */
 #define REG_ASRC_INPUT1_IC_1_ADDR                 0xF101
 #define REG_ASRC_INPUT1_IC_1_BYTE                 2
-#define REG_ASRC_INPUT1_IC_1_VALUE                0x0
+#define REG_ASRC_INPUT1_IC_1_VALUE                0xA
 
 /* ASRC_INPUT2  - Registers (IC 1) */
 #define REG_ASRC_INPUT2_IC_1_ADDR                 0xF102
@@ -148,12 +148,12 @@
 /* ASRC_OUT_RATE0  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE0_IC_1_ADDR              0xF140
 #define REG_ASRC_OUT_RATE0_IC_1_BYTE              2
-#define REG_ASRC_OUT_RATE0_IC_1_VALUE             0x0
+#define REG_ASRC_OUT_RATE0_IC_1_VALUE             0x2
 
 /* ASRC_OUT_RATE1  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE1_IC_1_ADDR              0xF141
 #define REG_ASRC_OUT_RATE1_IC_1_BYTE              2
-#define REG_ASRC_OUT_RATE1_IC_1_VALUE             0x0
+#define REG_ASRC_OUT_RATE1_IC_1_VALUE             0x2
 
 /* ASRC_OUT_RATE2  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE2_IC_1_ADDR              0xF142
@@ -228,7 +228,7 @@
 /* SOUT_SOURCE8  - Registers (IC 1) */
 #define REG_SOUT_SOURCE8_IC_1_ADDR                0xF188
 #define REG_SOUT_SOURCE8_IC_1_BYTE                2
-#define REG_SOUT_SOURCE8_IC_1_VALUE               0xA
+#define REG_SOUT_SOURCE8_IC_1_VALUE               0x3
 
 /* SOUT_SOURCE9  - Registers (IC 1) */
 #define REG_SOUT_SOURCE9_IC_1_ADDR                0xF189
@@ -238,7 +238,7 @@
 /* SOUT_SOURCE10  - Registers (IC 1) */
 #define REG_SOUT_SOURCE10_IC_1_ADDR               0xF18A
 #define REG_SOUT_SOURCE10_IC_1_BYTE               2
-#define REG_SOUT_SOURCE10_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE10_IC_1_VALUE              0xB
 
 /* SOUT_SOURCE11  - Registers (IC 1) */
 #define REG_SOUT_SOURCE11_IC_1_ADDR               0xF18B
@@ -363,7 +363,7 @@
 /* SERIAL_BYTE_5_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_0_IC_1_ADDR             0xF214
 #define REG_SERIAL_BYTE_5_0_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x9000
+#define REG_SERIAL_BYTE_5_0_IC_1_VALUE            0x2400
 
 /* SERIAL_BYTE_5_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_1_IC_1_ADDR             0xF215
@@ -3212,7 +3212,7 @@
 #define R16_POWER_ENABLE1_PDM1_PWR_IC_1_SHIFT     4
 
 /* ASRC_INPUT0 (IC 1) */
-#define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1          0x0    /* 000b	[2:0] */
+#define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1          0x2    /* 010b	[2:0] */
 #define R17_ASRC_INPUT0_ASRC_SIN_CHANNEL_IC_1     0x0    /* 00000b	[7:3] */
 #define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1_MASK     0x7
 #define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1_SHIFT    0
@@ -3220,8 +3220,8 @@
 #define R17_ASRC_INPUT0_ASRC_SIN_CHANNEL_IC_1_SHIFT 3
 
 /* ASRC_INPUT1 (IC 1) */
-#define R18_ASRC_INPUT1_ASRC_SOURCE_IC_1          0x0    /* 000b	[2:0] */
-#define R18_ASRC_INPUT1_ASRC_SIN_CHANNEL_IC_1     0x0    /* 00000b	[7:3] */
+#define R18_ASRC_INPUT1_ASRC_SOURCE_IC_1          0x2    /* 010b	[2:0] */
+#define R18_ASRC_INPUT1_ASRC_SIN_CHANNEL_IC_1     0x1    /* 00001b	[7:3] */
 #define R18_ASRC_INPUT1_ASRC_SOURCE_IC_1_MASK     0x7
 #define R18_ASRC_INPUT1_ASRC_SOURCE_IC_1_SHIFT    0
 #define R18_ASRC_INPUT1_ASRC_SIN_CHANNEL_IC_1_MASK 0xF8
@@ -3276,12 +3276,12 @@
 #define R24_ASRC_INPUT7_ASRC_SIN_CHANNEL_IC_1_SHIFT 3
 
 /* ASRC_OUT_RATE0 (IC 1) */
-#define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1         0x0    /* 0000b	[3:0] */
+#define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1         0x2    /* 0010b	[3:0] */
 #define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1_MASK    0xF
 #define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1_SHIFT   0
 
 /* ASRC_OUT_RATE1 (IC 1) */
-#define R26_ASRC_OUT_RATE1_ASRC_RATE_IC_1         0x0    /* 0000b	[3:0] */
+#define R26_ASRC_OUT_RATE1_ASRC_RATE_IC_1         0x2    /* 0010b	[3:0] */
 #define R26_ASRC_OUT_RATE1_ASRC_RATE_IC_1_MASK    0xF
 #define R26_ASRC_OUT_RATE1_ASRC_RATE_IC_1_SHIFT   0
 
@@ -3380,8 +3380,8 @@
 #define R40_SOUT_SOURCE7_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE8 (IC 1) */
-#define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
-#define R41_SOUT_SOURCE8_SOUT_ASRC_SELECT_IC_1    0x1    /* 001b	[5:3] */
+#define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1         0x3    /* 011b	[2:0] */
+#define R41_SOUT_SOURCE8_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1_MASK    0x7
 #define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1_SHIFT   0
 #define R41_SOUT_SOURCE8_SOUT_ASRC_SELECT_IC_1_MASK 0x38
@@ -3396,8 +3396,8 @@
 #define R42_SOUT_SOURCE9_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE10 (IC 1) */
-#define R43_SOUT_SOURCE10_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
-#define R43_SOUT_SOURCE10_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
+#define R43_SOUT_SOURCE10_SOUT_SOURCE_IC_1        0x3    /* 011b	[2:0] */
+#define R43_SOUT_SOURCE10_SOUT_ASRC_SELECT_IC_1   0x1    /* 001b	[5:3] */
 #define R43_SOUT_SOURCE10_SOUT_SOURCE_IC_1_MASK   0x7
 #define R43_SOUT_SOURCE10_SOUT_SOURCE_IC_1_SHIFT  0
 #define R43_SOUT_SOURCE10_SOUT_ASRC_SELECT_IC_1_MASK 0x38
@@ -3704,8 +3704,8 @@
 #define R68_SERIAL_BYTE_5_0_BCLK_POL_IC_1         0x0    /* 0b	[7] */
 #define R68_SERIAL_BYTE_5_0_LRCLK_POL_IC_1        0x0    /* 0b	[8] */
 #define R68_SERIAL_BYTE_5_0_LRCLK_MODE_IC_1       0x0    /* 0b	[9] */
-#define R68_SERIAL_BYTE_5_0_BCLK_SRC_IC_1         0x4    /* 100b	[12:10] */
-#define R68_SERIAL_BYTE_5_0_LRCLK_SRC_IC_1        0x4    /* 100b	[15:13] */
+#define R68_SERIAL_BYTE_5_0_BCLK_SRC_IC_1         0x1    /* 001b	[12:10] */
+#define R68_SERIAL_BYTE_5_0_LRCLK_SRC_IC_1        0x1    /* 001b	[15:13] */
 #define R68_SERIAL_BYTE_5_0_TDM_MODE_IC_1_MASK    0x7
 #define R68_SERIAL_BYTE_5_0_TDM_MODE_IC_1_SHIFT   0
 #define R68_SERIAL_BYTE_5_0_DATA_FMT_IC_1_MASK    0x18

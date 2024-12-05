@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Elektronikprojekte\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_REG.h
  *
- * Created:        Thursday, December 5, 2024 7:28:45 PM
+ * Created:        Thursday, December 5, 2024 7:55:08 PM
  * Description:    TestDesigndspproj:IC 2 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -23,7 +23,7 @@
 /* PLL_CLK_CTRL0  - Registers (IC 2) */
 #define REG_PLL_CLK_CTRL0_IC_2_ADDR               0x0
 #define REG_PLL_CLK_CTRL0_IC_2_BYTE               1
-#define REG_PLL_CLK_CTRL0_IC_2_VALUE              0x31
+#define REG_PLL_CLK_CTRL0_IC_2_VALUE              0x5
 
 /* PLL_CLK_CTRL1  - Registers (IC 2) */
 #define REG_PLL_CLK_CTRL1_IC_2_ADDR               0x1
@@ -58,7 +58,7 @@
 /* DAC_CTRL1  - Registers (IC 2) */
 #define REG_DAC_CTRL1_IC_2_ADDR                   0x7
 #define REG_DAC_CTRL1_IC_2_BYTE                   1
-#define REG_DAC_CTRL1_IC_2_VALUE                  0x0
+#define REG_DAC_CTRL1_IC_2_VALUE                  0x1
 
 /* DAC_CTRL2  - Registers (IC 2) */
 #define REG_DAC_CTRL2_IC_2_ADDR                   0x8
@@ -194,9 +194,9 @@
 
 /* PLL_CLK_CTRL0 (IC 2) */
 #define R0_PUP_IC_2                               0x1    /* 1b	[0] */
-#define R0_MCS_IC_2                               0x0    /* 00b	[2:1] */
+#define R0_MCS_IC_2                               0x2    /* 10b	[2:1] */
 #define R0_SOFT_RST_IC_2                          0x0    /* 0b	[3] */
-#define R0_XTAL_SET_IC_2                          0x3    /* 11b	[5:4] */
+#define R0_XTAL_SET_IC_2                          0x0    /* 00b	[5:4] */
 #define R0_PLLIN_IC_2                             0x0    /* 00b	[7:6] */
 #define R0_PUP_IC_2_MASK                          0x1
 #define R0_PUP_IC_2_SHIFT                         0
@@ -321,7 +321,7 @@
 #define R6_SDATA_FMT_IC_2_SHIFT                   6
 
 /* DAC_CTRL1 (IC 2) */
-#define R7_SAI_MS_IC_2                            0x0    /* 0b	[0] */
+#define R7_SAI_MS_IC_2                            0x1    /* 1b	[0] */
 #define R7_BCLK_EDGE_IC_2                         0x0    /* 0b	[1] */
 #define R7_BCLK_RATE_IC_2                         0x0    /* 0b	[2] */
 #define R7_SAI_MSB_IC_2                           0x0    /* 0b	[4] */

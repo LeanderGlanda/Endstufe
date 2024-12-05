@@ -1,5 +1,5 @@
 0x00, 0x00, 			/* (0) IC 2.PLL_CLK_CTRL0 Register.PLL_CLK_CTRL0 */
-0x31, 
+0x05, 
 0x00, 0x01, 			/* (1) IC 2.PLL_CLK_CTRL1 Register.PLL_CLK_CTRL1 */
 0x2A, 
 0x00, 0x02, 			/* (2) IC 2.PDN_THRMSENS_CTRL_1 Register.PDN_THRMSENS_CTRL_1 */
@@ -11,7 +11,7 @@
 0x00, 0x06, 			/* (5) IC 2.DAC_CTRL0 Register.DAC_CTRL0 */
 0x05, 
 0x00, 0x07, 			/* (6) IC 2.DAC_CTRL1 Register.DAC_CTRL1 */
-0x00, 
+0x01, 
 0x00, 0x08, 			/* (7) IC 2.DAC_CTRL2 Register.DAC_CTRL2 */
 0x06, 
 0x00, 0x09, 			/* (8) IC 2.DAC_MUTE1 Register.DAC_MUTE1 */

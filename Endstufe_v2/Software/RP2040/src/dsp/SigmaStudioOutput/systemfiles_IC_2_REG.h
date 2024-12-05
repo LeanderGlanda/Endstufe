@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Elektronikprojekte\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_REG.h
  *
- * Created:        Tuesday, December 3, 2024 3:46:59 PM
+ * Created:        Thursday, December 5, 2024 7:55:08 PM
  * Description:    TestDesigndspproj:IC 2 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -58,7 +58,7 @@
 /* DAC_CTRL1  - Registers (IC 2) */
 #define REG_DAC_CTRL1_IC_2_ADDR                   0x7
 #define REG_DAC_CTRL1_IC_2_BYTE                   1
-#define REG_DAC_CTRL1_IC_2_VALUE                  0x0
+#define REG_DAC_CTRL1_IC_2_VALUE                  0x1
 
 /* DAC_CTRL2  - Registers (IC 2) */
 #define REG_DAC_CTRL2_IC_2_ADDR                   0x8
@@ -78,7 +78,7 @@
 /* DACMSTR_VOL  - Registers (IC 2) */
 #define REG_DACMSTR_VOL_IC_2_ADDR                 0xB
 #define REG_DACMSTR_VOL_IC_2_BYTE                 1
-#define REG_DACMSTR_VOL_IC_2_VALUE                0x20
+#define REG_DACMSTR_VOL_IC_2_VALUE                0x0
 
 /* DAC01_VOL  - Registers (IC 2) */
 #define REG_DAC01_VOL_IC_2_ADDR                   0xC
@@ -321,7 +321,7 @@
 #define R6_SDATA_FMT_IC_2_SHIFT                   6
 
 /* DAC_CTRL1 (IC 2) */
-#define R7_SAI_MS_IC_2                            0x0    /* 0b	[0] */
+#define R7_SAI_MS_IC_2                            0x1    /* 1b	[0] */
 #define R7_BCLK_EDGE_IC_2                         0x0    /* 0b	[1] */
 #define R7_BCLK_RATE_IC_2                         0x0    /* 0b	[2] */
 #define R7_SAI_MSB_IC_2                           0x0    /* 0b	[4] */
@@ -416,7 +416,7 @@
 #define R10_DAC16_MUTE_IC_2_SHIFT                 7
 
 /* DACMSTR_VOL (IC 2) */
-#define R11_DACMSTR_VOL_IC_2                      0x20   /* 00100000b	[7:0] */
+#define R11_DACMSTR_VOL_IC_2                      0x00   /* 00000000b	[7:0] */
 #define R11_DACMSTR_VOL_IC_2_MASK                 0xFF
 #define R11_DACMSTR_VOL_IC_2_SHIFT                0
 
