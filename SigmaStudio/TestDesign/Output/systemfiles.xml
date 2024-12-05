@@ -623,7 +623,7 @@
             <Address>0</Address>
             <AddrIncr>0</AddrIncr>
             <Size>1</Size>
-            <Data>0x05, </Data>
+            <Data>0x31, </Data>
         </Register>
         <Register>
             <Name>IC 2.PLL_CLK_CTRL1 Register.PLL_CLK_CTRL1</Name>

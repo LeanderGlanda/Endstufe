@@ -333,7 +333,7 @@ int main()
     pcm1865_printStatus();
 
     load_sigmastudio_program_adau1962a();
-    sleep_ms(10);
+    sleep_ms(100);
     //setup_adau1962a();
     read_adau1962a();
     sleep_ms(10);

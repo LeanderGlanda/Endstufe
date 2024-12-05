@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Elektronikprojekte\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2.h
  *
- * Created:        Tuesday, December 3, 2024 3:46:59 PM
+ * Created:        Thursday, December 5, 2024 2:20:25 PM
  * Description:    TestDesigndspproj:IC 2 program data.
  *
  * This software is distributed in the hope that it will be useful,
@@ -28,7 +28,7 @@
 
 /* Register Default - IC 2.PLL_CLK_CTRL0 Register.PLL_CLK_CTRL0 */
 ADI_REG_TYPE R0_PLL_CLK_CTRL0_IC_2_Default[REG_PLL_CLK_CTRL0_IC_2_BYTE] = {
-0x05
+0x31
 };
 
 /* Register Default - IC 2.PLL_CLK_CTRL1 Register.PLL_CLK_CTRL1 */
