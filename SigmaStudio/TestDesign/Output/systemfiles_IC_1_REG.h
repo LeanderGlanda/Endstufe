@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\Leander\Documents\Hardware\Elektronikprojekte\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Saturday, December 7, 2024 5:24:36 PM
+ * Created:        Saturday, December 7, 2024 5:31:26 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -118,7 +118,7 @@
 /* ASRC_INPUT2  - Registers (IC 1) */
 #define REG_ASRC_INPUT2_IC_1_ADDR                 0xF102
 #define REG_ASRC_INPUT2_IC_1_BYTE                 2
-#define REG_ASRC_INPUT2_IC_1_VALUE                0xA1
+#define REG_ASRC_INPUT2_IC_1_VALUE                0xA0
 
 /* ASRC_INPUT3  - Registers (IC 1) */
 #define REG_ASRC_INPUT3_IC_1_ADDR                 0xF103
@@ -158,7 +158,7 @@
 /* ASRC_OUT_RATE2  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE2_IC_1_ADDR              0xF142
 #define REG_ASRC_OUT_RATE2_IC_1_BYTE              2
-#define REG_ASRC_OUT_RATE2_IC_1_VALUE             0x6
+#define REG_ASRC_OUT_RATE2_IC_1_VALUE             0x0
 
 /* ASRC_OUT_RATE3  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE3_IC_1_ADDR              0xF143
@@ -3228,7 +3228,7 @@
 #define R18_ASRC_INPUT1_ASRC_SIN_CHANNEL_IC_1_SHIFT 3
 
 /* ASRC_INPUT2 (IC 1) */
-#define R19_ASRC_INPUT2_ASRC_SOURCE_IC_1          0x1    /* 001b	[2:0] */
+#define R19_ASRC_INPUT2_ASRC_SOURCE_IC_1          0x0    /* 000b	[2:0] */
 #define R19_ASRC_INPUT2_ASRC_SIN_CHANNEL_IC_1     0x14   /* 10100b	[7:3] */
 #define R19_ASRC_INPUT2_ASRC_SOURCE_IC_1_MASK     0x7
 #define R19_ASRC_INPUT2_ASRC_SOURCE_IC_1_SHIFT    0
@@ -3286,7 +3286,7 @@
 #define R26_ASRC_OUT_RATE1_ASRC_RATE_IC_1_SHIFT   0
 
 /* ASRC_OUT_RATE2 (IC 1) */
-#define R27_ASRC_OUT_RATE2_ASRC_RATE_IC_1         0x6    /* 0110b	[3:0] */
+#define R27_ASRC_OUT_RATE2_ASRC_RATE_IC_1         0x0    /* 0000b	[3:0] */
 #define R27_ASRC_OUT_RATE2_ASRC_RATE_IC_1_MASK    0xF
 #define R27_ASRC_OUT_RATE2_ASRC_RATE_IC_1_SHIFT   0
 
