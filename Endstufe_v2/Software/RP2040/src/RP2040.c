@@ -294,6 +294,54 @@ void unmute_adau1962a() {
 
 }
 
+void pretty_register_dump() {
+    printf("\n--- Beginning Pretty Register Dump ---\n");
+
+    // Konfiguration der ICs mit ihren Adressbereichen
+    struct {
+        uint8_t address;  // I2C-Adresse
+        uint8_t start_reg; // Startregister
+        uint8_t end_reg;   // Endregister
+    } i2c_devices[] = {
+        {I2C_PCM1865_ADDRESS, 0x00, 0x78},    // PCM1865
+        {I2C_ADAU1962A_ADDRESS, 0x00, 0x1F}, // ADAU1962A
+        // {I2C_ADAU1467_ADDRESS, 0x00, 0xFF},  // ADAU1467 (Beispielbereich)
+    };
+
+    // Anzahl der Geräte ermitteln
+    size_t device_count = sizeof(i2c_devices) / sizeof(i2c_devices[0]);
+
+    // Für jedes Gerät die Register ausgeben
+    for (size_t i = 0; i < device_count; i++) {
+        uint8_t address = i2c_devices[i].address;
+        uint8_t start_reg = i2c_devices[i].start_reg;
+        uint8_t end_reg = i2c_devices[i].end_reg;
+
+        printf("Device 0x%X - Registers 0x%X to 0x%X:\n", address, start_reg, end_reg);
+        for (uint8_t reg = start_reg; reg <= end_reg; reg++) {
+            uint8_t reg_address = reg;
+            uint8_t data = 0;
+
+            // Schreibe das Register, das gelesen werden soll
+            if (i2c_write_blocking(BOARD_I2C, address, &reg_address, 1, true) <= 0) {
+                printf("  Failed to write to device 0x%X at register 0x%X\n", address, reg);
+                continue;
+            }
+
+            // Lese die Daten vom Register
+            if (i2c_read_blocking(BOARD_I2C, address, &data, 1, false) <= 0) {
+                printf("  Failed to read from device 0x%X at register 0x%X\n", address, reg);
+                continue;
+            }
+
+            printf("  Register 0x%02X: 0x%02X\n", reg, data);
+        }
+        printf("\n");
+    }
+
+    printf("\n--- End of Pretty Register Dump ---\n");
+}
+
 int main()
 {
     // Configure and enable UART
@@ -326,22 +374,24 @@ int main()
     
     setup_dsp();
 
-    dsp_status();
+    // dsp_status();
 
     pcm1865_init();
     sleep_ms(100);
-    pcm1865_printStatus();
+    // pcm1865_printStatus();
 
     enable_adau1962a();
     sleep_ms(10);
     load_sigmastudio_program_adau1962a();
     sleep_ms(100);
     //setup_adau1962a();
-    read_adau1962a();
+    // read_adau1962a();
     sleep_ms(10);
     unmute_adau1962a();
 
-    pcm1865_printGain();
+    //pcm1865_printGain();
+
+    pretty_register_dump();
 
     while (true) {
         sleep_ms(1000);
