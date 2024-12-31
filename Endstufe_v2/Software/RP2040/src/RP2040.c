@@ -371,6 +371,21 @@ int main()
 
     shutdown_amplifiers();
 
+    setup_dsp();
+
+    enable_adau1962a();
+    sleep_ms(10);
+    load_sigmastudio_program_adau1962a();
+    sleep_ms(100);
+    unmute_adau1962a();
+
+    enable_amplifiers();
+
+    while(true) {
+        sleep_ms(10000);
+        pretty_register_dump();
+    }
+
     
     setup_dsp();
 
