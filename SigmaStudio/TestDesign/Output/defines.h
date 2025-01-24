@@ -1,7 +1,7 @@
 /*
  * File:           defines.h
  *
- * Created:        Saturday, December 7, 2024 5:31:26 PM
+ * Created:        Friday, January 24, 2025 6:05:02 PM
  * Description:    TestDesigndspproj IC default download data definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -14,7 +14,7 @@
  * are intended for resale to audio product end users. This software
  * may not be distributed whole or in any part to third parties.
  *
- * Copyright ©2024 Analog Devices, Inc. All rights reserved.
+ * Copyright ©2025 Analog Devices, Inc. All rights reserved.
  */
 #ifndef __DEFINES_H__
 #define __DEFINES_H__

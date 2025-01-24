@@ -45,27 +45,27 @@ Parameter Data :
 Cell Name         = Crossover1
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg1B2_0
 Parameter Address = 34
-Parameter Value   = 5.30481338500977E-06
+Parameter Value   = 3.75509262084961E-06
 Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x59 ,	
+0x00 ,	0x00 ,	0x00 ,	0x3F ,	
 
 
 
 Cell Name         = Crossover1
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg1B1_0
 Parameter Address = 35
-Parameter Value   = 1.06692314147949E-05
+Parameter Value   = 7.56978988647461E-06
 Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0xB3 ,	
+0x00 ,	0x00 ,	0x00 ,	0x7F ,	
 
 
 
 Cell Name         = Crossover1
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg1B0_0
 Parameter Address = 36
-Parameter Value   = 5.30481338500977E-06
+Parameter Value   = 3.75509262084961E-06
 Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x59 ,	
+0x00 ,	0x00 ,	0x00 ,	0x3F ,	
 
 
 
@@ -234,27 +234,27 @@ Parameter Data :
 Cell Name         = Crossover2
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg2B2_0
 Parameter Address = 44
-Parameter Value   = 5.30481338500977E-06
+Parameter Value   = 3.75509262084961E-06
 Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x59 ,	
+0x00 ,	0x00 ,	0x00 ,	0x3F ,	
 
 
 
 Cell Name         = Crossover2
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg2B1_0
 Parameter Address = 45
-Parameter Value   = 1.06692314147949E-05
+Parameter Value   = 7.56978988647461E-06
 Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0xB3 ,	
+0x00 ,	0x00 ,	0x00 ,	0x7F ,	
 
 
 
 Cell Name         = Crossover2
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg2B0_0
 Parameter Address = 46
-Parameter Value   = 5.30481338500977E-06
+Parameter Value   = 3.75509262084961E-06
 Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x59 ,	
+0x00 ,	0x00 ,	0x00 ,	0x3F ,	
 
 
 
