@@ -4,7 +4,8 @@
             "name": "Pico",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${userHome}/.pico-sdk/sdk/2.0.0/**"
+                "${userHome}/.pico-sdk/sdk/2.0.0/**",
+                "${workspaceFolder}/lib/i2c_slave/include"
             ],
             "forcedInclude": [
                 "${userHome}/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h",

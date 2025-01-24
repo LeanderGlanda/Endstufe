@@ -369,6 +369,8 @@ int main()
 
     printf("\nEndstufe\n");
 
+    testFunc();
+
     shutdown_amplifiers();
 
     setup_dsp();

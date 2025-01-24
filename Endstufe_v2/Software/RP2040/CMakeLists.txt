@@ -38,6 +38,7 @@ pico_sdk_init()
 add_executable(RP2040)
 
 add_subdirectory(src)
+add_subdirectory(lib)
 
 pico_set_program_name(RP2040 "RP2040")
 pico_set_program_version(RP2040 "0.1")
@@ -48,6 +49,7 @@ pico_enable_stdio_usb(RP2040 0)
 
 # Add the standard library to the build
 target_link_libraries(RP2040
+        i2c_slave
         pico_stdlib)
 
 # Add the standard include files to the build

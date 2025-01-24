@@ -25,3 +25,4 @@
 #define I2C_ADAU1467_ADDRESS 0x38
 #define I2C_ADAU1962A_ADDRESS 0x04
 
+void testFunc();
