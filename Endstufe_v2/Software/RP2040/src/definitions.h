@@ -17,12 +17,20 @@
 #define BOARD_ADAU1467_RST_Pin 9
 #define BOARD_ADAU1962A_RST_Pin 10
 
-#define BOARD_XSMTA_PIN 4
-#define BOARD_XSMTB_PIN 5
-
 #define I2C_PCM1865_ADDRESS 0b1001010 // 0x94, LSB removed
 #define I2C_PCM9211_ADDRESS 0x40 // 0x80, LSB removed
 #define I2C_ADAU1467_ADDRESS 0x38
 #define I2C_ADAU1962A_ADDRESS 0x04
+#define I2C_RP2040_ADDRESS 0x42
 
-void testFunc();
+void setup_i2c_slave();
+
+typedef struct {
+    uint8_t mem[256];
+    uint8_t mem_address;
+    bool mem_address_written;
+} context_t;
+
+extern context_t context; 
+
+#define I2C_SLAVE_BUFFER_SIZE 9

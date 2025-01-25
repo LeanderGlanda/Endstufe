@@ -342,46 +342,99 @@ void pretty_register_dump() {
     printf("\n--- End of Pretty Register Dump ---\n");
 }
 
+typedef struct {
+    uint8_t pin;       // GPIO pin number
+    uint8_t direction; // GPIO_IN or GPIO_OUT
+} gpio_config_t;
+
+const gpio_config_t gpio_configs[I2C_SLAVE_BUFFER_SIZE] = {
+    {BOARD_SDZA_PIN, GPIO_OUT},
+    {BOARD_FAULTZA_PIN, GPIO_IN},
+    {BOARD_SDZB_PIN, GPIO_OUT},
+    {BOARD_FAULTZB_PIN, GPIO_IN},
+    {BOARD_MUTEA_PIN, GPIO_OUT},
+    {BOARD_MUTEB_PIN, GPIO_OUT},
+    {BOARD_PCM9211_RST_PIN, GPIO_OUT},
+    {BOARD_ADAU1467_RST_Pin, GPIO_OUT},
+    {BOARD_ADAU1962A_RST_Pin, GPIO_OUT},
+};
+
+uint8_t previous_buffer[I2C_SLAVE_BUFFER_SIZE] = {0};
+
+void update_gpios_on_change(const uint8_t *buffer, size_t length) {
+    for (size_t i = 0; i < length; i++) {
+        const gpio_config_t *config = &gpio_configs[i];
+        if (config->direction == GPIO_IN) {
+            continue; // Skip inputs
+        }
+
+        if (buffer[i] != previous_buffer[i]) {
+            gpio_put(config->pin, buffer[i]); // Update GPIO
+            previous_buffer[i] = buffer[i];  // Save new state
+        }
+    }
+}
+
+void read_input_gpios(uint8_t *status_buffer, size_t length) {
+    for (size_t i = 0; i < length; i++) {
+        const gpio_config_t *config = &gpio_configs[i];
+
+        if (config->direction == GPIO_IN) {
+            uint8_t current_state = gpio_get(config->pin); // Read current input state
+
+            // Only update status_buffer if the state has changed
+            if (current_state != (status_buffer[i] & 0x01)) {
+                status_buffer[i] = current_state;  // Update buffer with new state
+            }
+        }
+    }
+}
+
+void initialize_gpios() {
+    for (size_t i = 0; i < I2C_SLAVE_BUFFER_SIZE; i++) {
+        const gpio_config_t *config = &gpio_configs[i];
+        gpio_init(config->pin);
+        gpio_set_dir(config->pin, config->direction);
+
+        if (config->direction == GPIO_OUT) {
+            gpio_put(config->pin, 0); // Default output state
+        }
+    }
+}
+
 int main()
 {
     // Configure and enable UART
     stdio_uart_init_full(BOARD_UART, BOARD_UART_BAUDRATE, BOARD_UART_TX_PIN, BOARD_UART_RX_PIN);
-    // Setup I2C
-    i2c_init(BOARD_I2C, 100 * 1000);
-    gpio_set_function(BOARD_I2C_SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(BOARD_I2C_SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(BOARD_I2C_SDA_PIN);
-    gpio_pull_up(BOARD_I2C_SCL_PIN);
 
     // Setup amp gpios
-    gpio_init(BOARD_MUTEA_PIN);
-    gpio_init(BOARD_MUTEB_PIN);
-    gpio_init(BOARD_SDZA_PIN);
-    gpio_init(BOARD_SDZB_PIN);
-    gpio_init(BOARD_FAULTZA_PIN);
-    gpio_init(BOARD_FAULTZB_PIN);
-    gpio_set_dir(BOARD_MUTEA_PIN, GPIO_OUT);
-    gpio_set_dir(BOARD_MUTEB_PIN, GPIO_OUT);
-    gpio_set_dir(BOARD_SDZA_PIN, GPIO_OUT);
-    gpio_set_dir(BOARD_SDZB_PIN, GPIO_OUT);
-    gpio_set_dir(BOARD_FAULTZA_PIN, GPIO_IN);
-    gpio_set_dir(BOARD_FAULTZB_PIN, GPIO_IN);
+    initialize_gpios();
+
+    setup_i2c_slave();
 
     printf("\nEndstufe\n");
 
-    testFunc();
+    // testFunc();
 
-    shutdown_amplifiers();
+    // shutdown_amplifiers();
 
-    setup_dsp();
+    // setup_dsp();
 
-    enable_adau1962a();
+    // enable_adau1962a();
+    // enable_amplifiers();
 
-    enable_amplifiers();
+    context.mem[0] = 1;
+    context.mem[2] = 1;
+    context.mem[7] = 1;
+    // context.mem[8] = 1;
 
     while(true) {
-        sleep_ms(10000);
-        pretty_register_dump();
+
+        update_gpios_on_change(context.mem, I2C_SLAVE_BUFFER_SIZE);
+        read_input_gpios(context.mem, I2C_SLAVE_BUFFER_SIZE);
+
+        sleep_ms(1);
+        // pretty_register_dump();
     }
 
     
