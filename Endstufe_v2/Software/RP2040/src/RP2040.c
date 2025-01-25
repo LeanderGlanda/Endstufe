@@ -423,9 +423,9 @@ int main()
     // enable_adau1962a();
     // enable_amplifiers();
 
-    context.mem[0] = 1;
-    context.mem[2] = 1;
-    context.mem[7] = 1;
+    // context.mem[0] = 1;
+    // context.mem[2] = 1;
+    // context.mem[7] = 1;
     // context.mem[8] = 1;
 
     while(true) {
