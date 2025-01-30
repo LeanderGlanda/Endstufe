@@ -20,12 +20,26 @@
             <Algorithm name="SinePhaseGainAlgS3002" friendlyname="Sin Tone with Initial Phase " cell="Tone1_2 " location="{X=521, Y=1269} " Growth="2 " GrowthB="0 " FS="192000">
                 <Link pin="O_C132_A0_P1_out" dir="out" link="Link1" />
             </Algorithm>
-            <Algorithm name="ICInput4ADAU145X1" friendlyname="ADAU145x Inputs 40-47 " cell="Input1 " location="{X=58, Y=707} " Growth="8 " GrowthB="0 " FS="192000">
-                <Link pin="O_C4_A0_P1_out" dir="out" link="Link8" />
-                <Link pin="O_C4_A0_P2_out" dir="out" link="Link9" />
+            <Algorithm name="ICInput4ADAU145X1" friendlyname="ADAU145x Inputs 40-47 " cell="Input1 " location="{X=-125, Y=700.2064} " Growth="8 " GrowthB="0 " FS="192000">
+                <Link pin="O_C4_A0_P1_out" dir="out" link="Link9" />
+                <Link pin="O_C4_A0_P2_out" dir="out" link="Link10" />
+            </Algorithm>
+            <Algorithm name="AsrcInSigma300Alg1" friendlyname="From ASRC " cell="AsrcIn1 " location="{X=-132, Y=435.8889} " Growth="16 " GrowthB="0 " FS="192000">
+                <Link pin="O_C86_A0_P1_out" dir="out" link="Link12" />
+                <Link pin="O_C86_A0_P2_out" dir="out" link="Link13" />
             </Algorithm>
             <Algorithm name="ICSigma300AsrcOut4" friendlyname="Send To ASRC " cell="AsrcOut4 " location="{X=1167, Y=1099} " Growth="0 " GrowthB="0">
                 <Link pin="I_C8_A0_P1_in" dir="in" link="Link1" />
+            </Algorithm>
+            <Algorithm name="Mixer2x1NoSlewS300Alg2" friendlyname="2x1 Mixer (No Slew) " cell="Nx1 Linear2 " location="{X=75, Y=620.8585} " Growth="1 " GrowthB="0">
+                <Link pin="I_C11_A0_P1_in" dir="in" link="Link12" />
+                <Link pin="I_C11_A0_P2_in" dir="in" link="Link9" />
+                <Link pin="O_C11_A0_P3_out" dir="out" link="Link8" />
+            </Algorithm>
+            <Algorithm name="Mixer2x1NoSlewS300Alg3" friendlyname="2x1 Mixer (No Slew) " cell="Nx1 Linear3 " location="{X=85, Y=797.2223} " Growth="1 " GrowthB="0">
+                <Link pin="I_C21_A0_P1_in" dir="in" link="Link13" />
+                <Link pin="I_C21_A0_P2_in" dir="in" link="Link10" />
+                <Link pin="O_C21_A0_P3_out" dir="out" link="Link11" />
             </Algorithm>
             <Algorithm name="CrossoverFilter2WaySPS300SS4p6Alg1" friendlyname="2-Way Crossover Filter - Single Precision " cell="Crossover1 " location="{X=266, Y=624} " Growth="0 " GrowthB="0">
                 <Link pin="I_C42_A0_P1_in" dir="in" link="Link8" />
@@ -33,7 +47,7 @@
                 <Link pin="O_C42_A0_P3_out" dir="out" link="Link3" />
             </Algorithm>
             <Algorithm name="CrossoverFilter2WaySPS300SS4p6Alg2" friendlyname="2-Way Crossover Filter - Single Precision " cell="Crossover2 " location="{X=248, Y=801} " Growth="0 " GrowthB="0">
-                <Link pin="I_C56_A0_P1_in" dir="in" link="Link9" />
+                <Link pin="I_C56_A0_P1_in" dir="in" link="Link11" />
                 <Link pin="O_C56_A0_P2_out" dir="out" link="Link6" />
                 <Link pin="O_C56_A0_P3_out" dir="out" link="Link4" />
             </Algorithm>

@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_PARAM.h
+ * File:           C:\Users\Leander\Documents\Hardware\Elektronikprojekte\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_2_PARAM.h
  *
- * Created:        Friday, January 24, 2025 6:05:02 PM
+ * Created:        Thursday, January 30, 2025 4:19:25 PM
  * Description:    TestDesigndspproj:IC 2 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,
