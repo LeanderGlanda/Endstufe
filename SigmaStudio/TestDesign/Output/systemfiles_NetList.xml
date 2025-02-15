@@ -24,9 +24,9 @@
                 <Link pin="O_C4_A0_P1_out" dir="out" link="Link9" />
                 <Link pin="O_C4_A0_P2_out" dir="out" link="Link10" />
             </Algorithm>
-            <Algorithm name="AsrcInSigma300Alg1" friendlyname="From ASRC " cell="AsrcIn1 " location="{X=-132, Y=435.8889} " Growth="16 " GrowthB="0 " FS="192000">
-                <Link pin="O_C86_A0_P1_out" dir="out" link="Link12" />
-                <Link pin="O_C86_A0_P2_out" dir="out" link="Link13" />
+            <Algorithm name="AsrcInSigma300Alg1" friendlyname="From ASRC " cell="AsrcIn1 " location="{X=-128, Y=430} " Growth="16 " GrowthB="0 " FS="192000">
+                <Link pin="O_C115_A0_P5_out" dir="out" link="Link12" />
+                <Link pin="O_C115_A0_P6_out" dir="out" link="Link13" />
             </Algorithm>
             <Algorithm name="ICSigma300AsrcOut4" friendlyname="Send To ASRC " cell="AsrcOut4 " location="{X=1167, Y=1099} " Growth="0 " GrowthB="0">
                 <Link pin="I_C8_A0_P1_in" dir="in" link="Link1" />

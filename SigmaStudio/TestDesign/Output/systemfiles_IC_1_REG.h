@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\Leander\Documents\Hardware\Elektronikprojekte\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
+ * File:           C:\Users\Leander\Documents\Hardware\Endstufe\SigmaStudio\TestDesign\Output\systemfiles_IC_1_REG.h
  *
- * Created:        Thursday, January 30, 2025 4:19:25 PM
+ * Created:        Saturday, February 15, 2025 7:42:38 PM
  * Description:    TestDesigndspproj:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -108,7 +108,7 @@
 /* ASRC_INPUT0  - Registers (IC 1) */
 #define REG_ASRC_INPUT0_IC_1_ADDR                 0xF100
 #define REG_ASRC_INPUT0_IC_1_BYTE                 2
-#define REG_ASRC_INPUT0_IC_1_VALUE                0x1
+#define REG_ASRC_INPUT0_IC_1_VALUE                0x2
 
 /* ASRC_INPUT1  - Registers (IC 1) */
 #define REG_ASRC_INPUT1_IC_1_ADDR                 0xF101
@@ -118,7 +118,7 @@
 /* ASRC_INPUT2  - Registers (IC 1) */
 #define REG_ASRC_INPUT2_IC_1_ADDR                 0xF102
 #define REG_ASRC_INPUT2_IC_1_BYTE                 2
-#define REG_ASRC_INPUT2_IC_1_VALUE                0xA0
+#define REG_ASRC_INPUT2_IC_1_VALUE                0x1
 
 /* ASRC_INPUT3  - Registers (IC 1) */
 #define REG_ASRC_INPUT3_IC_1_ADDR                 0xF103
@@ -148,7 +148,7 @@
 /* ASRC_OUT_RATE0  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE0_IC_1_ADDR              0xF140
 #define REG_ASRC_OUT_RATE0_IC_1_BYTE              2
-#define REG_ASRC_OUT_RATE0_IC_1_VALUE             0x5
+#define REG_ASRC_OUT_RATE0_IC_1_VALUE             0x2
 
 /* ASRC_OUT_RATE1  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE1_IC_1_ADDR              0xF141
@@ -158,7 +158,7 @@
 /* ASRC_OUT_RATE2  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE2_IC_1_ADDR              0xF142
 #define REG_ASRC_OUT_RATE2_IC_1_BYTE              2
-#define REG_ASRC_OUT_RATE2_IC_1_VALUE             0x0
+#define REG_ASRC_OUT_RATE2_IC_1_VALUE             0x5
 
 /* ASRC_OUT_RATE3  - Registers (IC 1) */
 #define REG_ASRC_OUT_RATE3_IC_1_ADDR              0xF143
@@ -3212,7 +3212,7 @@
 #define R16_POWER_ENABLE1_PDM1_PWR_IC_1_SHIFT     4
 
 /* ASRC_INPUT0 (IC 1) */
-#define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1          0x1    /* 001b	[2:0] */
+#define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1          0x2    /* 010b	[2:0] */
 #define R17_ASRC_INPUT0_ASRC_SIN_CHANNEL_IC_1     0x0    /* 00000b	[7:3] */
 #define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1_MASK     0x7
 #define R17_ASRC_INPUT0_ASRC_SOURCE_IC_1_SHIFT    0
@@ -3228,8 +3228,8 @@
 #define R18_ASRC_INPUT1_ASRC_SIN_CHANNEL_IC_1_SHIFT 3
 
 /* ASRC_INPUT2 (IC 1) */
-#define R19_ASRC_INPUT2_ASRC_SOURCE_IC_1          0x0    /* 000b	[2:0] */
-#define R19_ASRC_INPUT2_ASRC_SIN_CHANNEL_IC_1     0x14   /* 10100b	[7:3] */
+#define R19_ASRC_INPUT2_ASRC_SOURCE_IC_1          0x1    /* 001b	[2:0] */
+#define R19_ASRC_INPUT2_ASRC_SIN_CHANNEL_IC_1     0x0    /* 00000b	[7:3] */
 #define R19_ASRC_INPUT2_ASRC_SOURCE_IC_1_MASK     0x7
 #define R19_ASRC_INPUT2_ASRC_SOURCE_IC_1_SHIFT    0
 #define R19_ASRC_INPUT2_ASRC_SIN_CHANNEL_IC_1_MASK 0xF8
@@ -3276,7 +3276,7 @@
 #define R24_ASRC_INPUT7_ASRC_SIN_CHANNEL_IC_1_SHIFT 3
 
 /* ASRC_OUT_RATE0 (IC 1) */
-#define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1         0x5    /* 0101b	[3:0] */
+#define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1         0x2    /* 0010b	[3:0] */
 #define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1_MASK    0xF
 #define R25_ASRC_OUT_RATE0_ASRC_RATE_IC_1_SHIFT   0
 
@@ -3286,7 +3286,7 @@
 #define R26_ASRC_OUT_RATE1_ASRC_RATE_IC_1_SHIFT   0
 
 /* ASRC_OUT_RATE2 (IC 1) */
-#define R27_ASRC_OUT_RATE2_ASRC_RATE_IC_1         0x0    /* 0000b	[3:0] */
+#define R27_ASRC_OUT_RATE2_ASRC_RATE_IC_1         0x5    /* 0101b	[3:0] */
 #define R27_ASRC_OUT_RATE2_ASRC_RATE_IC_1_MASK    0xF
 #define R27_ASRC_OUT_RATE2_ASRC_RATE_IC_1_SHIFT   0
 
