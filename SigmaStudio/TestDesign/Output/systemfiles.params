@@ -1,6 +1,6 @@
 Cell Name         = Single 1
 Parameter Name    = GainAlgNS145X1gain
-Parameter Address = 74
+Parameter Address = 75
 Parameter Value   = 1
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -9,7 +9,7 @@ Parameter Data :
 
 Cell Name         = Single 2
 Parameter Name    = GainAlgNS145X2gain
-Parameter Address = 75
+Parameter Address = 76
 Parameter Value   = 1
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -224,7 +224,7 @@ Parameter Data :
 
 Cell Name         = Crossover1
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg1LowInvert
-Parameter Address = 72
+Parameter Address = 73
 Parameter Value   = 1
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -413,7 +413,7 @@ Parameter Data :
 
 Cell Name         = Crossover2
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg2LowInvert
-Parameter Address = 73
+Parameter Address = 74
 Parameter Value   = 1
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -471,6 +471,15 @@ Parameter Address = 37
 Parameter Value   = 1
 Parameter Data :
 0x01 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Single 3
+Parameter Name    = GainAlgNS145X3gain
+Parameter Address = 72
+Parameter Value   = 0.00999999046325684
+Parameter Data :
+0x00, 0x02, 0x8F, 0x5C, 
 
 
 

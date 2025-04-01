@@ -1,19 +1,19 @@
 ADAU145X Assembler, Analog Devices Inc.
 Version: 4.7.0,1827  (built 4/5/2022)
 
-##### Compile Started: Saturday, February 15, 2025 7:42:26 PM #####
+##### Compile Started: Wednesday, February 26, 2025 10:02:29 PM #####
 ADAU145X Assembler, Analog Devices Inc.
 Version: 4.7.0,1827  (built 4/5/2022)
 
-##### Compile Started: Saturday, February 15, 2025 7:42:26 PM #####
+##### Compile Started: Wednesday, February 26, 2025 10:02:29 PM #####
 ##### Compile succeeded:  0 errors, 0 warnings #####
 
 ##### Summary #####
-DM0 RAM used:       00080    (of 40960)
-DM1 RAM used:       00064    (of 40960)
+DM0 RAM used:       00081    (of 40960)
+DM1 RAM used:       00066    (of 40960)
 PM  RAM used(Data): 00000    (of 24576)
-PM  RAM used(Inst): 00230    (of 24576) 192 instructions (32bit: 154  64bit: 38)
-Total PM used:      00230    (of 24576)
+PM  RAM used(Inst): 00237    (of 24576) 199 instructions (32bit: 161  64bit: 38)
+Total PM used:      00237    (of 24576)
 
 --------------------------------------------------------------------------------------
 STREAM                        Inst      Inst      DM0     DM1     PM
@@ -27,6 +27,7 @@ Tone1_2                       18        18        10      1       0
 Nx1 Linear1                   6         7         2       1       0
 Nx1 Linear2                   6         7         2       0       0
 Nx1 Linear3                   6         7         2       0       0
+Single 3                      7         7         1       2       0
 Single 1                      5         5         1       1       0
 Single 2                      5         5         1       1       0
 Input1                        4         4         0       2       0
@@ -36,7 +37,7 @@ AsrcOut1                      2         2         0       0       0
 AsrcOut2                      2         2         0       0       0
 AsrcOut3                      2         2         0       0       0
 --------------------------------------------------------------------------------------
-Total                         175       184       76      60      0
+Total                         182       191       77      62      0
 --------------------------------------------------------------------------------------
 (% Fs=192.0kHz)               12%       1%        1%      1%      0%
 

@@ -33,11 +33,12 @@ CrossoverFilter2WaySPS300SS4p6Alg2.A2_1	56
 CrossoverFilter2WaySPS300SS4p6Alg2.A1_1	57
 Mixer2x1NoSlewS300Alg1.vol_00_00	58
 Mixer2x1NoSlewS300Alg1.vol_00_01	59
-CrossoverFilter2WaySPS300SS4p6Alg1LowInvert	72
-CrossoverFilter2WaySPS300SS4p6Alg2LowInvert	73
-GainAlgNS145X1.gain	74
-GainAlgNS145X2.gain	75
-__DM0_PADDING__.__DM0_PADDING__	76
+GainAlgNS145X3.gain	72
+CrossoverFilter2WaySPS300SS4p6Alg1LowInvert	73
+CrossoverFilter2WaySPS300SS4p6Alg2LowInvert	74
+GainAlgNS145X1.gain	75
+GainAlgNS145X2.gain	76
+__DM0_PADDING__.__DM0_PADDING__	77
 __SafeLoad_Module__.data_SafeLoad	24576
 __SafeLoad_Module__.address_SafeLoad	24581
 __SafeLoad_Module__.num_SafeLoad_lower	24582
@@ -62,4 +63,4 @@ CrossoverFilter2WaySPS300SS4p6Alg2.B1_3	24600
 CrossoverFilter2WaySPS300SS4p6Alg2.B0_3	24601
 CrossoverFilter2WaySPS300SS4p6Alg2.A2_3	24602
 CrossoverFilter2WaySPS300SS4p6Alg2.A1_3	24603
-__DM1_PADDING__.__DM1_PADDING__	24636
+__DM1_PADDING__.__DM1_PADDING__	24640

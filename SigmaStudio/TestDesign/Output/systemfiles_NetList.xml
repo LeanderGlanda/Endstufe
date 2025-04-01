@@ -24,20 +24,26 @@
                 <Link pin="O_C4_A0_P1_out" dir="out" link="Link9" />
                 <Link pin="O_C4_A0_P2_out" dir="out" link="Link10" />
             </Algorithm>
-            <Algorithm name="AsrcInSigma300Alg1" friendlyname="From ASRC " cell="AsrcIn1 " location="{X=-128, Y=430} " Growth="16 " GrowthB="0 " FS="192000">
+            <Algorithm name="AsrcInSigma300Alg1" friendlyname="From ASRC " cell="AsrcIn1 " location="{X=-208, Y=428} " Growth="16 " GrowthB="0 " FS="192000">
                 <Link pin="O_C115_A0_P5_out" dir="out" link="Link12" />
                 <Link pin="O_C115_A0_P6_out" dir="out" link="Link13" />
             </Algorithm>
             <Algorithm name="ICSigma300AsrcOut4" friendlyname="Send To ASRC " cell="AsrcOut4 " location="{X=1167, Y=1099} " Growth="0 " GrowthB="0">
                 <Link pin="I_C8_A0_P1_in" dir="in" link="Link1" />
             </Algorithm>
+            <Algorithm name="GainAlgNS145X3" friendlyname="Gain (no-slew) " cell="Single 3 " location="{X=-92, Y=433} " Growth="2 " GrowthB="0">
+                <Link pin="I_C15_A0_P1_in" dir="in" link="Link12" />
+                <Link pin="I_C15_A0_P3_in" dir="in" link="Link13" />
+                <Link pin="O_C15_A0_P2_out" dir="out" link="Link14" />
+                <Link pin="O_C15_A0_P4_out" dir="out" link="Link15" />
+            </Algorithm>
             <Algorithm name="Mixer2x1NoSlewS300Alg2" friendlyname="2x1 Mixer (No Slew) " cell="Nx1 Linear2 " location="{X=75, Y=620.8585} " Growth="1 " GrowthB="0">
-                <Link pin="I_C11_A0_P1_in" dir="in" link="Link12" />
+                <Link pin="I_C11_A0_P1_in" dir="in" link="Link14" />
                 <Link pin="I_C11_A0_P2_in" dir="in" link="Link9" />
                 <Link pin="O_C11_A0_P3_out" dir="out" link="Link8" />
             </Algorithm>
             <Algorithm name="Mixer2x1NoSlewS300Alg3" friendlyname="2x1 Mixer (No Slew) " cell="Nx1 Linear3 " location="{X=85, Y=797.2223} " Growth="1 " GrowthB="0">
-                <Link pin="I_C21_A0_P1_in" dir="in" link="Link13" />
+                <Link pin="I_C21_A0_P1_in" dir="in" link="Link15" />
                 <Link pin="I_C21_A0_P2_in" dir="in" link="Link10" />
                 <Link pin="O_C21_A0_P3_out" dir="out" link="Link11" />
             </Algorithm>
