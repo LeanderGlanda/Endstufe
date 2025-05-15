@@ -234,27 +234,27 @@ Parameter Data :
 Cell Name         = Crossover2
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg2B2_0
 Parameter Address = 52
-Parameter Value   = 3.75509262084961E-06
+Parameter Value   = 2.68220901489258E-06
 Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x3F ,	
+0x00 ,	0x00 ,	0x00 ,	0x2D ,	
 
 
 
 Cell Name         = Crossover2
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg2B1_0
 Parameter Address = 53
-Parameter Value   = 7.56978988647461E-06
+Parameter Value   = 5.36441802978516E-06
 Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x7F ,	
+0x00 ,	0x00 ,	0x00 ,	0x5A ,	
 
 
 
 Cell Name         = Crossover2
 Parameter Name    = CrossoverFilter2WaySPS300SS4p6Alg2B0_0
 Parameter Address = 54
-Parameter Value   = 3.75509262084961E-06
+Parameter Value   = 2.68220901489258E-06
 Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x3F ,	
+0x00 ,	0x00 ,	0x00 ,	0x2D ,	
 
 
 
